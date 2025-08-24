@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="RamblingManExplosives" /> <!-- no spaces -->
+	<DisplayName value="RamblingMan - Improvised Explosives" />
+	<Description value="Craft basic explosives, such as pipe bombs, dynamite, timed charges as well as exploding arrows and bolts in your backpack. They work... somewhat inconsistently." />
+	<Author value="flatlander" />
+	<Version value="0.1.0.0" />
+	<Website value="https://github.com/flatlanderone/flatlander-releases" />
+</xml>

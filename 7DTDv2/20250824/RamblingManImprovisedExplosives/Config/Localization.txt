@@ -1,0 +1,24 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+thrownAmmoPipeBombFTLR,items,Gun,,,Improvised Pipe Bomb (Ammo),,,,,,,,,,,,,
+thrownAmmoPipeBombFTLRDesc,items,Gun,,,"Make improvised pipe bombs in your backpack with gunpowder, pipes & plant fibers.\nLight with [action:local:Secondary]\nThrow with [action:local:Primary]",,,,,,,,,,,,,
+
+thrownTimedChargeFTLR,items,Gun,,,Improvised Timed Charge (Ammo),,,,,,,,,,,,,
+thrownTimedChargeFTLRDesc,items,Gun,,,"A shaped charge designed for delicate work like blowing off a safe lock, a door, or a zombie's head. Automatically detonates after 5 seconds. Craft it in your backpack. Want to bring the house down? Try some dynamite instead.\nArm with [action:local:Secondary]\nThrow with [action:local:Primary]",,,,,,,,,,,,,
+
+thrownDynamiteFTLR,items,Gun,,,Improvised Stick of Dynamite (Ammo),,,,,,,,,,,,,
+thrownDynamiteFTLRDesc,items,Gun,,,A stick of dynamite. Craft it in your backpack.\nLight with [action:local:Secondary]\nThrow with [action:local:Primary]\nThe throwing part is very important.,,,,,,,,,,,,,
+
+ammoArrowExplodingFTLR,items,Ammo,,,Improvised Exploding Arrow (Ammo),,,,,,,,,,,,,
+ammoArrowExplodingFTLRDesc,items,Ammo,,,Rifle grenades gone medieval. Ages 6 and up. Craft them in your backpack using Iron Arrows and Improvised Pipe Bombs.,,,,,,,,,,,,,
+
+ammoCrossbowBoltExplodingFTLR,items,Ammo,,,Improvised Exploding Crossbow Bolts (Ammo),,,,,,,,,,,,,
+ammoCrossbowBoltExplodingFTLRDesc,items,Ammo,,,Rifle grenades gone medieval. Ages 6 and up. Craft them in your backpack using Iron Bolts and Improvised Pipe Bombs.,,,,,,,,,,,,,
+
+explosivesT1-1,progression,Attribute,,,Tier 1: Improvised Pipe Bomb,,,,,,,,,,,,,
+
+explosivesT2-1,progression,Attribute,,,Tier 2: Improvised Dynamite,,,,,,,,,,,,,
+
+explosivesT3-3,progression,Attribute,,,Tier 3: Improvised Timed Charge,,,,,,,,,,,,,
+
+perkRangersExplodingBoltsDesc,progression,perk  book,,,Craft exploding arrows and crossbow bolts (regular and improvised).,,,,,,,,,,,,,

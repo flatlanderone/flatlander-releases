@@ -1,0 +1,76 @@
+<RamblingMan>
+
+<!-- 
+Improvised basic explosives.
+Craftable in the backpack in double the time.
+30% more gun powder. 
+Arrows and bolts require 2 improvised pipe bombs.
+Craftable from the start. Might reintroduce into regular crafting progression.
+
+-->
+
+<append xpath="/recipes">
+
+<!-- thrown items -->
+
+<recipe name="thrownAmmoPipeBombFTLR" count="1" craft_time="24" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceYuccaFibers" count="1"/>
+	<ingredient name="resourceGunPowder" count="16"/>
+	<ingredient name="resourceMetalPipe" count="1"/>
+</recipe>
+
+<recipe name="thrownTimedChargeFTLR" count="1" craft_time="60" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceScrapIron" count="20"/>
+	<ingredient name="resourceGunPowder" count="13"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+</recipe>
+
+<recipe name="thrownDynamiteFTLR" count="1" craft_time="30" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceYuccaFibers" count="1"/>
+	<ingredient name="resourceGunPowder" count="27"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+
+<!-- Exploding iron arrows and bolts -->
+
+<recipe name="ammoArrowExplodingFTLR" count="1" craft_time="5" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowIron" count="1"/>
+	<ingredient name="thrownAmmoPipeBombFTLR" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<!-- No bundles -->
+<!-- <recipe name="ammoBundleArrowExplodingFTLR" count="1" craft_time="360" tags="packMuleCrafting">
+	<ingredient name="ammoArrowIron" count="60"/>
+	<ingredient name="thrownAmmoPipeBombFTLR" count="120"/>
+	<ingredient name="resourceDuctTape" count="60"/>
+</recipe> -->
+
+<recipe name="ammoCrossbowBoltExplodingFTLR" count="1" craft_time="5" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltIron" count="1"/>
+	<ingredient name="thrownAmmoPipeBombFTLR" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<!-- No bundles -->
+<!-- <recipe name="ammoBundleCrossbowBoltExplodingFTLR" count="1" craft_time="360" tags="packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltIron" count="60"/>
+	<ingredient name="thrownAmmoPipeBombFTLR" count="120"/>
+	<ingredient name="resourceDuctTape" count="60"/>
+</recipe> -->
+
+
+<!-- Backpack recipe for flaming arrows using iron arrows. -->
+
+<recipe name="ammoArrowFlaming" count="1" craft_time="12" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowIron" count="1"/>
+	<ingredient name="resourceGunPowder" count="3"/> 
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+</append>
+
+
+</RamblingMan>
