@@ -1,4 +1,4 @@
-
+https://github.com/flatlanderone/flatlander-releases/releases/download/20250824v1/RamblingManImprovisedExplosives.zip
 
 
 https://community.thefunpimps.com/resources/buy-on-day-one-vehicle-parts-and-mods.133/
