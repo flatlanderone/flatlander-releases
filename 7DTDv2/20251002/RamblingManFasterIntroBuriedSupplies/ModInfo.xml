@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<Name value="RamblingManFasterIntroBuriedSupplies" /> <!-- no spaces -->
-	<DisplayName value="Faster Intro Buried Supplies 2.3.0.2" />
-	<Description value="Complete the Intro Buried Supplies quest before visiting the Trader." />
-	<Author value="flatlander" />
-	<Version value="2.3.0.2" />
-	<Website value="https://github.com/flatlanderone/flatlander-modding" />
-</xml>

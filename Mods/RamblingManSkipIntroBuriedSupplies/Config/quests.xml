@@ -1,0 +1,86 @@
+<RamblingMan>
+
+<!-- Remove vanilla quest_whiteRiverCitizen1 quest -->
+<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
+
+<!-- Add a modified quest_whiteRiverCitizen1 quest. Triggered when the challenge_group_reward_basics are completed. 
+ -->
+<append xpath="/quests">
+
+	<quest id="quest_whiteRiverCitizen1">
+		<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+		<property name="name_key" value="quest_WhiteRiverCitizen1"/>
+		<property name="subtitle_key" value="quest_WhiteRiverCitizen1_subtitle"/>
+		<property name="description_key" value="quest_WhiteRiverCitizen1_description"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		<!-- add intro_buried_supplies rewards	 -->
+		<property name="reward_choices_count" value="5"/>		
+		<property name="quest_hints" value="quest_whiteRiverCitizen1_hint1,quest_whiteRiverCitizen1_hint2"/>
+		<property name="completiontype" value="TurnIn"/>
+		<!-- Update localization -->
+		<property name="completion_key" value="quest_white_river_completionFTLR"/>
+
+		<action type="ShowMessageWindow">
+			<property name="message" value="quest_WhiteRiverCitizen1_description"/>
+			<property name="title" value="quest_WhiteRiverCitizen1_description_title"/>
+			<property name="delay" value="3"/>
+		</action>
+
+		<objective type="Goto" id="trader" value="5" phase="1">
+		<!-- Update localization -->	
+			<property name="location_name" value="trader_closestFTLR"/>			
+					<!-- Go to a trader in the current biome. -->
+			<property name="biome_filter_type" value="SameBiome" param1="biome_filter_type"/>
+			<property name="biome_filter" value="" param1="biome_filter"/>	
+
+			<!-- <property name="biome_filter_type" value="OnlyBiome"/> -->
+			<!-- <property name="biome_filter" value="pine_forest"/> -->
+			<!-- <property name="biome_filter_type" value="ExcludeBiome"/> -->
+			<!-- <property name="biome_filter" value="wasteland"/> -->
+			<property name="nav_object" value="go_to_trader"/>
+			<property name="allow_current_poi" value="true"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+			<property name="use_closest" value="true"/>
+		</objective>
+
+<!-- Remove challenge tracking, as it prevents the display of the regular quest tracking without additional steps.   -->
+
+<!-- 		<action type="TrackChallenge">
+			<property name="challenge" value="craftlandclaim"/>
+			<property name="on_complete" value="true"/>
+			<property name="delay" value="1"/>
+		</action> -->
+
+<!-- Add intro buried supplies reward. -->
+		
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="questRewardPipePistolBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardPipeShotgunBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardPipeRifleBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardPipeMachineGunBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardPipeBatonBundle" ischosen="true" value="1"/>
+		<!-- <reward type="Item" id="meleeToolShovelT0StoneShovel" ischosen="true" value="1"/>		 -->
+		
+<!-- Set intro buried supplies as completed. -->
+
+		<action type="SetCVar">
+			<property name="cvar" value="IntroComplete"/>
+			<property name="value" value="1"/>
+			<property name="on_complete" value="true"/>
+		</action>		
+		
+	</quest>
+
+</append>
+
+<!-- Remove intro buried supplies from Traders. -->
+<remove xpath="/quests/quest_list[@id='trader_rekt_quests' or @id='trader_jen_quests' or @id='trader_bob_quests' or@id='trader_hugh_quests' or @id='trader_joel_quests']/quest[@id='intro_buried_supplies']"/>
+
+</RamblingMan>

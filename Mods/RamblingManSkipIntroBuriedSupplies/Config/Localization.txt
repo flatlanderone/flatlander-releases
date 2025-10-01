@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+trader_closestFTLR,POI,POIName,,x,the nearest Trader,,,,,,,,,,,,,
+
+quest_white_river_completionFTLR,Quest,Quest Info,,,"Noah sent you, eh? And you managed not to get yourself killed on the way? Well, I'll be danged. You just might make it out there. Anyway, here's a little something to get you started. Also, if you want to make yourself useful, I have a couple jobs you could do for me.",,,,,,,,,,,,,
+
+challengeRewardBonusTraderQuest,Challenges,Challenge Group Reward,,,Trader Quest and a Pipe Weapon Bundle,,,,,,,,,,,,,
