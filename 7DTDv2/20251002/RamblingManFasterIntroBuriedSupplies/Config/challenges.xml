@@ -1,0 +1,20 @@
+<RamblingMan>
+
+<!-- *** If 0-Score is installed. -->
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii')">
+
+	<append xpath="/challenges/challenge[@name='craftStoneAxe']">
+		<objective type="Craft" item="meleeToolShovelT0StoneShovel"/>		
+	</append>
+
+</if>
+</conditional>
+
+
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') == false">
+</if>
+</conditional>
+
+</RamblingMan>

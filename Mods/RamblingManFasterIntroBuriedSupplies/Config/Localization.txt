@@ -1,0 +1,46 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+trader_closestFTLR,POI,POIName,,x,the nearest Trader,,,,,,,,,,,,,
+
+quest_WhiteRiverCitizen1FTLR_description_title,Journal Tip,,,,White River Citizen - Dig up the supplies and find the Trader,,,,,,,,,,,,,
+
+quest_WhiteRiverCitizen1No0ScoreFTLR_description_title,Journal Tip,,,,"0-Score not installed!",,,,,,,,,,,,,
+
+
+quest_WhiteRiverCitizen1FTLR_description,Quest,Quest Info,,,"Good Job Survivor,\n\nYou have proved to be quite capable. Let's see how you handle a simple mission. Head to the marked location and dig up the buried supplies. Don't forget to use your shovel!\nOnce you have the supplies, go to the nearest White River Outpost location. There you will find a Trader where you can buy and sell goods, and trade stories with one of our friendly citizens.\n\nWelcome Aboard, Noah",,,,,,,,,,,,,
+
+quest_WhiteRiverCitizen1No0ScoreFTLR_description,Quest,Quest Info,,,"0-Score is not installed!\nYou must install 0-Score to use the [FFB400]Faster Intro Buried Supplies[-] mod.\nSee the readme.md file in the mod folder for more information.",,,,,,,,,,,,,
+
+
+quest_intro_buried_suppliesFTLR_completion,Quest,Quest Info,,,"Noah sent you, eh? And you managed to bring in these supplies? Well, I'll be danged. You really can talk and walk at the same time. Here's what I owe ya. I hope you are ready to take on more serious jobs.",,,,,,,,,,,,,
+
+
+quest_intro_buried_suppliesNo0ScoreFTLR_completion,Quest,Quest Info,,,"0-Score is not installed!\nYou must install 0-Score to use the [FFB400]Faster Intro Buried Supplies[-] mod.\nSee the readme.md file in the mod folder for more information.",,,,,,,,,,,,,
+
+
+quest_intro_buried_suppliesFTLR_subtitle,Quest,Quest Info,,,Dig up the supplies and find the Trader,,,,,,,,,,,,,
+
+quest_intro_buried_suppliesNo0ScoreFTLR_subtitle,Quest,Quest Info,,,Dig up the supplies and find the Trader,,,,,,,,,,,,,
+
+quest_intro_buried_suppliesFTLR,Quest,Quest Info,,,Dig up the supplies and find the Trader,,,,,,,,,,,,,
+
+quest_intro_buried_suppliesFTLR_offer,Quest,Quest Info,,,"Let's try this again, shall we?",,,,,,,,,,,,,
+
+qt_intro_buried_suppliesFTLR,items,Quest - Treasure Map,,,"Quest - Dig up the supplies and find the Trader",,,,,,,,,,,,,
+
+qt_intro_buried_supplies_SCore_not_installedFTLR,items,Quest - Treasure Map,,,"0-Score not installed.",,,,,,,,,,,,,
+
+qt_intro_buried_suppliesFTLR_desc,items,Quest - Treasure Map,,,"Read this map if you need to RESTART the [FFB400]Dig up the supplies and find the Trader[-] Quest.",,,,,,,,,,,,,
+
+qt_intro_buried_supplies_SCore_not_installedFTLR_desc,items,Quest - Treasure Map,,,"You must install 0-Score to use the [FFB400]Faster Intro Buried Supplies[-] mod.",,,,,,,,,,,,,
+
+noteSCore_not_installedFTLR,items,Quest - Note,,,"Note from the author of the [FFB400]Faster Intro Buried Supplies[-] mod",,,,,,,,,,,,,
+
+noteSCore_not_installedFTLRDesc,items,Quest - Note,,,"0-Score is not installed!\nYou must install 0-Score to use the [FFB400]Faster Intro Buried Supplies[-] mod.\nSee the readme.md file in the mod folder for more information.",,,,,,,,,,,,,
+
+
+challengeCraftStoneAxeHint1,Challenges,Challenge,,,[00FF00]Open [-][FFB400]the crafting menu [action:local:Inventory][action:permanent:Inventory][FFB400].\nSelect [-][00FF00]Stone Axe [-][FFB400]in [-][00FF00]Basics[-][FFB400] list.\n[-][00FF00]Press [-][FFB400][action:local:Forward] to [-][00FF00]Craft[-][FFB400] it.[-] Do the same for the [00FF00]Stone Shovel[-].,,,,,,,,,,,,,
+
+challengeCraftStoneAxeShort,Challenges,Challenge,,,Use the primitive resources to craft a Stone Axe and a Stone Shovel.,,,,,,,,,,,,,
+
+challengeCraftStoneAxeDesc,Challenges,Challenge,,,Craft a [DECEA3]Stone Axe[-] to help you defend yourself and gather resources.\n\nAccess the [DECEA3]Inventory[-] and locate [DECEA3]Stone Axe[-] in the [DECEA3]Basics[-] category of the crafting menu. Do the same for the [DECEA3]Stone Shovel[-].,,,,,,,,,,,,,

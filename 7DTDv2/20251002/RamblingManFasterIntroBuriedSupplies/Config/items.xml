@@ -1,0 +1,101 @@
+<RamblingMan>
+
+<!-- *** If 0-Score is installed. -->
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii')">
+	<append xpath="/items">
+
+<!-- Backup map to restart the quest in case of failure. 	 -->
+
+		<item name="qt_intro_buried_suppliesFTLR">
+			<property name="Extends" value="treasureQuestMaster"/>
+			<property name="Tags" value="qt_intro_buried_suppliesFTLR"/>
+			<property name="DescriptionKey" value="qt_intro_buried_suppliesFTLR_desc"/>	
+			<property name="SoundPickup" value="map_grab"/>
+			<property name="SoundPlace" value="map_place"/>
+		<!-- Prevent dropping 	 -->
+			<property name="Candrop" value="false"/>
+			<property name="NoScrapping" value="true"/>	
+			<property class="Action0">
+				<property name="QuestGiven" value="intro_buried_supplies"/>
+			</property>
+		</item>
+
+	</append>
+</if>
+</conditional>
+
+<!-- *** If 0-Score is not installed. -->
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') == false">
+	<append xpath="/items">
+
+<!-- Notify that SCore_sphereii is required for the mod. 	 -->
+
+<!-- Not used -->
+<!-- 		<item name="qt_intro_buried_supplies_SCore_not_installedFTLR">
+			<property name="Extends" value="treasureQuestMaster"/>
+			<property name="Tags" value="qt_intro_buried_supplies_SCore_not_installedFTLR"/>
+			<property name="DescriptionKey" value="qt_intro_buried_supplies_SCore_not_installedFTLR_desc"/>	
+			<property name="CustomIconTint" value="ffb400"/>	
+			<property name="SoundPickup" value="map_grab"/>
+			<property name="SoundPlace" value="map_place"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="test_sleepers"/>
+			</property>
+		</item> -->
+
+<!-- noteDuke02 necessary to override the readTheNote text -->
+		<item name="noteDuke02">
+			<property name="Extends" value="blankNoteMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<!-- <property name="DescriptionKey" value="readTheNote"/> -->
+			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="NoScrapping" value="true"/>
+			<property name="SoundPickup" value="map_grab"/>
+			<property name="SoundPlace" value="map_place"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<!-- <property name="UseAnimation" value="false"/> -->
+				<property name="Sound_start" value="read_mod"/>
+				<property name="Sound_in_head" value="true"/>
+				<property name="PromptTitle" value="noteDuke01"/>
+				<property name="PromptDescription" value="noteDuke01Desc"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".dukeNoteRead" operation="set" value="1"/>
+			</effect_group>
+		</item>
+
+<!-- Note about 0-Score not being installed. -->
+		<item name="noteSCore_not_installedFTLR">
+			<property name="Extends" value="noteDuke02"/>
+			<property name="CreativeMode" value="Player"/>
+			
+			<!-- <property name="DescriptionKey" value="readTheNote"/> -->
+			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="NoScrapping" value="true"/>
+			<property name="Candrop" value="false"/>	
+			<property name="SoundPickup" value="map_grab"/>
+			<property name="SoundPlace" value="map_place"/>
+			<property name="CustomIconTint" value="ffb400"/>		
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<!-- <property name="UseAnimation" value="false"/> -->
+				<property name="Sound_start" value="read_mod"/>
+				<property name="Sound_in_head" value="true"/>
+				<property name="PromptTitle" value="noteSCore_not_installedFTLR"/>
+				<property name="PromptDescription" value="noteSCore_not_installedFTLRDesc"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1"/>
+				<!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".dukeNoteRead" operation="set" value="1"/> -->
+			</effect_group>
+		</item>
+	</append>
+</if>
+</conditional>
+</RamblingMan>

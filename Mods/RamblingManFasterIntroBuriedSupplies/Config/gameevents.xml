@@ -1,0 +1,97 @@
+<RamblingMan>
+
+<!-- *** If 0-Score is installed. -->
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii')">
+
+<!-- Replace quest_whiteRiverCitizen1 with a modified intro_buried_supplies quest. See quests.xml -->
+	<setattribute xpath="/gameevents/action_sequence[@name='challenge_group_reward_basics']/action[@class='AddQuest']/property[@name='quest']" name="value">intro_buried_supplies</setattribute>
+
+	<append xpath="/gameevents">
+
+<!-- Add the backup map to the inventory in case the quest fails. -->
+		<action_sequence name="quest_intro_buried_suppliesFTLR_restart">
+			<property name="action_type" value="Game" />
+			<property name="allow_while_dead" value="false" />
+
+			<action class="AddItems">
+				<property name="added_items" value="qt_intro_buried_suppliesFTLR"/>
+				<property name="added_item_counts" value="1"/>
+			</action>
+<!-- 			<action class="BeltTooltip">
+				<property name="text" value="DEBUG MESSAGE  Backup map added!" />
+			</action> -->
+			
+		</action_sequence>
+
+<!-- Remove the backup map after retrieving the supplies from the container. -->
+		<action_sequence name="action_qt_intro_buried_suppliesFTLR_remove">
+			<property name="allow_user_trigger" value="false" />
+			<property name="allow_while_dead" value="false" />			
+			<property name="action_type" value="Game" />
+			<action class="RemoveItems">
+				<property name="items_location" value="Toolbelt,Backpack" param1="itemlocation" />
+				<property name="items_tags" value="qt_intro_buried_suppliesFTLR" />
+			</action>
+<!-- 		<action class="BeltTooltip">
+				<property name="text" value="DEBUG MESSAGE Backup map removed!" />
+			</action>	 -->		
+
+		</action_sequence>
+
+<!-- Give shovel		 -->
+		<action_sequence name="action_give_shovelFTLR">
+				<action class="AddItems">
+					<property name="added_items" value="meleeToolShovelT0StoneShovel" />
+					<property name="added_item_counts" value="1" />
+				</action>
+		</action_sequence>	
+		
+</append>
+
+
+<!-- *** NOT USED -->
+<!-- Remove backup map when redeeming the Meet Rekt challenge. -->
+<!-- <append xpath="/gameevents/action_sequence[@name='challenge_reward_500']">
+		<action class="RemoveItems">
+			<property name="items_location" value="Toolbelt,Backpack" param1="itemlocation" />
+			<property name="items_tags" value="qt_intro_buried_suppliesFTLR" />
+		</action>
+</append> -->
+<!-- <action_sequence name="action_givequest_intro_buried_supplies">
+	<action class="AddQuest">
+		<property name="quest" value="intro_buried_supplies" />
+	</action>
+	<action class="BeltTooltip">
+		<property name="text" value="Let's go dig up these buried supplies" />
+	</action>
+</action_sequence> -->
+
+
+<!-- 
+	Not implemented for game events yet.
+	
+	<action_sequence name="quest_intro_buried_supplies_restart">
+        <requirement type="HasFailedQuestSDX, SCore" value="intro_buried_supplies" />
+        <action type="GiveQuestSDX, SCore" id="intro_buried_supplies" />
+	</action_sequence> -->
+	
+<!-- <action_sequence name="quest_XYZ_restart">
+        <requirement type="HasFailedQuestSDX, SCore" value="quest_XYZ" />
+        <action type="GiveQuestSDX, SCore" id="quest_XYZ" /
+</action_sequence> -->
+	</if>
+</conditional>
+
+
+<!-- *** If 0-Score is not installed. -->
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') == false">
+
+<!-- Replace quest_whiteRiverCitizen1 with a modified intro_buried_suppliesNOSCORE quest. See quests.xml -->
+	<setattribute xpath="/gameevents/action_sequence[@name='challenge_group_reward_basics']/action[@class='AddQuest']/property[@name='quest']" name="value">intro_buried_suppliesNOSCORE</setattribute>
+
+	</if>
+</conditional>
+
+</RamblingMan>

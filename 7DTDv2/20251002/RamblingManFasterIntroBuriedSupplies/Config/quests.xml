@@ -1,0 +1,225 @@
+<RamblingMan>
+
+<!-- *** If 0-Score is installed. -->
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii')">
+
+<!-- Remove vanilla intro_buried_supplies quest -->
+<remove xpath="/quests/quest[@id='intro_buried_supplies']"/>
+
+<!-- Add a modified intro_buried_supplies quest. Triggered when the challenge_group_reward_basics are completed. See gamevents.xml
+ -->
+<append xpath="/quests">
+	<quest id="intro_buried_supplies">
+		<property name="name_key" value="quest_intro_buried_suppliesFTLR" param1="name"/>
+		<!-- add new quest subtitle	 -->
+		<property name="subtitle_key" value="quest_intro_buried_suppliesFTLR_subtitle"/>
+		<property name="description_key" value="quest_buried_supplies_description"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<!-- was false -->
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="quest_intro_buried_suppliesFTLR_offer" param1="offer"/>
+		<property name="difficulty_tier" value="1" param1="difficulty"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_intro_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+
+		<!-- Add a modified completion message. -->
+		<property name="completion_key" value="quest_intro_buried_suppliesFTLR_completion"/>
+		<property name="shareable" value="false"/>
+		<property name="reward_choices_count" value="5"/>
+		<property name="single_quest" value="true"/>
+		<property name="always_allow" value="true"/>
+		<property name="unique_key" value="introquest"/>
+		<property name="quest_type" value="special"/>
+
+<!-- Display a modified quest_WhiteRiverCitizen1 popup. -->
+		<action type="ShowMessageWindow">
+			<property name="message" value="quest_WhiteRiverCitizen1FTLR_description"/>
+			<property name="title" value="quest_WhiteRiverCitizen1FTLR_description_title"/>
+			<property name="delay" value="3"/>
+		</action>
+
+<!-- Add shovel -->
+<!-- 		<action type="GiveBuffSDX, SCore">
+			<property name="value" value="buffaction_give_shovelFTLR" />
+			
+			<property name="on_complete" value="false"/>
+			<property name="phase" value="1" />
+			<property name="delay" value="3"/>				
+		</action>	 -->
+
+		<objective type="RandomGotoNPC" phase="1">
+			<property name="completion_distance" value="20"/>
+			<!-- Shorten the range of the buried supplies rally point. -->
+			<property name="distance" value="50-300"/>
+			<!-- <property name="distance" value="100-500"/>			 -->
+			<property name="nav_object" value="quest"/>
+			<!-- Constrain the location of the buried supplies to the biome in which the basic challenges were completed. -->
+			<property name="biome_filter_type" value="SameBiome" param1="biome_filter_type"/>
+			<property name="biome_filter" value="" param1="biome_filter"/>			
+			<!-- <property name="biome_filter_type" value="OnlyBiome"/> -->
+			<!-- <property name="biome_filter" value="pine_forest"/> -->
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create"/>
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally"/>
+			<property name="rally_marker_type" value="questRallyMarkerBuriedSupplies"/>
+			<property name="activate_event" value="quest_treasure_replace_road"/>
+			<property name="delay" value="3"/>			
+		</objective>
+
+			<!-- Add map. -->
+		<action type="GiveBuffSDX, SCore">
+			<property name="value" value="buffAddIntroBuriedSuppliesmap" />
+			<!-- <property name="on_complete" value="true"/> -->
+			<property name="on_complete" value="false"/>
+			<property name="phase" value="2" />
+			<property name="delay" value="3"/>				
+		</action>	
+
+		<objective type="StayWithin">
+			<property name="phase" value="3"/>
+			<property name="radius" value="25"/>
+		</objective>
+
+		<objective type="TreasureChest">
+			<property name="phase" value="3"/>
+			<property name="block" value="cntIntroBuriedFoodChest" param1="container"/>
+			<property name="default_radius" value="3" param1="radius"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure"/>
+			<property name="direct_nav_object" value="treasure_direct"/>
+			<property name="blocks_per_reduction" value="5"/>
+			<property name="radius_reduction_sound" value="ui_radius_shrink"/>
+			<property name="use_nearby" value="true"/>
+			<property name="explosion_event" value="quest_treasure_explosion_horde"/>
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="phase" value="3"/>
+			<property name="block" value="cntIntroBuriedFoodChest" param1="container"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnGSEnemy">
+			<property name="gamestage_list" value="SleeperGSList"/>
+			<property name="count" value="1-2" param1="finish_spawn_count"/>
+			<property name="phase" value="4"/>
+		</action>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="4"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+<!-- Remove map. -->
+		<action type="GiveBuffSDX, SCore">
+			<property name="value" value="buffRemoveIntroBuriedSuppliesmap" />
+		<!-- <property name="on_complete" value="true"/> -->
+			<property name="on_complete" value="false"/>
+			<property name="phase" value="4" />
+			<property name="delay" value="5"/>				
+		</action>	
+
+<!-- Add a GoTo objective to ensure the player is directed to the nearest trader. -->
+		<!-- Was phase 4 -->
+		<objective type="Goto" id="trader" value="5" phase="5">
+			<!-- <property name="location_tag" value="TraderRekt" param1="trader_tag"/> -->
+			<property name="location_name" value="trader_closestFTLR"/>	
+			<!-- Constrain the location of the trader to the biome in which the buried supplies were found. -->
+			<property name="biome_filter_type" value="SameBiome" param1="biome_filter_type"/>
+			<property name="biome_filter" value="" param1="biome_filter"/>
+			<!-- <property name="biome_filter" value="pine_forest"/> -->
+			<property name="nav_object" value="go_to_trader"/>
+			<!-- <property name="nav_object" value="return_to_trader"/> -->
+			<property name="allow_current_poi" value="true"/>
+		</objective>		
+		
+		<!-- was phase 5	 -->
+		<objective type="InteractWithNPC">
+			<property name="phase" value="6"/>
+			<property name="nav_object" value="return_to_trader"/>
+			<property name="use_closest" value="true"/>
+		</objective>
+		
+		<action type="SetCVar">
+			<property name="cvar" value="IntroComplete"/>
+			<property name="value" value="1"/>
+			<property name="on_complete" value="true"/>
+		</action>
+
+<!-- Remove challenge tracking to ensure that the regular quest is tracked without going into the Quest panel. 	<action type="TrackChallenge">
+			<property name="challenge" value="craftlandclaim"/>
+			<property name="on_complete" value="true"/>
+			<property name="delay" value="1"/>
+		</action>	 -->	
+
+<!-- Merge the XP reward from intro_buried_supplies and quest_WhiteRiverCitizen1. -->
+		<reward type="Exp" value="1000"/>
+		<reward type="Item" id="questRewardPipePistolBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardPipeShotgunBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardPipeRifleBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardPipeMachineGunBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardPipeBatonBundle" ischosen="true" value="1"/>
+	</quest>
+</append>
+
+<remove xpath="/quests/quest_list[@id='trader_rekt_quests' or @id='trader_jen_quests' or @id='trader_bob_quests' or@id='trader_hugh_quests' or @id='trader_joel_quests']/quest[@id='intro_buried_supplies']"/>
+
+</if>
+</conditional>
+
+<!-- *** If 0-Score is not installed. -->
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') == false">
+
+<!-- Remove vanilla intro_buried_supplies quest -->
+<remove xpath="/quests/quest[@id='intro_buried_supplies']"/>
+
+<append xpath="/quests">
+	<quest id="intro_buried_suppliesNOSCORE">
+		<property name="name_key" value="quest_intro_buried_suppliesFTLR" param1="name"/>
+		
+<!-- add new quest subtitle	 -->
+		<property name="subtitle_key" value="quest_intro_buried_suppliesNo0ScoreFTLR_subtitle"/>
+		<property name="description_key" value="quest_buried_supplies_description"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<!-- was false -->
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="quest_intro_buried_suppliesFTLR_offer" param1="offer"/>
+		<property name="difficulty_tier" value="1" param1="difficulty"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_intro_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+
+<!-- Add a modified completion message. -->
+		<property name="completion_key" value="quest_intro_buried_suppliesNo0ScoreFTLR_completion"/>
+		<property name="shareable" value="false"/>
+		<property name="reward_choices_count" value="5"/>
+		<property name="single_quest" value="true"/>
+		<property name="always_allow" value="true"/>
+		<property name="unique_key" value="introquest"/>
+		<property name="quest_type" value="special"/>
+
+
+<!-- Display a modified quest_WhiteRiverCitizen1 popup. -->
+		<action type="ShowMessageWindow">
+			<property name="message" value="quest_WhiteRiverCitizen1No0ScoreFTLR_description"/>
+			<property name="title" value="quest_WhiteRiverCitizen1No0ScoreFTLR_description_title"/>
+			<property name="delay" value="3"/>
+		</action>
+
+	</quest>
+</append>
+
+<remove xpath="/quests/quest_list[@id='trader_rekt_quests' or @id='trader_jen_quests' or @id='trader_bob_quests' or@id='trader_hugh_quests' or @id='trader_joel_quests']/quest[@id='intro_buried_supplies']"/>
+
+</if>
+</conditional>
+</RamblingMan>

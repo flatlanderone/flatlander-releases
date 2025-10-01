@@ -1,0 +1,35 @@
+<RamblingMan>
+<!-- *** If 0-Score is installed. -->
+<conditional>
+	<if cond="mod_loaded('0-SCore_sphereii')">
+		<append xpath="/buffs">
+<!-- Add backup map -->
+		<buff name="buffAddIntroBuriedSuppliesmap" description="Adds the map from inventory." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="quest_intro_buried_suppliesFTLR_restart" />
+			</effect_group>
+		</buff>
+
+<!-- Remove backup map -->
+		<buff name="buffRemoveIntroBuriedSuppliesmap" description="Removes the map from inventory." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_qt_intro_buried_suppliesFTLR_remove" />
+			</effect_group>
+		</buff>
+<!-- Give shovel -->
+		<buff name="buffaction_give_shovelFTLR" description="Adds the shovel to inventory." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_give_shovelFTLR" />
+			</effect_group>
+		</buff>		
+		
+		</append>
+	</if>
+</conditional>
+</RamblingMan>
