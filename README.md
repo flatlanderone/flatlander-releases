@@ -1,12 +1,12 @@
 # My mods
 
-## Skip Intro Buried Supplies 2.3.0.1
+## Skip Intro Buried Supplies
 
-- **Latest version**: [Skip Intro Buried Supplies](https://www.nexusmods.com/7daystodie/mods/8764)
+https://www.nexusmods.com/7daystodie/mods/8764
 
-## Faster Intro Buried Supplies 2.3.0.2
+## Faster Intro Buried Supplies
 
-- **Latest version**: [Faster Intro Buried Supplies](https://www.nexusmods.com/7daystodie/mods/8740)
+https://www.nexusmods.com/7daystodie/mods/8740
 
 
 ## Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0
@@ -17,10 +17,34 @@ https://www.nexusmods.com/7daystodie/mods/8565
 
 https://www.nexusmods.com/7daystodie/mods/8566
 
+## Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
+
+https://www.nexusmods.com/7daystodie/mods/8581
+
 ## Buy On Day One - Trader Bob Addon for BODO - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
 
-## Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
-https://www.nexusmods.com/7daystodie/mods/8581
+Optional file: https://www.nexusmods.com/7daystodie/mods/8581?tab=files
+
+## Rambling Man - Archery on the Road
+
+https://www.nexusmods.com/7daystodie/mods/8512
+
+## Rambling Man - Improvised Explosives and Arrows
+
+https://www.nexusmods.com/7daystodie/mods/8456
+
+## Buy On Day One - (TMO) ServerSide Vehicles
+
+https://www.nexusmods.com/7daystodie/mods/8378
+
+## Buy On Day One - Telrics Horses V2
+
+https://www.nexusmods.com/7daystodie/mods/8371
+
+
+## Buy On Day One - Vanilla Vehicle Parts and Mods
+
+https://www.nexusmods.com/7daystodie/mods/8357
 
 
 # My profiles
