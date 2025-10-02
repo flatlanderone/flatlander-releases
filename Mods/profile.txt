@@ -1,1 +1,2 @@
-
+https://github.com/flatlanderone/flatlander-releases/tree/main/Mods/RamblingManFasterIntroBuriedSupplies
+https://github.com/flatlanderone/flatlander-releases/tree/main/Mods/RamblingManSkipIntroBuriedSupplies
