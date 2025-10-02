@@ -50,30 +50,27 @@ https://www.nexusmods.com/7daystodie/mods/8371
 
 https://www.nexusmods.com/7daystodie/mods/8357
 
-# My utility mods
+# Flatlander's Utility Modlet Pack: 
 
-## Tester's Delight On Spawn
+https://www.nexusmods.com/7daystodie/mods/8769
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/TestersDelightOnSpawn
+## Contents
 
-## Bigger Crafting Bundle
+### Any Starting Trader
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/BiggerCraftingBundle
+### Any Starting Trader - No Desert
 
-## Restock Option
+### Bigger Crafting Resources Pack On Spawn
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/RestockOption
+### Dummy Mod To Test Conditionals
 
-## Starting Trader
+### Restock Trader Inventory
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/StartingTrader
-
-## Dummy Mod To Test Conditionals
-
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/Dummy%20Mod%20To%20Test%20Conditionals
-
+### Tester's Delight On Spawn
 
 # My profiles
 
 - **Nexus Mods**: https://next.nexusmods.com/profile/flatlanderone/mods?gameId=1059
+
+- **GitHub**: https://github.com/flatlanderone
 
