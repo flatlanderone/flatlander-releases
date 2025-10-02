@@ -1,5 +1,0 @@
-<AnyStartingTrader>
- 
-<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@id='trader']/property[@name='biome_filter_type' or @name='biome_filter']" /> 
- 
-</AnyStartingTrader>

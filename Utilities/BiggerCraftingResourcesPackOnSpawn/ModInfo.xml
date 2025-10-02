@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-		<Name value="BiggerCraftingResourcesPackOnSpawn" />
-		<DisplayName value="Bigger Crafting Resources Pack On Spawn" />
-		<Description value="Adds to inventory a more complete crafting bundle on first spawn. See the screenshots in the images folder." />
-		<Author value="flatlander" />
-		<Version value="2.3.0.2" />
-</xml>
