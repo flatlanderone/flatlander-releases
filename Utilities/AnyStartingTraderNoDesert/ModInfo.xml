@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="AnyStartingTraderNoDesert" /> <!-- no spaces -->
+	<DisplayName value="Any Starting Trader - No Desert" />
+	<Description value="Your starting trader is the closest trader in relation to your spawn point, unless you spawn in the desert biome. In that case, you will be directed to the pine forest trader, Edit your spawnpoints.xml to spawn in a different biome." />
+	<Author value="flatlander" />
+	<Version value="2.3.0.2" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>

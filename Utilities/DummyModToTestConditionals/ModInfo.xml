@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="DummyMod" /> <!-- no spaces -->
+	<DisplayName value="Dummy Mod To Test Conditionals" />
+	<Description value="Test conditional loading of mods. Replace DummyMod name value with the name of the mod that must be loaded for the coondition to be true or false." />
+	<Author value="flatlander" />
+	<Version value="0.1.0.0" />
+	<Website value="https://github.com/flatlanderone/flatlander-modding" />
+</xml>

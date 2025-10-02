@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TestersDelightOnSpawn" /> <!-- no spaces -->
+	<DisplayName value="Tester's Delight On Spawn" />
+	<Description value="Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items. See the screenshots in the images folder." />
+	<Author value="flatlander" />
+	<Version value="2.3.0.2" />
+	<Website value="https://github.com/flatlanderone/flatlander-modding" />
+</xml>

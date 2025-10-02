@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="RestockTraderInventory" />
+		<DisplayName value="Restock Trader Inventory" />
+		<Description value="Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder." />
+		<Author value="flatlander" />
+		<Version value="2.3.0.2" />
+</xml>

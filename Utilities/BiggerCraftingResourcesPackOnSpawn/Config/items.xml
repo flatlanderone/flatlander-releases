@@ -1,0 +1,19 @@
+<RamblingMan>
+
+<!-- Bigger Crafting Bundle -->
+
+<append xpath="/items">
+	<!-- *** Biggger_Admin_Crafting_Resources -->
+<item name="craftingResourcesPackAdminFTLR">
+	<property name="Extends" value="noteTestersDelightAdmin"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntShippingCrateHero"/>
+	<property name="CustomIconTint" value="ff7400"/>
+	<property class="Action0">
+		<property name="Create_item" value="resourceAcid,resourceCloth,resourceDuctTape,resourceElectricParts,resourceMechanicalParts,resourceMetalPipe,resourceGlue,resourceHeadlight,resourceLeather,resourceNail,resourceOil,resourceScrapPolymers,resourceSewingKit,resourceSpring,resourceYuccaFibers,resourceLegendaryParts,resourceFeather,resourceGunPowder,resourceAnimalFat,resourcePaper,resourceForgedIron,resourceForgedSteel,resourceScrapIron,resourceScrapBrass,resourceScrapLead,resourceClayLump,resourceCoal,resourcePotassiumNitratePowder,resourceWood,resourceOilShale,resourceRockSmall, resourceCrushedSand,resourceBone,drinkJarRiverWater,drinkJarBoiledWater,foodRottingFlesh,ammoGasCan"/>
+		<property name="Create_item_count" value="100,250,500,1000,1000,500,500,50,250,1000,50,1000,20,500,6000,25,250,1000,500,500,500,500,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,1200,125,10,125,10000"/>
+	</property>
+</item>
+</append>
+
+</RamblingMan>
