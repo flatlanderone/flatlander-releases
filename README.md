@@ -1,4 +1,4 @@
-# My gameplay modlets
+# My Gameplay Modlets
 
 ## Quest mods 
 
@@ -50,8 +50,9 @@ https://www.nexusmods.com/7daystodie/mods/8371
 
 https://www.nexusmods.com/7daystodie/mods/8357
 
-# Flatlander's Utility Modlet Pack: 
+# My Utility Modlets 
 
+## Flatlander's Utility Modlet Pack
 https://www.nexusmods.com/7daystodie/mods/8769
 
 ## Contents
