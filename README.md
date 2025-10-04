@@ -67,6 +67,8 @@ https://www.nexusmods.com/7daystodie/mods/8769
 
 ### Restock Trader Inventory
 
+### Skip Basics of Survival Dev Note On Spawn
+
 ### Tester's Delight On Spawn
 
 # My profiles
