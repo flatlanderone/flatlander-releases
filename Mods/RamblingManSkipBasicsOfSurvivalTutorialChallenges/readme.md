@@ -42,7 +42,7 @@ Skip the ***Basics of Survival*** tutorial challenges.
 
 - **Author**: Flat Lander - [GitHub](https://github.com/flatlanderone/flatlander-releases) / [Nexus Mods](https://next.nexusmods.com/profile/flatlanderone)
 
-- **Download page**: [Skip Basics of Survival Tutorial Challenges]https://www.nexusmods.com/7daystodie/mods/8772)
+- **Download page**: [Skip Basics of Survival Tutorial Challenges](https://www.nexusmods.com/7daystodie/mods/8772)
 
 - **Version**: 2.3.0.1
 

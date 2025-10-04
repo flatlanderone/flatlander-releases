@@ -2,10 +2,6 @@
 
 ## Quest mods 
 
-### Skip Basics of Survival Tutorial Challenges
-
-https://www.nexusmods.com/7daystodie/mods/8772
-
 ### Skip Intro Buried Supplies
 
 https://www.nexusmods.com/7daystodie/mods/8764
