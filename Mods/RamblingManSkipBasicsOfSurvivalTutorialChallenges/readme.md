@@ -24,7 +24,7 @@ Skip the ***Basics of Survival*** tutorial challenges.
 
 - 7 Days to Die v2.0 and later,
 
-- A new save.
+- A new save. 
 
 # Related and compatible mods
 
