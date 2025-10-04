@@ -28,7 +28,7 @@ Skip the ***Basics of Survival*** tutorial challenges.
 
 # Related and compatible mods
 
-- [Faster Intro Buried Supplies](https://www.nexusmods.com/7daystodie/mods/8740),
+- [Faster Intro Buried Supplies](https://www.nexusmods.com/7daystodie/mods/8740),
 
 - [Skip Intro Buried Supplies](https://www.nexusmods.com/7daystodie/mods/8764).
 
