@@ -1,0 +1,8 @@
+<RamblingMan>
+<!-- Add buff_Skip_Tutorial_Challenges_FTLR to first spawn. -->
+<append xpath="entity_classes/entity_class[@name='playerMale']">
+	<effect_group name="skip_tutorial_challenges">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buff_Skip_Tutorial_Challenges_FTLR" />
+	</effect_group>
+</append>
+</RamblingMan>

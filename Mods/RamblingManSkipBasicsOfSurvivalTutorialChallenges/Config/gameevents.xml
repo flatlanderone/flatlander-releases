@@ -1,0 +1,35 @@
+<RamblingMan>
+
+<!-- Remove the Duke Note tooltip and status entry. -->
+<remove xpath="/gameevents/action_sequence[@name='game_first_spawn']" />
+
+<!-- Complete automatically the tutorial challenges and add items. -->
+<append xpath="/gameevents">
+	<action_sequence name="game_player_skip_tutorial_challengesFTLR">
+
+<!-- Add items that would have been crafted during the tutorial as well as additional armor pieces, 9 extra arrows and a stone shovel.		 -->
+		<action class="AddItems">
+			<property name="phase" value="1" />
+			<property name="added_items" value="meleeToolRepairT0StoneAxe,armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots,meleeWpnClubT0WoodenClub,gunBowT0PrimitiveBow,ammoArrowStone,meleeToolShovelT0StoneShovel" />
+			<property name="added_item_counts" value="1,1,1,1,1,1,1,10,1" />
+		</action>	
+			<!-- added -->
+		<action class="Delay">
+			<property name="phase" value="2" />
+			<property name="time" value="3" />
+		</action>
+		<action class="CompleteChallenge">
+			<!-- added -->
+			<property name="phase" value="3" />		
+			<property name="challenges" value="redeemChallenge,gatherResources,craftStoneAxe,gatherResourcesStoneAxe,craftClothes,wearClothes,craftWoodClub,craftBow,craftArrows,groupCompleteChallenge" />
+			<property name="force_redeem" value="true" />
+		</action>
+		<action class="Delay">
+			<property name="phase" value="4" />
+			<property name="time" value="3" />
+		</action>
+	</action_sequence>
+</append>
+</RamblingMan>
+
+

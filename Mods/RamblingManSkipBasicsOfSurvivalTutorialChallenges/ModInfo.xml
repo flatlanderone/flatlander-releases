@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="RamblingManSkipBasicsOfSurvival" /> <!-- no spaces -->
+	<DisplayName value="Skip Basics of Survival Tutorial Challenges" />
+	<Description value="Skip the Basics of Survival tutorial challenges." />
+	<Author value="flatlander" />
+	<Version value="2.3.0.1" />
+	<Website value="https://github.com/flatlanderone/flatlander-releases" />
+</xml>

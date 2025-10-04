@@ -1,0 +1,12 @@
+<RamblingMan>
+<append xpath="/buffs">
+<!-- Attach game_player_skip_tutorial_challengesFTLR to a buff  -->
+	<buff name="buff_Skip_Tutorial_Challenges_FTLR" description="Skips tutorial challenges." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="game_player_skip_tutorial_challengesFTLR" />
+		</effect_group>
+	</buff>		
+</append>	
+</RamblingMan>		
