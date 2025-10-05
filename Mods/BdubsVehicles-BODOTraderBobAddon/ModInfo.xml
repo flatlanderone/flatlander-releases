@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="BODO-BdubsTraderBobAddonFTLR" />
+	<DisplayName value="Trader Bob Addon for BODO - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)" />
+	<Description value="Use this addon to have Trader Bob carry all vehicle parts and vehicle mods from the Bdub's Vehicles 2.0 mod. See the readme.md file for more information. Compatible with version 2.0.0.5" />
+	<Author value="flatlander" />
+	<Version value="2.0.0.5" />
+	<Website value="https://github.com/flatlanderone/flatlander-releases" />
+</xml>

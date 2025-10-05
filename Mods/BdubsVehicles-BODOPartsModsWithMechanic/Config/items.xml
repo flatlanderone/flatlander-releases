@@ -1,0 +1,80 @@
+<BuyOnDayOne>
+
+<!-- This mod will switch off if Buy On Day One - Vehicles and Mods for Bdub's Vehicles is loaded. -->
+<conditional>
+<if cond="mod_loaded('BODO-BdubsVehiclesModsFLTR') == false">
+
+<!-- *** BDUB'S VEHICLE PARTS (Chassis, Handlebars and Accessories) -->
+
+<!-- Set partVehicleBdubsFLTR to allow targeting vehicle parts in traders.xml -->
+
+<!-- <setattribute xpath="/items/item[@name='vehicleBicycleHandlebars' or @name='vehicleBicycleChassis' or @name='vehicleMinibikeHandlebars' or @name='vehicleMinibikeChassis' or @name='vehicleMotorcycleHandlebars' or @name='vehicleMotorcycleChassis' or @name='vehicleTruck4x4Accessories' or @name='vehicleTruck4x4Chassis' or @name='vehicleGyroCopterAccessories' or @name='vehicleGyroCopterChassis']/property[@name='TraderStageTemplate']" name="value">partVehicleFLTR</setattribute>
+ -->
+
+<setattribute xpath="/items/item[@name='vehicleBicycleOldBVChassis' or
+@name='vehicleBicycleOldBVHandlebars' or
+@name='vehicleMinibikeOldBVChassis' or
+@name='vehicleMinibikeOldBVHandlebars' or
+@name='vehicleMotorcycleOldBVChassis' or
+@name='vehicleMotorcycleOldBVHandlebars' or
+@name='vehicleTruck4x4OldBVChassis' or
+@name='vehicleTruck4x4OldBVAccessories' or
+@name='vehicleGyrocopterOldBVChassis' or
+@name='vehicleGyrocopterOldBVAccessories' or
+@name='vehicleBoxTruckchassis' or
+@name='vehicleBoxTruckbody' or
+@name='vehicleBRDM2chassis' or
+@name='vehicleBRDM2accessories' or
+@name='vehicleBuggychassis' or
+@name='vehicleBuggyaccessories' or
+@name='vehicleChargerchassis' or
+@name='vehicleChargeraccessories' or
+@name='vehicleCruiserchassis' or
+@name='vehicleCruiserbars' or
+@name='vehicleDirtBikeChassis' or
+@name='vehicleDirtBikeParts' or
+@name='vehicleDusterchassis' or
+@name='vehicleDusteraccessories' or
+@name='vehicleGNXchassis' or
+@name='vehicleGNXaccessories' or
+@name='vehicleGolfCartchassis' or
+@name='vehicleGolfCartaccessories' or
+@name='vehicleHotRodchassis' or
+@name='vehicleHotRodaccessories' or
+@name='vehicleHumveechassis' or
+@name='vehicleHumveebody' or
+@name='vehicleJunkerChassis' or
+@name='vehicleJunkerbars' or
+@name='vehicleLMTVchassis' or
+@name='vehicleLMTVbody' or
+@name='vehicleMarauderchassis' or
+@name='vehicleMarauderaccessories' or
+@name='vehicleMD500chassis' or
+@name='vehicleMD500accessories' or
+@name='vehicleMRAPparts' or
+@name='vehicleMRAPaccessories' or
+@name='vehicleNovachassis' or
+@name='vehicleNovaaccessories' or
+@name='vehicleOldSemichassis' or
+@name='vehicleOldSemibody' or
+@name='vehiclePickupchassis' or
+@name='vehiclePickupaccessories' or
+@name='vehicleRatChassis' or
+@name='vehicleRatbars' or
+@name='vehicleSHERPchassis' or
+@name='vehicleSHERPaccessories' or
+@name='vehicleStallionchassis' or
+@name='vehicleStallionaccessories' or
+@name='vehicleTrophyTruckchassis' or
+@name='vehicleTrophyTruckbody' or
+@name='vehicleUAZ452chassis' or
+@name='vehicleUAZaccessories' or
+@name='vehicleUH60chassis' or
+@name='vehicleUH60accessories' or
+@name='vehicleWorkTruckchassis' or
+@name='vehicleWorkTruckaccessories']/property[@name='TraderStageTemplate']" name="value">partVehicleBdubsFLTR</setattribute>
+
+
+</if>
+</conditional>
+</BuyOnDayOne>

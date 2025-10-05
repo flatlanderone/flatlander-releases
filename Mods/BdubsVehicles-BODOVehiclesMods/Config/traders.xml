@@ -1,0 +1,94 @@
+<BuyOnDayOne>
+
+<!-- Approach
+1. Set items to be for sale at all game stages in traders.xml.
+2. Set items to be always for sale by adding them to traderAlways trader_item_group in traders.xml.
+3. If needed (e.g. because traderstage_template too extensive), create new traderstage_template with distinct attribute (e.g. partVehicleFLTR or modVehicleFLTR) in traders.xml and apply new attribute to items in items.xml and item_modifiers.xml. -->
+
+<!-- *** Bdub's Vehicles -->
+
+<!-- Set all vehicles to be for sale at all game stages. Use vehicleTierXX to target vehicles.  -->
+<set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier0' or @name='vehicleTier1' or @name='vehicleTier2' or @name='vehicleTier3' or @name='vehicleTier4' or @name='vehicleTier5']">
+	<entry min="1" max="999999" quality="0"/>
+</set>
+
+
+<!-- *** Vanilla and Bdub's vehicle mods -->
+
+<!-- Set all Vehicle mods to be for sale at all game stages. modVehicleFLTR is set in item_modifiers.xml  -->
+
+<!-- NOTE: In vanilla, only vehicle mod schematics are for sale. Mods must be looted or crafted. Oversight?   -->
+
+<append xpath="/traders/traderstage_templates">
+	<traderstage_template name="modVehicleFLTR">
+		<entry min="1" max="999999" quality="0"/>
+	</traderstage_template>
+</append>
+
+<!-- Set all Bdub's vehicles to be always for sale. -->
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+<item name="vehicleBicycleOldBVPlaceable"/>
+<item name="vehicleMinibikeOldBVPlaceable"/>
+<item name="vehicleMotorcycleOldBVPlaceable"/>
+<item name="vehicleTruck4x4OldBVPlaceable"/>
+<item name="vehicleGyrocopterOldBVPlaceable"/>
+<item name="vehicleBoxTruckPlainplaceable"/>
+<item name="vehicleBoxTruckHostessplaceable"/>
+<item name="vehicleBRDM2placeable"/>
+<item name="vehicleBRDM2desertplaceable"/>
+<item name="vehicleBRDM2newplaceable"/>
+<item name="vehicleBuggyplaceable"/>
+<item name="vehicleChargerNewplaceable"/>
+<item name="vehicleCruiserplaceable"/>
+<item name="vehicleDirtBikeplaceable"/>
+<item name="vehicleDusterplaceable"/>
+<item name="vehicleGNXplaceable"/>
+<item name="vehicleGolfCartplaceable"/>
+<item name="vehicleHotRod1placeable"/>
+<item name="vehicleHotRod2placeable"/>
+<item name="vehicleHotRod3placeable"/>
+<item name="vehicleHotRod4placeable"/>
+<item name="vehicleHotRod5placeable"/>
+<item name="vehicleHotRod6placeable"/>
+<item name="vehicleHumveeplaceable"/>
+<item name="vehicleJunkerplaceable"/>
+<item name="vehicleLMTVplaceable"/>
+<item name="vehicleMarauderplaceable"/>
+<item name="vehicleMD500placeable"/>
+<item name="vehicleMRAPplaceable"/>
+<item name="vehicleNovaplaceable"/>
+<item name="vehicleOldSemiplaceable"/>
+<item name="vehiclePickupplaceable"/>
+<item name="vehicleRatplaceable"/>
+<item name="vehicleSHERPplaceable"/>
+<item name="vehicleStallionplaceable"/>
+<item name="vehicleTrophyTruckplaceable"/>
+<item name="vehicleUAZ452placeable"/>
+<item name="vehicleUH60placeable"/>
+<item name="vehicleWillyJeepplaceable"/>
+<item name="vehicleWorkTruckplaceable"/>
+<!-- Mods -->
+<item name="modVehicleHumveeDoors"/>
+<item name="modVehicleFuelSaver"/>
+<item name="modVehicleOffRoadHeadlights"/>
+<item name="modVehicleSuperCharger"/>
+<item name="modVehicleExpandedSeat"/>
+<item name="modVehicleReserveFuelTank"/>
+<item name="modVehiclePlow"/>
+<item name="modVehicleArmor"/>		
+
+</append>
+
+<!-- Remove groupVehicles from Mechanic's inventory to avoid duplication.  -->
+
+<remove xpath="/traders/trader_info[@id='75']/trader_items/item[@group='groupVehicles']" />
+
+<!-- Remove groupVehicles from Trader Bob's inventory to avoid duplication.  -->
+
+<remove xpath="/traders/trader_info[@id='6']/trader_items/item[@group='groupVehicles']" />
+
+<!-- Remove groupVehicles from traderGeneral group to avoid duplication. Traders won't carry vehicle parts. -->
+<remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']/item[@group='groupVehicles']" />
+
+</BuyOnDayOne>

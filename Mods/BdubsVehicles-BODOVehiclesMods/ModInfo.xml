@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="BODO-BdubsVehiclesModsFLTR" />
+	<DisplayName value="Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0" />
+	<Description value="All vehicles and vehicle mods from the Bdub's Vehicles 2.0 mod can be purchased from all traders on day one. See the readme.md file for more information. Compatible with version 2.0.0.5" />
+	<Author value="flatlander" />
+	<Version value="2.0.0.5" />
+	<Website value="https://github.com/flatlanderone/flatlander-releases" />
+</xml>

@@ -1,0 +1,9 @@
+<BuyOnDayOne>
+
+<!-- *** VANILLA AND BDUB'S VEHICLE MODS -->
+
+<!-- Set modVehicleFLTR to allow targeting vehicle mods in traders.xml -->
+
+<setattribute xpath="/item_modifiers/item_modifier[starts-with(@name,'modVehicle')]/property[@name='TraderStageTemplate']" name="value">modVehicleFLTR</setattribute>
+
+</BuyOnDayOne>

@@ -1,0 +1,6 @@
+<BuyTelricsHorsesOnDayOne>
+
+<!-- Changed TraderStageTemplate attribute to avoid making bicycles and bicycle parts always for sale. -->
+<setattribute xpath="/items/item[contains(@name,'Horse')]/property[@name='TraderStageTemplate']" name="value">horseFLTR</setattribute>
+
+</BuyTelricsHorsesOnDayOne>

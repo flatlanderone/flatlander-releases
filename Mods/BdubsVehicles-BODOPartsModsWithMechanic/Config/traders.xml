@@ -1,0 +1,143 @@
+<BuyOnDayOne>
+
+<!-- Approach
+1. Set items to be for sale at all game stages in traders.xml.
+2. Set items to be always for sale by adding them to traderAlways trader_item_group in traders.xml.
+3. If needed (e.g. because traderstage_template too extensive), create new traderstage_template with distinct attribute (e.g. partVehicleFLTR or modVehicleFLTR) in traders.xml and apply new attribute to items in items.xml and item_modifiers.xml. -->
+
+
+<!-- This mod will switch off if Buy On Day One - Vehicles and Mods for Bdub's Vehicles is loaded. -->
+<conditional>
+<if cond="mod_loaded('BODO-BdubsVehiclesModsFLTR') == false">
+
+<!-- *** BDUB'S VEHICLE PARTS (Chassis, Handlebars and Accessories) -->
+
+<!-- Set all vehicle parts to be for sale at all game stages. Using partVehicleBdubsFLTR to target vehicle parts. partVehicleFLTR is set in items.xml -->
+<append xpath="/traders/traderstage_templates">
+	<traderstage_template name="partVehicleBdubsFLTR">
+		<entry min="1" max="999999" quality="0"/>
+	</traderstage_template>
+</append>
+
+<!-- Set bicycle, minibike and golf cart parts to be always for sale. Engine and wheels are still available in rareTools group. -->
+
+<prepend xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+<item name="vehicleBicycleOldBVChassis"/>
+<item name="vehicleBicycleOldBVHandlebars"/>
+<item name="vehicleMinibikeOldBVChassis"/>
+<item name="vehicleMinibikeOldBVHandlebars"/>
+<item name="vehicleGolfCartchassis"/>
+<item name="vehicleGolfCartaccessories"/>
+</prepend>
+
+<!-- *** VANILLA and BDUB'S VEHICLE MODS -->
+
+<!-- Set all Vehicle mods to be for sale at all game stages. modVehicleFLTR is set in item_modifiers.xml  -->
+
+<!-- NOTE: In vanilla, only vehicle mod schematics are for sale. Mods must be looted or crafted. Oversight?   -->
+
+<append xpath="/traders/traderstage_templates">
+	<traderstage_template name="modVehicleFLTR">
+		<entry min="1" max="999999" quality="0"/>
+	</traderstage_template>
+</append>
+
+<!-- *** WHEELS -->
+
+<!-- Add wheels to rareTools group to maintain their availability. -->
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+	<item name="vehicleWheels"/>
+</append>
+
+<!-- Remove groupVehicles from Mechanic's inventory to avoid duplication.  -->
+
+<remove xpath="/traders/trader_info[@id='75']/trader_items/item[@group='groupVehicles']" />
+
+<!-- *** Reinforce Mechanic's specialty. He has all the vehicle parts and all the vehicle mods. -->
+
+<insertBefore xpath="/traders/trader_info[@id='75']/trader_items/item[@group='groupMeleeMods']">
+
+<!-- Parts and accessories -->
+
+<!-- <item name="vehicleBicycleOldBVChassis"/>
+<item name="vehicleBicycleOldBVHandlebars"/>
+<item name="vehicleMinibikeOldBVChassis"/>
+<item name="vehicleMinibikeOldBVHandlebars"/> -->
+<item name="vehicleMotorcycleOldBVChassis"/>
+<item name="vehicleMotorcycleOldBVHandlebars"/>
+<item name="vehicleTruck4x4OldBVChassis"/>
+<item name="vehicleTruck4x4OldBVAccessories"/>
+<item name="vehicleGyrocopterOldBVChassis"/>
+<item name="vehicleGyrocopterOldBVAccessories"/>
+<item name="vehicleBoxTruckchassis"/>
+<item name="vehicleBoxTruckbody"/>
+<item name="vehicleBRDM2chassis"/>
+<item name="vehicleBRDM2accessories"/>
+<item name="vehicleBuggychassis"/>
+<item name="vehicleBuggyaccessories"/>
+<item name="vehicleChargerchassis"/>
+<item name="vehicleChargeraccessories"/>
+<item name="vehicleCruiserchassis"/>
+<item name="vehicleCruiserbars"/>
+<item name="vehicleDirtBikeChassis"/>
+<item name="vehicleDirtBikeParts"/>
+<item name="vehicleDusterchassis"/>
+<item name="vehicleDusteraccessories"/>
+<item name="vehicleGNXchassis"/>
+<item name="vehicleGNXaccessories"/>
+<!-- <item name="vehicleGolfCartchassis"/>
+<item name="vehicleGolfCartaccessories"/> -->
+<item name="vehicleHotRodchassis"/>
+<item name="vehicleHotRodaccessories"/>
+<item name="vehicleHumveechassis"/>
+<item name="vehicleHumveebody"/>
+<item name="vehicleJunkerChassis"/>
+<item name="vehicleJunkerbars"/>
+<item name="vehicleLMTVchassis"/>
+<item name="vehicleLMTVbody"/>
+<item name="vehicleMarauderchassis"/>
+<item name="vehicleMarauderaccessories"/>
+<item name="vehicleMD500chassis"/>
+<item name="vehicleMD500accessories"/>
+<item name="vehicleMRAPparts"/>
+<item name="vehicleMRAPaccessories"/>
+<item name="vehicleNovachassis"/>
+<item name="vehicleNovaaccessories"/>
+<item name="vehicleOldSemichassis"/>
+<item name="vehicleOldSemibody"/>
+<item name="vehiclePickupchassis"/>
+<item name="vehiclePickupaccessories"/>
+<item name="vehicleRatChassis"/>
+<item name="vehicleRatbars"/>
+<item name="vehicleSHERPchassis"/>
+<item name="vehicleSHERPaccessories"/>
+<item name="vehicleStallionchassis"/>
+<item name="vehicleStallionaccessories"/>
+<item name="vehicleTrophyTruckchassis"/>
+<item name="vehicleTrophyTruckbody"/>
+<item name="vehicleUAZ452chassis"/>
+<item name="vehicleUAZaccessories"/>
+<item name="vehicleUH60chassis"/>
+<item name="vehicleUH60accessories"/>
+<item name="vehicleWorkTruckchassis"/>
+<item name="vehicleWorkTruckaccessories"/>
+
+<!-- Mods -->
+<item name="modVehicleHumveeDoors"/>
+<item name="modVehicleFuelSaver"/>
+<item name="modVehicleOffRoadHeadlights"/>
+<item name="modVehicleSuperCharger"/>
+<item name="modVehicleExpandedSeat"/>
+<item name="modVehicleReserveFuelTank"/>
+<item name="modVehiclePlow"/>
+<item name="modVehicleArmor"/>
+
+</insertBefore>
+
+<!-- Remove vehicles from traderGeneral group to avoid duplication. This may mean that traders will never carry complete vehicles.-->
+<remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']/item[@group='groupVehicles']" />
+
+</if>
+</conditional>
+
+</BuyOnDayOne>
