@@ -8,6 +8,11 @@
 		</traderstage_template>
 </append>
 
+<remove xpath="/traders/trader_item_groups/trader_item_group[@name='groupHorses']"/>
+
+
+<remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']/item[@group='groupHorses']"/>
+
 <!-- Set all horses to be always for sale. -->
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
 			<item name="vehicleLightBrownHorsePlaceable"/>
@@ -16,5 +21,10 @@
 			<item name="vehicleWhiteDotHorsePlaceable"/>
 			<item name="vehicleWhiteHorsePlaceable"/>
 			<item name="vehicleYellowHorsePlaceable"/>
+			
+<!-- add all the items in the new groupHorses item group		 -->
+			<!-- <item group="groupHorses" unique_only="true" count="1"/> -->
+			<!-- <item group="groupHorses" unique_only="true" count="6"/>			 -->
+			
 </append>
 </BuyTelricsHorsesOnDayOne>
