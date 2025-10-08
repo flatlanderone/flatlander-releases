@@ -24,8 +24,8 @@ https://www.nexusmods.com/7daystodie/mods/8512
 
 https://www.nexusmods.com/7daystodie/mods/8456
 
-## Buy On Day One (BODO) mods 
-<a name="bodo"></a>
+## Buy On Day One (BODO) mods <a name="bodo"></a>
+
 ### Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0
 
 https://www.nexusmods.com/7daystodie/mods/8565
