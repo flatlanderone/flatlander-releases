@@ -57,11 +57,12 @@ https://www.nexusmods.com/7daystodie/mods/8357
 
 ## Optional mods for other mods and overhauls
 
-### For the Wild West Mod <a name="wwm"></a>
+<!-- ### For the Wild West Mod 
+#### Buy On Day One for the Wild West Mod
+#### Steam Engines Run On Coal
+#### Feed Your Horses
 
-### Buy On Day One - Wild West Mod
-### Steam Engines Run On Coal
-### Feed Your Horses
+ --><a name="wwm"></a>
 
 # My Utility Modlets and Other Tools
 
