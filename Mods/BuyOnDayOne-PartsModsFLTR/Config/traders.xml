@@ -1,0 +1,83 @@
+<BuyVehiclesModsPartsOnDayOne>
+
+<!-- Approach
+1. Set items to be for sale at all game stages in traders.xml.
+2. Set items to be always for sale by adding them to traderAlways trader_item_group in traders.xml.
+3. If needed (e.g. because traderstage_template too extensive), create new traderstage_template with distinct attribute (e.g. partVehicleFLTR or modVehicleFLTR) in traders.xml and apply new attribute to items in items.xml and item_modifiers.xml. -->
+
+
+<!-- This mod will switch off if Buy On Day One - Vanilla Vehicles, Mods and Parts is loaded. -->
+<conditional>
+<if cond="mod_loaded('BuyOnDayOneVehiclesModsPartsFLTR') == false">
+
+<!-- *** VANILLA VEHICLE PARTS (Chassis, Handlebars and Accessories) -->
+
+<!-- Set all vehicle parts to be for sale at all game stages. Using partVehicleFLTR to target vehicle parts. partVehicleFLTR is set in items.xml -->
+<append xpath="/traders/traderstage_templates">
+	<traderstage_template name="partVehicleFLTR">
+		<entry min="1" max="999999" quality="0"/>
+	</traderstage_template>
+</append>
+
+<!-- Set bicycle and mminibike parts to be always for sale. Engine and wheels are still available in rareTools group. -->
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+<!-- *** BICYCLE PARTS -->
+	<item name="vehicleBicycleChassis"/>
+	<item name="vehicleBicycleHandlebars"/>
+<!-- *** MINIBIKE PARTS -->
+	<item name="vehicleMinibikeChassis"/>
+	<item name="vehicleMinibikeHandlebars"/>
+</append>
+
+<!-- *** VANILLA VEHICLE MODS -->
+
+<!-- Set all Vehicle mods to be for sale at all game stages. modVehicleFLTR is set in item_modifiers.xml  -->
+
+<!-- NOTE: In vanilla, only vehicle mod schematics are for sale. Mods must be looted or crafted. Oversight?   -->
+
+<append xpath="/traders/traderstage_templates">
+	<traderstage_template name="modVehicleFLTR">
+		<entry min="1" max="999999" quality="0"/>
+	</traderstage_template>
+</append>
+
+<!-- *** WHEELS -->
+
+<!-- Add wheels to rareTools group to maintain their availability. -->
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+	<item name="vehicleWheels"/>
+</append>
+
+<!-- *** Reinforce Trader Bob's specialty. He has all the vehicle parts and all the vehicle mods.-->
+
+<remove xpath="/traders/trader_info[@id='6']/trader_items/item[@group='groupVehicles']" />
+
+<insertBefore xpath="/traders/trader_info[@id='6']/trader_items/item[@group='traderRobotics']">
+	<item name="vehicleMotorcycleChassis"/>
+	<item name="vehicleMotorcycleHandlebars"/>
+	<!-- *** 4x4 PARTS -->
+	<item name="vehicleTruck4x4Chassis"/>
+	<item name="vehicleTruck4x4Accessories"/>
+	<!-- *** GYRO PARTS -->
+	<item name="vehicleGyroCopterChassis"/>
+	<item name="vehicleGyroCopterAccessories"/>
+	<!-- *** VEHICLE MODS -->
+	<item name="modVehicleFuelSaver"/>
+	<item name="modVehicleOffRoadHeadlights"/>
+	<item name="modVehicleSuperCharger"/>
+	<item name="modVehicleExpandedSeat"/>
+	<item name="modVehicleReserveFuelTank"/>
+	<item name="modVehiclePlow"/>
+	<item name="modVehicleArmor"/>
+	<!-- *** END OF EDIT -->					
+</insertBefore>
+
+<!-- Remove vehicles from traderGeneral group to avoid duplication. This may mean that traders will never carry complete vehicles.-->
+<remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']/item[@group='groupVehicles']" />
+
+</if>
+</conditional>
+
+
+</BuyVehiclesModsPartsOnDayOne>
