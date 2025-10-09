@@ -33,20 +33,16 @@ https://www.nexusmods.com/7daystodie/mods/8357
 
 ### Buy On Day One Mods for Bdub's Vehicles 2.0 
 
-#### Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0
-
+- Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0
 https://www.nexusmods.com/7daystodie/mods/8565
 
-#### Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (No Mechanic Trader)
-
+- Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (No Mechanic Trader)
 https://www.nexusmods.com/7daystodie/mods/8566
 
-#### Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
-
+- Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
 https://www.nexusmods.com/7daystodie/mods/8581
 
-#### Buy On Day One - Trader Bob Addon for BODO - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
-
+- Buy On Day One - Trader Bob Addon for BODO - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
 Optional file: https://www.nexusmods.com/7daystodie/mods/8581?tab=files
 
 ### Buy On Day One - (TMO) ServerSide Vehicles
@@ -64,9 +60,9 @@ https://www.nexusmods.com/7daystodie/mods/8813 -->
 ## Optional mods for other mods and overhauls
 ### Wild West Mod  <a name="wwm"></a>
 <!-- ### For the Wild West Mod 
-#### Buy On Day One for the Wild West Mod
-#### Steam Engines Run On Coal
-#### Feed Your Horses
+- Buy On Day One for the Wild West Mod
+- Steam Engines Run On Coal
+- Feed Your Horses
 
  -->
 # My Utility Modlets and Other Tools
@@ -76,25 +72,27 @@ https://www.nexusmods.com/7daystodie/mods/8769
 
 ## Contents
 
-### Any Starting Trader
+- Any Starting Trader
 
-### Any Starting Trader - No Desert
+- Any Starting Trader - No Desert
 
-### Bigger Crafting Resources Pack On Spawn
+- Bigger Crafting Resources Pack On Spawn
 
-### Dummy Mod To Test Conditionals
+- Dummy Mod To Test Conditionals
 
-### Restock Trader Inventory
+- Restock Trader Inventory
 
-### Skip Basics of Survival Dev Note On Spawn
+- Skip Basics of Survival Dev Note On Spawn
 
-### Tester's Delight On Spawn
+- Tester's Delight On Spawn
 
-### Find Default Mods Folder Utility
+- Find Default Mods Folder Utility
 
-# My profiles
+# My profiles and socials
 
 - **Nexus Mods**: https://next.nexusmods.com/profile/flatlanderone/mods?gameId=1059
 
 - **GitHub**: https://github.com/flatlanderone
+
+- **Discord**: TBD
 
