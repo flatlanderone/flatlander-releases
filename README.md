@@ -15,7 +15,7 @@ https://www.nexusmods.com/7daystodie/mods/8764
 
 https://www.nexusmods.com/7daystodie/mods/8740
 
-## Rambling Man mods
+## Combat and weapon mods
 
 ### Rambling Man - Archery on the Road
 
