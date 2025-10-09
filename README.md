@@ -1,7 +1,7 @@
 <a name="top"></a>
 # My Gameplay Modlets
 
-## Quest mods 
+## Quest and QoL mods 
 
 ### Skip Basics of Survival Tutorial Challenges
 
@@ -27,19 +27,25 @@ https://www.nexusmods.com/7daystodie/mods/8456
 
 ## Buy On Day One (BODO) mods <a name="bodo"></a>
 
-### Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0
+### Buy On Day One - Vanilla Vehicle Parts and Mods
+
+https://www.nexusmods.com/7daystodie/mods/8357
+
+### Buy On Day One Mods for Bdub's Vehicles 2.0 
+
+#### Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0
 
 https://www.nexusmods.com/7daystodie/mods/8565
 
-### Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (No Mechanic Trader)
+#### Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (No Mechanic Trader)
 
 https://www.nexusmods.com/7daystodie/mods/8566
 
-### Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
+#### Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
 
 https://www.nexusmods.com/7daystodie/mods/8581
 
-### Buy On Day One - Trader Bob Addon for BODO - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
+#### Buy On Day One - Trader Bob Addon for BODO - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
 
 Optional file: https://www.nexusmods.com/7daystodie/mods/8581?tab=files
 
@@ -47,13 +53,13 @@ Optional file: https://www.nexusmods.com/7daystodie/mods/8581?tab=files
 
 https://www.nexusmods.com/7daystodie/mods/8378
 
-### Buy On Day One - Telrics Horses V2
+### Buy On Day One for Telrics Horses V2
 
 https://www.nexusmods.com/7daystodie/mods/8371
 
-### Buy On Day One - Vanilla Vehicle Parts and Mods
+<!-- ### Buy On Day One for the Wild West Mod
 
-https://www.nexusmods.com/7daystodie/mods/8357
+https://www.nexusmods.com/7daystodie/mods/8813 -->
 
 ## Optional mods for other mods and overhauls
 ### Wild West Mod  <a name="wwm"></a>
