@@ -1,0 +1,13 @@
+<bodowwm>
+<conditional>
+<if cond="mod_loaded('V2_WildWestMod') and mod_version('V2_WildWestMod') >= version(2,4,0,0)">
+
+<!-- Added `TCHorses` and `TCVehicles` trader categories.
+ -->
+	<append xpath="/ui_display_info/trader_category_display">
+		<trader_category name="TCVehicles" icon="ui_game_symbol_steamhorse" display_name="lblCategoryVehicles" />	
+		<trader_category name="TCMounts" icon="ui_game_symbol_horse" display_name="lblCategoryMounts" />		
+	</append>
+</if>
+</conditional>
+</bodowwm>

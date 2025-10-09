@@ -1,0 +1,58 @@
+<bodowwm>
+<conditional>
+<if cond="mod_loaded('V2_WildWestMod') and mod_version('V2_WildWestMod') >= version(2,4,0,0)">
+
+<!-- *** Set all mounts, vehicles and vehicle mods to be available for sale at all game stages. See items.xml and item_modifiers.xml. -->
+
+<!-- BodoCPVehicle -->
+	<append xpath="/traders/traderstage_templates">
+		<traderstage_template name="BodoCPvehicle">
+			<entry min="1" max="999999" quality="0"/>
+		</traderstage_template>
+	</append>
+
+<!-- BodoCPMod -->
+	<append xpath="/traders/traderstage_templates">
+		<traderstage_template name="BodoCPmodVeh">
+			<entry min="1" max="999999" quality="0"/>
+		</traderstage_template>
+	</append>
+
+<!-- *** Added all mounts and vehicles to the traderAlways group. -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+		<item name="vehicleBicyclePlaceable"/>
+		<item name="vehicleSteamVelocipedePlaceable"/>
+		<item name="vehicleSteamHorsePlaceable"/>
+		<item name="vehicleBalloon2Placeable"/>
+		<item name="vehicleBalloon3Placeable"/>
+		<item name="vehicleBalloon4Placeable"/>
+		<item name="vehicleWWMDinkyDonkeyPlaceable"/>
+		<item name="vehicleWWMDinkyRacingDonkeyPlaceable"/>
+		<item name="vehicleWWMHorseT1Placeable"/>
+		<item name="vehicleWWMHorseT2Placeable"/>
+		<item name="vehicleWWMHorseT3Placeable"/>
+		<!-- Mods -->
+		<item name="modVehicleFuelSaver"/>
+		<item name="modVehicleOffRoadHeadlights"/>
+		<item name="modVehicleSuperCharger"/>
+		<item name="modVehicleExpandedSeat"/>
+		<item name="modVehicleReserveFuelTank"/>
+		<item name="modVehiclePlow"/>
+		<item name="modVehicleArmor"/>			
+	</append>
+
+<!-- Removed groupVehicles from traderGeneral group to avoid duplication. -->
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']/item[@group='groupVehicles']" />
+
+<!-- Added wheels to rareTools group to maintain their availability. -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+		<item name="vehicleWheels"/>
+	</append>
+
+<!-- Removed groupVehicles from trader Bobs's inventory to avoid duplication.  -->
+	<remove xpath="/traders/trader_info[@id='6']/trader_items/item[@group='groupVehicles']" />
+
+</if>
+</conditional>
+
+</bodowwm>

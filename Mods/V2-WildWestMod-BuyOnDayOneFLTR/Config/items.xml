@@ -1,0 +1,48 @@
+<bodowwm>
+<conditional>
+<if cond="mod_loaded('V2_WildWestMod') and mod_version('V2_WildWestMod') >= version(2,4,0,0)">
+
+<!-- *** Changed TraderStageTemplate attribute to BodoCPvehicle. -->
+
+	<setattribute xpath="/items/item[@name='vehicleWWMDinkyDonkeyPlaceable' 
+	or @name='vehicleWWMDinkyRacingDonkeyPlaceable'
+	or @name='vehicleWWMHorseT1Placeable'
+	or @name='vehicleWWMHorseT2Placeable'
+	or @name='vehicleWWMHorseT3Placeable'
+	or @name='vehicleSteamVelocipedePlaceable'
+	or @name='vehicleSteamHorsePlaceable'
+	or @name='vehicleBalloon2Placeable'
+	or @name='vehicleBalloon3Placeable'
+	or @name='vehicleBalloon4Placeable' or @name='vehicleBicyclePlaceable']/property[@name='TraderStageTemplate']" name="value">BodoCPvehicle</setattribute>
+
+<!-- *** Set horse and donkey Trader category to TCMounts. -->
+
+	<append xpath="/items/item[@name='vehicleWWMHorseT1Placeable' or @name='vehicleWWMHorseT2Placeable' or @name='vehicleWWMHorseT3Placeable' or @name='vehicleWWMDinkyDonkeyPlaceable' or @name='vehicleWhiteHorsePlaceable' or @name='vehicleWWMDinkyRacingDonkeyPlaceable']">
+		<property name="Group" value="Science,TCMounts"/>
+	</append>
+
+<!-- *** Set other vehicles' Trader category to TCvehicles -->
+	<append xpath="/items/item[@name='vehicleSteamVelocipedePlaceable' or 
+	@name='vehicleSteamHorsePlaceable' or 
+	@name='vehicleBalloon2Placeable' or 
+	@name='vehicleBalloon3Placeable' or 
+	@name='vehicleBalloon4Placeable' or  @name='vehicleBicyclePlaceable']">
+		<property name="Group" value="Science,TCVehicles"/>
+	</append>
+
+<!-- 
+
+Use if WWm adds <property name="Group" value="Science,TCScience"/> to item properties:
+
+<set xpath="/items/item[@name='vehicleSteamVelocipedePlaceable' or 
+@name='vehicleSteamHorsePlaceable' or 
+@name='vehicleBalloon2Placeable' or 
+@name='vehicleBalloon3Placeable' or 
+@name='vehicleBalloon4Placeable']/property[@name='Group']/@value">Science,TCVehicles</set> 
+
+<set xpath="/items/item[@name='vehicleWWMHorseT1Placeable' or @name='vehicleWWMHorseT2Placeable' or @name='vehicleWWMHorseT3Placeable' or @name='vehicleWWMDinkyDonkeyPlaceable' or @name='vehicleWhiteHorsePlaceable' or @name='vehicleWWMDinkyRacingDonkeyPlaceable']/property[@name='Group']/@value">Science,TCHorses</set> 
+
+-->
+</if>
+</conditional>
+</bodowwm>

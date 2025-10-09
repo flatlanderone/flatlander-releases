@@ -1,0 +1,11 @@
+<bodowwm>
+<conditional>
+<if cond="mod_loaded('V2_WildWestMod') and mod_version('V2_WildWestMod') >= version(2,4,0,0)">
+
+<!-- Changed TraderStageTemplate attribute to BodoCPmodVeh. -->
+
+<setattribute xpath="/item_modifiers/item_modifier[starts-with(@name,'modVehicle')]/property[@name='TraderStageTemplate']" name="value">BodoCPmodVeh</setattribute>
+
+</if>
+</conditional>
+</bodowwm>
