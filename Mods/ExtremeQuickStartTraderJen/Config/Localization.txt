@@ -1,0 +1,182 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+trader_closestFTLR,POI,POIName,,x,the nearest Trader,,,,,,,,,,,,,
+
+
+// Player version (Quick Start)
+lblSpawnRandomRektHelipad,UI,Spawn Menu,x,,"Spawn in Trader Rekt's compound",,,,,,,,,,,,,
+lblSpawnRandomJenHelipad,UI,Spawn Menu,x,,"Spawn in Trader Jen's compound",,,,,,,,,,,,,
+lblSpawnRandomBobHelipad,UI,Spawn Menu,x,,"Spawn in Trader Bob's compound",,,,,,,,,,,,,
+lblSpawnRandomHughHelipad,UI,Spawn Menu,x,,"Spawn in Trader Hugh's compound",,,,,,,,,,,,,
+lblSpawnRandomJoelHelipad,UI,Spawn Menu,x,,"Spawn in Trader Joel's compound",,,,,,,,,,,,,
+
+quest_white_river_completion,Quest,Quest Info,,,"Look at what the cat brought in today, eh? Well, I'll be danged. You just might make it out there. But you need to make yourself useful and do a few jobs for me. Anyway, here's a little something to get you started.",,,,,,,,,,,,,
+
+quest_WhiteRiverCitizen1_description,Quest,Quest Info,,,"Welcome aboard, Survivor!\n\nLook around this White River Outpost, but don't forget to talk to the trader for any necessities and work.\n\nNoah",,,,,,,,,,,,,
+
+questRewardBasicsOfSurvivalBundle,items,Item,,,Starting Weapons and Armor Bundle,,,,,,,,,,,,,
+
+questRewardBasicsOfSurvivalBundleDesc,items,Item,,,"Primitive weapons, tools and armor. Not much, but better than nothing until you find better gear.",,,,,,,,,,,,,
+
+// quests
+
+q_goToPOI_teleport_to_traders,Quest,Quest Info,,,Teleporting to Traders,,,,,,,,,,,,,
+
+// rekt quest info Extreme Quick Start
+
+q_goToPOI_trader_rekt_helipadQS,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_rekt_helipadQS_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Rekt[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_rekt_helipadQS_subtitle,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_rekt_helipadQS_description,Quest,Quest Info,,,Skip all the tutorial quests and challenges and start your playthrough in Trader Rekt's compound.,,,,,,,,,,,,,
+
+// jen quest info Extreme Quick Start
+
+q_goToPOI_trader_jen_helipadQS,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_jen_helipadQS_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Rekt[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_jen_helipadQS_subtitle,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_jen_helipadQS_description,Quest,Quest Info,,,Skip all the tutorial quests and challenges and start your playthrough in Trader Jen's compound.,,,,,,,,,,,,,
+
+// bob quest info Extreme Quick Start
+
+q_goToPOI_trader_bob_helipadQS,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_bob_helipadQS_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Rekt[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_bob_helipadQS_subtitle,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_bob_helipadQS_description,Quest,Quest Info,,,Skip all the tutorial quests and challenges and start your playthrough in Trader Bob's compound.,,,,,,,,,,,,,
+
+// hugh quest info Extreme Quick Start
+
+q_goToPOI_trader_hugh_helipadQS,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_hugh_helipadQS_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Rekt[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_hugh_helipadQS_subtitle,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_hugh_helipadQS_description,Quest,Quest Info,,,Skip all the tutorial quests and challenges and start your playthrough in Trader Hugh's compound.,,,,,,,,,,,,,
+
+// joel quest info Extreme Quick Start
+
+q_goToPOI_trader_joel_helipadQS,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_joel_helipadQS_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Rekt[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_joel_helipadQS_subtitle,Quest,Quest Info,,,Extreme Quick Start,,,,,,,,,,,,,
+
+q_goToPOI_trader_joel_helipadQS_description,Quest,Quest Info,,,Skip all the tutorial quests and challenges and start your playthrough in Trader Joel's compound.,,,,,,,,,,,,,
+
+
+// ========================================================================
+// DEV TeleportToTradersDev Localizations
+// ========================================================================
+
+
+// rekt quest info
+
+// q_goToPOI_trader_rekt,Quest,Quest Info,,,Teleport to [DECEA3]Trader Rekt[-],,,,,,,,,,,,,
+
+// q_goToPOI_trader_rekt_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Rekt[-].,,,,,,,,,,,,,
+
+// q_goToPOI_trader_rekt_subtitle,Quest,Quest Info,,,Teleport to [DECEA3]Trader Rekt[-],,,,,,,,,,,,,
+
+// q_goToPOI_trader_rekt_description,Quest,Quest Info,,,Teleport to [DECEA3]Trader Rekt[-],,,,,,,,,,,,,
+
+
+// jen quest info
+
+q_goToPOI_trader_jen,Quest,Quest Info,,,Teleport to [DECEA3]Trader Jen[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_jen_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Jen[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_jen_subtitle,Quest,Quest Info,,,Teleport to [DECEA3]Trader Jen[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_jen_description,Quest,Quest Info,,,Teleport to [DECEA3]Trader Jen[-],,,,,,,,,,,,,
+
+// bob quest info
+
+q_goToPOI_trader_bob,Quest,Quest Info,,,Teleport to [DECEA3]Trader Bob[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_bob_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Bob[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_bob_subtitle,Quest,Quest Info,,,Teleport to [DECEA3]Trader Bob[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_bob_description,Quest,Quest Info,,,Teleport to [DECEA3]Trader Bob[-],,,,,,,,,,,,,
+
+
+// hugh quest info
+
+q_goToPOI_trader_hugh,Quest,Quest Info,,,Teleport to [DECEA3]Trader Hugh[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_hugh_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Hugh[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_hugh_subtitle,Quest,Quest Info,,,Teleport to [DECEA3]Trader Hugh[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_hugh_description,Quest,Quest Info,,,Teleport to [DECEA3]Trader Hugh[-],,,,,,,,,,,,,
+
+
+// joel quest info 
+
+q_goToPOI_trader_joel,Quest,Quest Info,,,Teleport to [DECEA3]Trader Joel[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_joel_offer,Quest,Quest Info,,,Click Accept to teleport to [DECEA3]Trader Joel[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_joel_subtitle,Quest,Quest Info,,,Teleport to [DECEA3]Trader Joel[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_joel_description,Quest,Quest Info,,,Teleport to [DECEA3]Trader Joel[-],,,,,,,,,,,,,
+
+// quest items
+
+qt_teleport_to_trader_navezgane_24_bundle
+
+qt_desc,items,Quest - Treasure Map,,,A ragged old treasure map I found with some scribbling on it.,,,,,,,,,,,,,
+
+// Navezgane teleport bundle
+
+qt_teleport_to_trader_navezgane_24_bundle,items,Quest - Treasure Map,,,Teleports for Navezgane Traders,,,,,,,,,,,,,
+
+qt_teleport_to_trader_navezgane_24_bundle_desc,items,Quest - Treasure Map,,,Open this bundle to obtain maps that will teleport you to the front door of the traders in the Navezgane world. Do not use in other worlds.,,,,,,,,,,,,,
+
+// helipad teleport bundle
+
+qt_teleport_to_trader_helipad_bundle,items,Quest - Treasure Map,,,Helipad Teleports for Traders,,,,,,,,,,,,,
+
+qt_teleport_to_trader_helipad_bundle_desc,items,Quest - Treasure Map,,,Open this bundle to obtain maps that will teleport you to the helipad of the chosen trader.,,,,,,,,,,,,,
+
+// teleport maps
+
+qt_teleport_to_trader_rekt_navezgane_24,items,Quest - Treasure Map,,,Teleport to Trader Rekt (front door),,,,,,,,,,,,,
+
+qt_teleport_to_trader_rekt_helipad,items,Quest - Treasure Map,,,Teleport to Trader Rekt (helipad),,,,,,,,,,,,,
+
+qt_teleport_to_trader_rekt_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Rekt.,,,,,,,,,,,,,
+
+qt_teleport_to_trader_jen_navezgane_24,items,Quest - Treasure Map,,,Teleport to Trader Jen (front door),,,,,,,,,,,,,
+
+qt_teleport_to_trader_jen_helipad,items,Quest - Treasure Map,,,Teleport to Trader Jen (helipad),,,,,,,,,,,,,
+
+qt_teleport_to_trader_jen_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Jen.,,,,,,,,,,,,,
+
+qt_teleport_to_trader_bob_navezgane_24,items,Quest - Treasure Map,,,Teleport to Trader Bob (front door),,,,,,,,,,,,,
+
+qt_teleport_to_trader_bob_helipad,items,Quest - Treasure Map,,,Teleport to Trader Bob (helipad),,,,,,,,,,,,,
+
+qt_teleport_to_trader_bob_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Bob.,,,,,,,,,,,,,
+
+qt_teleport_to_trader_hugh_navezgane_24,items,Quest - Treasure Map,,,Teleport to Trader Hugh (front door),,,,,,,,,,,,,
+
+qt_teleport_to_trader_hugh_helipad,items,Quest - Treasure Map,,,Teleport to Trader Hugh (helipad)),,,,,,,,,,,,,
+
+qt_teleport_to_trader_hugh_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Hugh.,,,,,,,,,,,,,
+
+qt_teleport_to_trader_joel_navezgane_24,items,Quest - Treasure Map,,,Teleport to Trader Joel (front door),,,,,,,,,,,,,
+
+qt_teleport_to_trader_joel_helipad,items,Quest - Treasure Map,,,Teleport to Trader Joel (helipad),,,,,,,,,,,,,
+
+qt_teleport_to_trader_joel_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Joel.,,,,,,,,,,,,,

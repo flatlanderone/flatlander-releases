@@ -1,0 +1,232 @@
+<ramblingman>
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
+
+<append xpath="/items">
+
+
+<!-- ***Starting Weapons and Armor Bundle -->
+
+<item name="questRewardBasicsOfSurvivalBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleBasicsOfSurvival"/>
+	<property name="ItemTypeIcon" value="bundle"/>	
+	<property name="CustomIconTint" value="66ccff"/>
+	<property name="DescriptionKey" value="questRewardBasicsOfSurvivalBundleDesc"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action0">
+		<property name="Create_item" value="meleeToolRepairT0StoneAxe,armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots,meleeWpnClubT0WoodenClub,gunBowT0PrimitiveBow,ammoArrowStone,meleeToolShovelT0StoneShovel"/>
+		<property name="Create_item_count" value="1,1,1,1,1,1,1,10,1"/>
+	</property>
+</item>
+
+<!-- Left for troubleshooting -->
+
+<!-- Navezgane 2.4 teleport map bundle.  -->
+
+<item name="qt_teleport_to_trader_navezgane_24_bundle">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_navezgane_24_bundle_desc"/>
+	<property name="CustomIcon" value="flagPoleTrader_bright"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="CustomIconTint" value="66ccff" />
+	<!-- <property name="ItemTypeIcon" value="treasure"/> -->
+	<property name="ItemTypeIcon" value="map_trader"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="EconomicValue" value="6000"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Resources"/>
+	<property name="SoundPickup" value="stone_grab"/>
+	<property name="SoundPlace" value="stone_place"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="qt_teleport_to_trader_rekt_navezgane_24,qt_teleport_to_trader_jen_navezgane_24,qt_teleport_to_trader_bob_navezgane_24,qt_teleport_to_trader_hugh_navezgane_24,qt_teleport_to_trader_joel_navezgane_24"/>
+		<property name="Create_item_count" value="50,50,50,50,50"/>
+	</property>
+</item>
+
+
+<!-- Helipad teleport map bundle. -->
+
+<item name="qt_teleport_to_trader_helipad_bundle">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_helipad_bundle_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="CustomIconTint" value="66ccff" />
+	<!-- <property name="ItemTypeIcon" value="treasure"/> -->
+	<property name="ItemTypeIcon" value="map_trader"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="EconomicValue" value="6000"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Resources"/>
+	<property name="SoundPickup" value="stone_grab"/>
+	<property name="SoundPlace" value="stone_place"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="qt_teleport_to_trader_rekt_helipad,qt_teleport_to_trader_jen_helipad,qt_teleport_to_trader_bob_helipad,qt_teleport_to_trader_hugh_helipad,qt_teleport_to_trader_joel_helipad"/>
+		<property name="Create_item_count" value="50,50,50,50,50"/>
+	</property>
+</item>
+
+<!-- Not used  -->
+<item name="qt_teleport_to_trader">
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI"/>
+	</property>
+</item>
+
+<!-- Rekt's teleport maps to his front door (Navezgane) and to the helipad. -->
+<item name="qt_teleport_to_trader_rekt_navezgane_24">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_rekt_desc"/>
+	<property name="CustomIcon" value="signTraderRektExteriorLarge"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="ItemTypeIcon" value="crops"/>
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_rekt_navezgane_24"/>
+	</property>
+</item>
+
+<item name="qt_teleport_to_trader_rekt_helipad">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_rekt_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="ItemTypeIcon" value="crops"/>
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_rekt_helipad"/>
+	</property>
+</item>
+
+<!-- Jen's teleport maps to her front door (Navezgane) and to the helipad. -->
+<item name="qt_teleport_to_trader_jen_navezgane_24">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_jen_desc"/>
+	<property name="CustomIcon" value="signTraderJenInterior"/>
+	<property name="ItemTypeIcon" value="medical"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_jen_navezgane_24"/>
+	</property>
+</item>
+
+<item name="qt_teleport_to_trader_jen_helipad">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_jen_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="ItemTypeIcon" value="medical"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_jen_helipad"/>
+	</property>
+</item>
+
+<!-- Bob's teleport maps to his front door (Navezgane) and to the helipad. -->
+<item name="qt_teleport_to_trader_bob_navezgane_24">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_bob_desc"/>
+	<property name="CustomIcon" value="signTraderBobExteriorLarge"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="ItemTypeIcon" value="4x4"/>	
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_bob_navezgane_24"/>
+	</property>
+</item>
+
+<item name="qt_teleport_to_trader_bob_helipad">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_bob_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="ItemTypeIcon" value="4x4"/>	
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_bob_helipad"/>
+	</property>
+</item>
+
+<!-- Hugh's teleport maps to his front door (Navezgane) and to the helipad. -->
+<item name="qt_teleport_to_trader_hugh_navezgane_24">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_hugh_desc"/>
+	<property name="CustomIcon" value="signTraderHughExterior"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="ItemTypeIcon" value="pistol"/>		
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_hugh_navezgane_24"/>
+	</property>
+</item>
+
+<item name="qt_teleport_to_trader_hugh_helipad">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_hugh_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="ItemTypeIcon" value="pistol"/>		
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_hugh_helipad"/>
+	</property>
+</item>
+
+<!-- Joel's teleport maps to his front door (Navezgane) and to the helipad. -->
+<item name="qt_teleport_to_trader_joel_navezgane_24">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_joel_desc"/>
+	<property name="CustomIcon" value="signTraderJoelExteriorLarge"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="ItemTypeIcon" value="armor_iron"/>			
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_joel_navezgane_24"/>
+	</property>
+</item>
+<item name="qt_teleport_to_trader_joel_helipad">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_joel_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<!-- <property name="CustomIconTint" value="ff7400" /> -->
+	<property name="ItemTypeIcon" value="armor_iron"/>			
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_joel_helipad"/>
+	</property>
+</item>
+
+</append>
+
+</if>
+</conditional>
+</ramblingman>

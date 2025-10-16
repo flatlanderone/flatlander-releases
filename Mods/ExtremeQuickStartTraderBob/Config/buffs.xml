@@ -1,0 +1,87 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
+
+<append xpath="/buffs">
+<!-- Attach fadetoblack to a buff. See gameevents.xml.   -->
+	<buff name="buff_fadetoblack" description="buff_fadetoblack" icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<!-- <duration value="5"/> -->
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="TeleportFadeToBlack" />
+		</effect_group>
+	</buff>	
+
+<!-- Attach fadetowhite to a buff. See gameevents.xml.  -->
+	<buff name="buff_fadetowhite" description="buff_fadetowhite" icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="TeleportFadeToWhite" />
+		</effect_group>
+	</buff>	
+	
+<!-- Attach action_AddTeleportToTraderQuest to a buff. See gameevents.xml. 	 -->
+
+	<buff name="buff_action_AddTeleportToTraderQuest" description="XXX." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_AddTeleportToTraderQuest" />
+		</effect_group>
+	</buff>		
+
+<!-- Add the White River Citizen quest to a buff. See gameevents.xml.  -->
+
+	<buff name="buff_action_Addquest_whiteRiverCitizen1" description="Starts the White River Citizen quest." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_Addquest_whiteRiverCitizen1" />
+		</effect_group>
+	</buff>		
+
+<!-- Attach game_player_skip_tutorial_challengesFTLR to a buff. See gameevents.xml.  -->
+	<buff name="buff_Skip_Tutorial_Challenges_FTLR" description="Skips tutorial challenges." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="game_player_skip_tutorial_challengesFTLR" />
+		</effect_group>
+	</buff>		
+	
+<!-- Attach action_AddItemsBasicsoFSurvivalFTLR to a buff. See gameevents.xml.	 -->
+	<buff name="buff_action_AddItemsBasicsoFSurvivalFTLR" description="Adds startings weapons and armor to inventory." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_AddItemsBasicsoFSurvivalFTLR" />
+		</effect_group>
+	</buff>		
+
+<!-- Attach action_AddItemsBasicsoFSurvivalBundleFTLR to a buff. See gameevents.xml.	 -->		
+	<buff name="buff_action_AddItemsBasicsoFSurvivalBundleFTLR" description="Adds a bundle with starting weapons and armor to inventory." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_AddItemsBasicsoFSurvivalBundleFTLR" />
+		</effect_group>
+	</buff>		
+	
+<!-- Attach action_CompleteIntroBuriedSupplies to a buff. See gameevents.xml.	 -->	
+	<buff name="buff_action_CompleteIntroBuriedSupplies" description="Sets IntroBuriedSupplies as completed." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_CompleteIntroBuriedSupplies" />
+		</effect_group>
+	</buff>			
+	
+</append>
+
+</if>
+</conditional>
+
+</RamblingMan>		

@@ -1,0 +1,20 @@
+﻿<ramblingman>
+
+<!-- Teleport Quest action added to 0-SCore in version 2,4,11,1222 -->
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
+
+
+<!-- <set xpath="/windows/window[@name='spawnselection']/rect[@name='buttons']/table[@name='content']/simplebutton[@name='btnSpawnFirstTime']/@caption_key">lblSpawnRandomRektHelipad</set> -->
+
+<!-- <set xpath="/windows/window[@name='spawnselection']/rect[@name='buttons']/table[@name='content']/simplebutton[@name='btnSpawnFirstTime']/@caption_key">lblSpawnRandomJenHelipad</set> -->
+<set xpath="/windows/window[@name='spawnselection']/rect[@name='buttons']/table[@name='content']/simplebutton[@name='btnSpawnFirstTime']/@caption_key">lblSpawnRandomBobHelipad</set>
+<!-- <set xpath="/windows/window[@name='spawnselection']/rect[@name='buttons']/table[@name='content']/simplebutton[@name='btnSpawnFirstTime']/@caption_key">lblSpawnRandomHughHelipad</set> -->
+<!-- <set xpath="/windows/window[@name='spawnselection']/rect[@name='buttons']/table[@name='content']/simplebutton[@name='btnSpawnFirstTime']/@caption_key">lblSpawnRandomJoelHelipad</set> -->
+
+
+
+
+</if>
+</conditional>
+</ramblingman>

@@ -1,0 +1,106 @@
+<ramblingman>
+
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
+
+<!-- Remove the Duke Note tooltip and status entry. -->
+<remove xpath="/gameevents/action_sequence[@name='game_first_spawn']" />
+
+<!-- Remove quest_whiteRiverCitizen1 from challenge_group_reward_basics. This is triggered in quests.xml with a buff. -->
+<remove xpath="/gameevents/action_sequence[@name='challenge_group_reward_basics']/action[@class='AddQuest']" />
+
+
+<!-- Add FadeToBlack and FadeToWhite game events. -->
+<append xpath="/gameevents">
+	<action_sequence name="TeleportFadeToBlack">
+		<action class="SetScreenEffect">
+			<property name="phase" value="1" />
+			<property name="screen_effect" value="FadeToBlack" />
+			<property name="intensity" value="1" />
+			<!-- <property name="fade_time" value="0.05" /> -->
+			<property name="fade_time" value="1" />
+		</action>
+	</action_sequence>
+	
+	<action_sequence name="TeleportFadeToWhite">
+			<action class="SetScreenEffect">
+				<property name="phase" value="1" />
+				<property name="screen_effect" value="FadeToBlack" />
+				<property name="intensity" value="0" />
+				<property name="fade_time" value="4" />
+			</action>
+	</action_sequence>
+
+
+<!-- Add teleport to trader event. Attach the event to a buff in buffs.xml. Trigger the buff on first spawn in entityclasses.xml.
+ -->
+	<action_sequence name="action_AddTeleportToTraderQuest">
+		<action class="AddQuest">
+			<property name="phase" value="1" />
+			<!-- <property name="quest" value="q_goToPOI_trader_rekt_helipadQS" /> -->
+			<!-- <property name="quest" value="q_goToPOI_trader_jen_helipadQS" /> -->
+			<!-- <property name="quest" value="q_goToPOI_trader_bob_helipadQS" /> -->
+			<!-- <property name="quest" value="q_goToPOI_trader_hugh_helipadQS" /> -->
+			<property name="quest" value="q_goToPOI_trader_joel_helipadQS" />
+		</action>	
+	</action_sequence> 
+
+
+<!-- Add WRC via buff at the end of Teleport -->
+
+	<action_sequence name="action_Addquest_whiteRiverCitizen1">
+		<action class="AddQuest">
+			<property name="phase" value="1" />
+			<property name="quest" value="quest_whiteRiverCitizen1" />
+		</action>	
+	</action_sequence> 
+
+
+<!-- Autocomplete and redeem Basics of Survival Tutorial Challenges. Attach the event to a buff in buffs.xml. Trigger the buff on first spawn in entityclasses.xml. -->	
+	<action_sequence name="game_player_skip_tutorial_challengesFTLR">
+		<action class="CompleteChallenge">
+			<property name="challenges" value="redeemChallenge,gatherResources,craftStoneAxe,gatherResourcesStoneAxe,craftClothes,wearClothes,craftWoodClub,craftBow,craftArrows,groupCompleteChallenge" />
+			<property name="force_redeem" value="true" />
+		</action>
+	</action_sequence>
+
+<!-- Add items from the BoS Tutorial Challenge. Attach the event to a buff in buffs.xml. Trigger the buff on first spawn in entityclasses.xml. -->
+
+	<action_sequence name="action_AddItemsBasicsoFSurvivalFTLR">
+		<action class="AddItems">
+			<!-- <property name="phase" value="1" /> -->
+			<!-- <property name="on_complete" value="true"/> -->
+			<property name="added_items" value="meleeToolRepairT0StoneAxe,armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots,meleeWpnClubT0WoodenClub,gunBowT0PrimitiveBow,ammoArrowStone,meleeToolShovelT0StoneShovel" />
+			<property name="added_item_counts" value="1,1,1,1,1,1,1,10,1" />
+		</action>	
+	</action_sequence>	
+
+
+<!-- Add questRewardBasicsOfSurvivalBundle item bundle from the BoS Tutorial Challenge. Attach the event to a buff in buffs.xml. Trigger the buff on first spawn in entityclasses.xml. -->
+
+	<action_sequence name="action_AddItemsBasicsoFSurvivalBundleFTLR">
+		<action class="AddItems">
+			<!-- <property name="phase" value="1" /> -->
+			<!-- <property name="on_complete" value="true"/> -->
+			<property name="added_items" value="questRewardBasicsOfSurvivalBundle" />
+			<property name="added_item_counts" value="1" />
+		</action>	
+	</action_sequence>	
+
+
+
+
+	<action_sequence name="action_CompleteIntroBuriedSupplies">
+		<!-- WAS: <action class="SetCVar"> -->
+		<action class="ModifyCVar">
+			<property name="cvar" value="IntroComplete"/>
+			<property name="value" value="1"/>
+		</action>	
+	</action_sequence> 
+	
+</append>
+
+</if>
+</conditional>
+
+</ramblingman>

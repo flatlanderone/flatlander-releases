@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ExtremeQuickStartTraderJoel" /> <!-- no spaces -->
+	<DisplayName value="ExtremeQuickStart - Trader Joel" />
+	<Description value="Skip all the tutorial challenges (Basics of Survival) and quests (Journey to Settlement and Intro Buried Supplies) and start your adventures on the helipad in Trader Joel's compound." />
+	<Author value="flatlander" />
+	<Version value="2.4.1.0" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>
