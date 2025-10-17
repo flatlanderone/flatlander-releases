@@ -3,6 +3,10 @@
 
 ## Quest and QoL mods 
 
+### [New] Extreme Quick Start - Trader Rekt / Trader Jen / Trader Bob / Trader Hugh / Trader Joel 
+
+https://www.nexusmods.com/7daystodie/mods/8856
+
 ### Skip Basics of Survival Tutorial Challenges
 
 https://www.nexusmods.com/7daystodie/mods/8772
