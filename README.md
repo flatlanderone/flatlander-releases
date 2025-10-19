@@ -1,9 +1,13 @@
 <a name="top"></a>
-# My Gameplay Modlets
+# My Gameplay modlets
 
 ## Quest and QoL mods 
 
-### [New] Extreme Quick Start - Trader Rekt / Trader Jen / Trader Bob / Trader Hugh / Trader Joel 
+### Hotfix for Intro Buried Supplies not offered by first trader (unofficial) 
+
+https://www.nexusmods.com/7daystodie/mods/8871
+
+### Extreme Quick Start - Trader Rekt / Trader Jen / Trader Bob / Trader Hugh / Trader Joel 
 
 https://www.nexusmods.com/7daystodie/mods/8856
 
@@ -88,9 +92,8 @@ https://www.nexusmods.com/7daystodie/mods/8769
 
 # My profiles and socials
 
-- **Nexus Mods**: https://next.nexusmods.com/profile/flatlanderone/mods?gameId=1059
+- **Nexus Mods**: https://next.nexusmods.com/profile/flatlanderone
 
 - **GitHub**: https://github.com/flatlanderone
 
-- **Discord**: TBD
 
