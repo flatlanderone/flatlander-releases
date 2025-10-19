@@ -1,0 +1,6 @@
+<RamblingMan>
+
+<!-- Remove intro buried supplies from Traders. -->
+<remove xpath="/quests/quest_list[@id='trader_rekt_quests' or @id='trader_jen_quests' or @id='trader_bob_quests' or@id='trader_hugh_quests' or @id='trader_joel_quests']/quest[@id='intro_buried_supplies']"/>
+
+</RamblingMan>

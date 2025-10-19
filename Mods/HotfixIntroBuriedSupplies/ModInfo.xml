@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="RamblingManSkipIntroBuriedSupplies" /> <!-- no spaces -->
+	<DisplayName value="Skip Intro Buried Supplies" />
+	<Description value="Skip the Intro Buried Supplies quest. Get the Pipe Weapon Bundle for completing the Basics of Survival challenges." />
+	<Author value="flatlander" />
+	<Version value="2.4.1.0" />
+	<Website value="https://github.com/flatlanderone/flatlander-modding" />
+</xml>

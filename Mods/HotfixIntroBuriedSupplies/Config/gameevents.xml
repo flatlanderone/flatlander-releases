@@ -1,0 +1,13 @@
+<ramblingman>
+
+<append xpath="/gameevents">
+	<action_sequence name="action_CompleteIntroBuriedSupplies">
+		<!-- WAS: <action class="SetCVar"> -->
+		<action class="ModifyCVar">
+			<property name="cvar" value="IntroComplete"/>
+			<property name="value" value="1"/>
+		</action>	
+	</action_sequence> 
+</append>
+
+</ramblingman>
