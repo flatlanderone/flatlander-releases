@@ -2,7 +2,11 @@
 
 ## Quest mods 
 
-##E Extreme Quick Start
+### Hotfix for Intro Buried Supplies not offered by first trader (unofficial) 
+
+https://www.nexusmods.com/7daystodie/mods/8871
+
+### Extreme Quick Start
 
 https://www.nexusmods.com/7daystodie/mods/8856
 
