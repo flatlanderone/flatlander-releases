@@ -2,6 +2,10 @@
 
 ## Quest mods 
 
+##E Extreme Quick Start
+
+https://www.nexusmods.com/7daystodie/mods/8856
+
 ### Skip Intro Buried Supplies
 
 https://www.nexusmods.com/7daystodie/mods/8764
@@ -54,22 +58,6 @@ https://www.nexusmods.com/7daystodie/mods/8357
 
 ## Flatlander's Utility Modlet Pack
 https://www.nexusmods.com/7daystodie/mods/8769
-
-## Contents
-
-### Any Starting Trader
-
-### Any Starting Trader - No Desert
-
-### Bigger Crafting Resources Pack On Spawn
-
-### Dummy Mod To Test Conditionals
-
-### Restock Trader Inventory
-
-### Skip Basics of Survival Dev Note On Spawn
-
-### Tester's Delight On Spawn
 
 # My profiles
 
