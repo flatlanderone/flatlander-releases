@@ -88,6 +88,8 @@ https://www.nexusmods.com/7daystodie/mods/8769
 
 - Tester's Delight On Spawn
 
+- Teleport To Traders
+
 - Find Default Mods Folder Utility
 
 # My profiles and socials
