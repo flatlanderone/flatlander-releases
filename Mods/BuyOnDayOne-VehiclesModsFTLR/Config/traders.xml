@@ -1,9 +1,8 @@
 <bodovanilla>
 
 <!-- 7 Days To Die 2.5 required -->
-<!-- This mod will switch off if Buy On Day One - Vanilla Vehicles and Mods is loaded. -->
 <conditional>
-<if cond="game_version() >= version(1,2,5) and mod_loaded('BODO-VanillaVehiclesMods') == false" >
+<if cond="game_version() >= version(1,2,5)" >
 
 <!-- Approach
 1. Set items to be for sale at all game stages in traders.xml.
@@ -11,25 +10,21 @@
 3. If needed (e.g. because traderstage_template is too extensive), create new traderstage_template with distinct attributes (e.g. partVehicleFLTR or modVehicleFLTR) in traders.xml and apply new attribute to items in items.xml and item_modifiers.xml. -->
 
 
-<!-- *** VANILLA VEHICLE PARTS (Chassis, Handlebars and Accessories) -->
+<!-- *** VANILLA VEHICLES -->
 
-<!-- Set all vehicle parts to be for sale at all game stages. Using partVehicleFLTR to target vehicle parts. partVehicleFLTR is set in items.xml -->
-<append xpath="/traders/traderstage_templates">
-	<traderstage_template name="partVehicleFLTR">
-		<entry min="1" max="999999" quality="0"/>
-	</traderstage_template>
-</append>
+<!-- Set all vehicles to be for sale at all game stages. -->
+<set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier0' or @name='vehicleTier1' or @name='vehicleTier2' or @name='vehicleTier3' or @name='vehicleTier4' or @name='vehicleTier5']">
+	<entry min="1" max="999999" quality="0"/>
+</set>
 
-<!-- Set bicycle and minibike parts to be always for sale. Engine and wheels are still available in rareTools group. -->
+<!-- Set bicycles and minibikes to be always for sale. Engine and wheels are still available in rareTools group. -->
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
-<!-- *** BICYCLE PARTS -->
-	<item name="vehicleBicycleChassis"/>
-	<item name="vehicleBicycleHandlebars"/>
-<!-- *** MINIBIKE PARTS -->
-	<item name="vehicleMinibikeChassis"/>
-	<item name="vehicleMinibikeHandlebars"/>
-	<!-- *** VEHICLE MODS -->
+<!-- *** BICYCLE -->
+	<item name="vehicleBicyclePlaceable"/>
+<!-- *** MINIBIKE -->
+	<item name="vehicleMinibikePlaceable"/>
+<!-- *** VEHICLE MODS -->
 	<item name="modVehicleStorage"/>	
 </append>
 
@@ -52,21 +47,18 @@
 	<item name="vehicleWheels"/>
 </append>
 
-<!-- *** Reinforce Trader Bob's specialty. He has parts for all the all the vehicles and all the vehicle mods.-->
+<!-- *** Reinforce Trader Bob's specialty. He has all the vehicles and all the vehicle mods.-->
 
 <remove xpath="/traders/trader_info[@id='6']/trader_items/item[@group='groupVehicles']" />
 
 <insertBefore xpath="/traders/trader_info[@id='6']/trader_items/item[@group='traderRobotics']">
-<!-- *** MOTORCYCLE PARTS -->	
-	<item name="vehicleMotorcycleChassis"/>
-	<item name="vehicleMotorcycleHandlebars"/>
-	<!-- *** 4x4 PARTS -->
-	<item name="vehicleTruck4x4Chassis"/>
-	<item name="vehicleTruck4x4Accessories"/>
-	<!-- *** GYRO PARTS -->
-	<item name="vehicleGyroCopterChassis"/>
-	<item name="vehicleGyroCopterAccessories"/>
-	<!-- *** VEHICLE MODS -->
+<!-- *** MOTORCYCLE -->	
+	<item name="vehicleMotorcyclePlaceable"/>
+<!-- *** 4x4 -->
+	<item name="vehicleTruck4x4Placeable"/>
+<!-- *** GYRO -->
+	<item name="vehicleGyrocopterPlaceable"/>
+<!-- *** VEHICLE MODS -->
 	<item name="modVehicleArmor"/>
 	<item name="modVehicleExpandedSeat"/>
 	<item name="modVehicleFuelSaver"/>
@@ -79,7 +71,7 @@
 	<!-- *** END OF EDIT -->					
 </insertBefore>
 
-<!-- Remove vehicles from traderGeneral group to avoid duplication. This may mean that traders will never carry complete vehicles.-->
+<!-- Remove vehicles from traderGeneral group to avoid duplication. -->
 <remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']/item[@group='groupVehicles']" />
 
 </if>

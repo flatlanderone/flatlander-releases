@@ -1,0 +1,13 @@
+<bodovanilla>
+
+<!-- 7 Days To Die 2.5 required -->
+<conditional>
+<if cond="game_version() >= version(1,2,5)" >
+
+<!-- *** Set Trader category for vehicles and vehicle parts to TCvehicles. See ui_display.xml. -->
+
+<setattribute xpath="/items/item[@name='vehicleMinibikePlaceable' or @name='vehicleWheels' or @name='smallEngine']/property[@name='Group']" name="value">Science,TCVehicles</setattribute>
+
+</if>
+</conditional>
+</bodovanilla>

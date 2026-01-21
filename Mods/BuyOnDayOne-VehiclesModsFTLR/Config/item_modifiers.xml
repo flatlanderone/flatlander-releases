@@ -1,9 +1,8 @@
 <bodovanilla>
 
 <!-- 7 Days To Die 2.5 required -->
-<!-- This mod will switch off if Buy On Day One - Vanilla Vehicles and Mods is loaded. -->
 <conditional>
-<if cond="game_version() >= version(1,2,5) and mod_loaded('BODO-VanillaVehiclesMods') == false" >
+<if cond="game_version() >= version(1,2,5)" >
 
 <!-- *** VANILLA VEHICLE MODS -->
 

@@ -1,0 +1,17 @@
+<bodovanilla>
+
+<!-- 7 Days To Die 2.5 required -->
+<!-- This mod will switch off if Buy On Day One - Vanilla Vehicles and Mods is loaded. -->
+<conditional>
+<if cond="game_version() >= version(1,2,5) and mod_loaded('BODO-VanillaVehiclesMods') == false" >
+<!-- Added new trader categories.
+ -->
+	<append xpath="/ui_display_info/trader_category_display">
+		<trader_category name="TCVehicles" icon="ui_game_symbol_4x4" display_name="lblCategoryVehicles" />	
+		<trader_category name="TCMounts" icon="ui_game_symbol_horse" display_name="lblCategoryMounts" />		
+		<trader_category name="TCVehParts" icon="ui_game_symbol_service" display_name="lblCategoryVehParts" />		
+	</append>
+</if>
+</conditional>	
+	
+</bodovanilla>

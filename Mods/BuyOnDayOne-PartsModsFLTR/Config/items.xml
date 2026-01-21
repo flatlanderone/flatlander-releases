@@ -1,8 +1,9 @@
-<BuyVehiclesModsPartsOnDayOne>
+<bodovanilla>
 
-<!-- This mod will switch off if Buy On Day One - Vanilla Vehicles, Mods and Parts is loaded. -->
+<!-- 7 Days To Die 2.5 required -->
+<!-- This mod will switch off if Buy On Day One - Vanilla Vehicles and Mods is loaded. -->
 <conditional>
-<if cond="mod_loaded('BuyOnDayOneVehiclesModsPartsFLTR') == false">
+<if cond="game_version() >= version(1,2,5) and mod_loaded('BODO-VanillaVehiclesMods') == false" >
 
 <!-- *** VANILLA VEHICLE PARTS (Chassis, Handlebars and Accessories) -->
 
@@ -10,6 +11,10 @@
 
 <setattribute xpath="/items/item[@name='vehicleBicycleHandlebars' or @name='vehicleBicycleChassis' or @name='vehicleMinibikeHandlebars' or @name='vehicleMinibikeChassis' or @name='vehicleMotorcycleHandlebars' or @name='vehicleMotorcycleChassis' or @name='vehicleTruck4x4Accessories' or @name='vehicleTruck4x4Chassis' or @name='vehicleGyroCopterAccessories' or @name='vehicleGyroCopterChassis']/property[@name='TraderStageTemplate']" name="value">partVehicleFLTR</setattribute>
 
+<!-- *** Set Trader category for vehicles and vehicle parts to TCvehicles. See ui_display.xml. -->
+
+<setattribute xpath="/items/item[@name='vehicleMinibikePlaceable' or @name='vehicleWheels' or @name='smallEngine']/property[@name='Group']" name="value">Science,TCVehicles</setattribute>
+
 </if>
 </conditional>
-</BuyVehiclesModsPartsOnDayOne>
+</bodovanilla>
