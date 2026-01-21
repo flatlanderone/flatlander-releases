@@ -35,6 +35,10 @@ https://www.nexusmods.com/7daystodie/mods/8456
 
 ## Buy On Day One (BODO) mods <a name="bodo"></a>
 
+### Buy On Day One - Vanilla Vehicle and Mods (new)
+
+https://www.nexusmods.com/7daystodie/mods/9453
+
 ### Buy On Day One - Vanilla Vehicle Parts and Mods
 
 https://www.nexusmods.com/7daystodie/mods/8357
