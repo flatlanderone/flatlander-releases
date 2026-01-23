@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+trader_closestFTLR,POI,POIName,,x,the nearest Trader,,,,,,,,,,,,,
+
+lblCategoryMounts,UI,Tooltip,,,Mounts,,,,,,,,,,,,,

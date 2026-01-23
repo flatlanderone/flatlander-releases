@@ -1,5 +1,8 @@
 <BuyTelricsHorsesOnDayOne>
 
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2,5,0,0) and game_version() >= version(1,2,5)">
+
 <!-- Set all horses to be for sale at all game stages.  horseFLTR is set in items.xml -->
 
 <append xpath="/traders/traderstage_templates">
@@ -21,10 +24,29 @@
 			<item name="vehicleWhiteDotHorsePlaceable"/>
 			<item name="vehicleWhiteHorsePlaceable"/>
 			<item name="vehicleYellowHorsePlaceable"/>
-			
-<!-- add all the items in the new groupHorses item group		 -->
-			<!-- <item group="groupHorses" unique_only="true" count="1"/> -->
-			<!-- <item group="groupHorses" unique_only="true" count="6"/>			 -->
+<!-- *** VEHICLE MODS -->
+	<!-- <item name="modVehicleArmor"/> -->
+	<!-- <item name="modVehicleExpandedSeat"/> -->
+	<item name="modVehicleFuelSaver"/>
+	<!-- <item name="modVehicleOffRoadHeadlights"/> -->
+	<!-- <item name="modVehiclePlow"/> -->
+	<!-- <item name="modVehicleReserveFuelTank"/> -->
+	<item name="modVehicleStorage"/>
+	<item name="modVehicleSuperCharger"/>
 			
 </append>
+
+<!-- Set all Vehicle mods to be for sale at all game stages. modVehicleFLTR is set in item_modifiers.xml  -->
+
+<!-- NOTE: In vanilla, only vehicle mod schematics are for sale. Mods must be looted or crafted. Oversight?   -->
+
+<append xpath="/traders/traderstage_templates">
+	<traderstage_template name="modVehicleFLTR">
+		<entry min="1" max="999999" quality="0"/>
+	</traderstage_template>
+</append>
+
+
+</if>
+</conditional>
 </BuyTelricsHorsesOnDayOne>

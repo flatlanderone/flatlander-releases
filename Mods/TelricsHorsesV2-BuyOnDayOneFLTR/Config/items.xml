@@ -1,6 +1,16 @@
 <BuyTelricsHorsesOnDayOne>
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2,5,0,0) and game_version() >= version(1,2,5)">
 
 <!-- Changed TraderStageTemplate attribute to avoid making bicycles and bicycle parts always for sale. -->
 <setattribute xpath="/items/item[contains(@name,'Horse')]/property[@name='TraderStageTemplate']" name="value">horseFLTR</setattribute>
 
+<!-- *** Set trader category for horses to TCMounts. -->
+
+	<append xpath="/items/item[contains(@name,'Horse')]">
+		<property name="Group" value="Science,TCMounts"/>
+	</append>
+
+</if>
+</conditional>
 </BuyTelricsHorsesOnDayOne>

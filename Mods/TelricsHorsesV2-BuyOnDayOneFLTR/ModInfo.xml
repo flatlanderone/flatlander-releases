@@ -2,8 +2,8 @@
 <xml>
 	<Name value="TelricsHorsesV2-BuyOnDayOneFLTR" />
 	<DisplayName value="Buy Telrics Horses On Day One - 2.4.1.0" />
-	<Description value="All Telrics Horses can be purchased from day 1 from all the traders. Compatible with version 2.4.0.0." />
+	<Description value="All Telrics Horses can be purchased from day 1 from all the traders. Compatible with version 2.5.0.0." />
 	<Author value="flatlander" />
-	<Version value="2.4.1.0" />
+	<Version value="2.5.1.0" />
 	<Website value="https://github.com/flatlanderone" />
 </xml>

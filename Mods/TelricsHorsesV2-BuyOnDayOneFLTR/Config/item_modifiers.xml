@@ -1,0 +1,17 @@
+<bodovanilla>
+
+<!-- 7 Days To Die 2.5 required -->
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2,5,0,0) and game_version() >= version(1,2,5)">
+
+<!-- *** VANILLA VEHICLE MODS -->
+
+<!-- Set modVehicleFLTR to allow targeting vehicle mods in traders.xml -->
+
+<!-- <setattribute xpath="/item_modifiers/item_modifier[starts-with(@name,'modVehicle')]/property[@name='TraderStageTemplate']" name="value">modVehicleFLTR</setattribute> -->
+
+
+<setattribute xpath="/item_modifiers/item_modifier[@name='modVehicleStorage' or @name='modVehicleFuelSaver' or @name='modVehicleSuperCharger']/property[@name='TraderStageTemplate']" name="value">modVehicleFLTR</setattribute>
+</if>
+</conditional>
+</bodovanilla>

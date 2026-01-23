@@ -1,0 +1,12 @@
+<bodothorses>
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2,5,0,0) and game_version() >= version(1,2,5)">
+
+<!-- Added `TCHorses` trader categor.
+ -->
+	<append xpath="/ui_display_info/trader_category_display">
+		<trader_category name="TCMounts" icon="ui_game_symbol_horse" display_name="lblCategoryMounts" />		
+	</append>
+</if>
+</conditional>
+</bodothorses>
