@@ -11,7 +11,7 @@
 <!-- <setattribute xpath="/item_modifiers/item_modifier[starts-with(@name,'modVehicle')]/property[@name='TraderStageTemplate']" name="value">modVehicleFLTR</setattribute> -->
 
 
-<setattribute xpath="/item_modifiers/item_modifier[@name='modVehicleStorage' or @name='modVehicleFuelSaver' or @name='modVehicleSuperCharger']/property[@name='TraderStageTemplate']" name="value">modVehicleFLTR</setattribute>
+<setattribute xpath="/item_modifiers/item_modifier[@name='modVehicleStorage' or @name='modVehicleFuelSaver' or @name='modVehicleSuperCharger']/property[@name='TraderStageTemplate']" name="value">modHorseFLTR</setattribute>
 </if>
 </conditional>
 </bodovanilla>

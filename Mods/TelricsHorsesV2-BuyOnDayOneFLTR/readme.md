@@ -1,7 +1,7 @@
-# Buy On Day One - Telrics Horses V2 - version 2.5.1.0
+# Buy On Day One for Telrics Horses V2 - version 2.5.1.1
 
 # Overview
-**Buy On Day One - Telrics Horses V2** lets you buy all the horses from Telrics Horses V2 mod from each trader starting on your first day in the zombie apocalypse. You can also buy all the compatible vehicle mods, including the new Vehicle Storage Mod.
+**Buy On Day One for Telrics Horses V2** lets you buy all the horses from Telrics Horses V2 mod from each trader starting on your first day in the zombie apocalypse. You can also buy all the compatible vehicle mods, including the new Vehicle Storage Mod.
 
 # Requirements
  - [Telrics Horses V2 - version 2.5.0.0](https://www.nexusmods.com/7daystodie/mods/7422).
@@ -26,10 +26,15 @@
 
 # About this mod
  - **Author**: Flat Lander - [GitHub](https://github.com/flatlanderone/flatlander-releases) / [Nexus Mods](https://next.nexusmods.com/profile/flatlanderone)
- - **Download page**: [Buy On Day One - Telrics Horses V2](https://www.nexusmods.com/7daystodie/mods/8371)
- - **Version**: 2.5.1.0
+ - **Download page**: [Buy On Day One for Telrics Horses V2](https://www.nexusmods.com/7daystodie/mods/8371)
+ - **Version**: 2.5.1.1
  - **Initial release**: 2025-08-17 (0.2.0.0)
- - **This release**:2026-01-23 (2.5.1.0)
+ - **This release**:2026-01-23 (2.5.1.1)
+
+# Changelog for version 2.5.1.1
+
+## Changed 
+ - Changed vehicle mod attribute from modVehicleFTLR to  modHorseFLTR to avoid conflict with other BODO vehicle mods.
 
 # Changelog for version 2.5.1.0
 

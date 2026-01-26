@@ -41,7 +41,7 @@
 <!-- NOTE: In vanilla, only vehicle mod schematics are for sale. Mods must be looted or crafted. Oversight?   -->
 
 <append xpath="/traders/traderstage_templates">
-	<traderstage_template name="modVehicleFLTR">
+	<traderstage_template name="modHorseFLTR">
 		<entry min="1" max="999999" quality="0"/>
 	</traderstage_template>
 </append>
