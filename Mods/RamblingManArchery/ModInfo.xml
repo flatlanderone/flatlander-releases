@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="RamblingManArchery" /> <!-- no spaces -->
+	<DisplayName value="Rambling Man - Archery on the Road" />
+	<Description value="Rambling Man - Archery on the Road adds several new early- and mid-game options for archery builds. See the readme.md file for more information." />
+	<Author value="flatlander" />
+	<Version value="0.1.0.0" />
+	<Website value="https://github.com/flatlanderone/flatlander-releases" />
+</xml>

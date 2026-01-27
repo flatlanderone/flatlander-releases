@@ -1,0 +1,33 @@
+<RamblingMan>
+
+<!-- Rambling Man Archery -->
+
+<!-- If RamblingManOverhaul mod not loaded -->
+
+<conditional>
+<if cond="mod_loaded('RamblingManOverhaul') == false">
+
+<append xpath="/materials">
+
+<!-- *** Arrowheads -->
+<!-- Recover iron and steel arrowheads from arrows and bolts. -->
+
+<material id="MIronArrowPartsFTLR">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="resourceArrowHeadIron"/>
+	<property name="Experience" value="6"/>
+</material>
+
+<material id="MSteelArrowPartsFTLR">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="resourceArrowHeadSteelAP"/>
+	<property name="Experience" value="6"/>
+</material>
+</append>
+
+</if>
+</conditional>
+
+</RamblingMan>

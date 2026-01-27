@@ -1,0 +1,122 @@
+<RamblingMan>
+
+<!-- *** Rambling Man Archery -->
+
+<!-- If RamblingManOverhaul mod not loaded -->
+
+<conditional>
+<if cond="mod_loaded('RamblingManOverhaul') == false">
+
+<!-- *** Ranger's Guide to Archery Vol 6: Bleed: Bows have a 35% chance to cause bleeding damage. -->
+
+<remove xpath="/progression/perks/book[@name='perkRangersForestGuide']/effect_group/passive_effect[@name='DegradationPerUse']" />
+
+<append xpath="/progression/perks/book[@name='perkRangersForestGuide']">
+	<effect_group>
+		<requirement name="ItemHasTags" tags="perkArchery"/>
+		<requirement name="ProgressionLevel" progression_name="perkRangersForestGuide" operation="Equals" value="1"/>
+		<requirement name="IsAlive" target="other"/>
+		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="35"/>
+	
+		
+		<!-- Only one stack. -->
+<!-- 		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1">
+		<requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="1" target="other"/>
+		</triggered_effect> -->
+		
+		<!-- Multiple stacks, like deep cuts. -->
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1">
+		<requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="@$maxBleedCounter" target="other"/>
+		</triggered_effect>		
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
+	</effect_group>
+</append>	
+
+<!-- The Ranger's Guide to Archery completion bonus: degradtion reduction. -->
+
+<append xpath="/progression/perks/book[@name='perkRangersComplete']">
+	<effect_group>
+		<passive_effect name="DegradationPerUse" operation="perc_add" level="1" value="-.2" tags="perkArchery"/>
+	</effect_group>
+</append>	
+
+
+<!-- *** Improvised Steel Arrows -->
+
+<!-- Ranger's Guide to Archery Vol 4: Steel Arrows unlocks the recipe for improvised steel arrows. -->
+
+<csv xpath="/progression/perks/book[@name='perkRangersAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags" op="Add">ammoArrowSteelAPFTLR,ammoCrossbowBoltSteelAPFTLR</csv>
+
+<!-- *** Improvised Special Arrows -->
+<!-- The Ranger's Guide to Archery Vol 2: Exploding Bolts Recipe also unlocks the recipe for improvised exploding arrows and bolts. -->
+
+<csv xpath="/progression/perks/book[@name='perkRangersExplodingBolts']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags" op="Add">ammoCrossbowBoltExplodingFTLR,ammoArrowExplodingFTLR</csv>
+
+<!-- The Ranger's Guide to Archery Vol 5: Flaming Arrrows unlocks the recipe for improvised flaming arrows and bolts. -->
+
+<csv xpath="/progression/perks/book[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags" op="Add">ammoArrowFlamingFTLR,ammoCrossbowBoltFlamingFTLR</csv>
+
+<!-- *** Improvised Thrown Explosives -->
+
+<!-- The Explosive Skills crafting progression unlocks improvised explosives. 
+
+TODO: Rewrite this with more targeted xpath. -->
+		
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']">
+		
+<!-- Display -->
+	<display_entry icon="thrownAmmoPipeBombFTLR,thrownGrenade,mineCookingPot" name_key="explosivesT1-1,explosivesT1-2,explosivesT1-3" has_quality="false" unlock_level="2,5,10" >
+<!-- FTLR		 -->
+		<unlock_entry item="thrownAmmoPipeBombFTLR,thrownAmmoPipeBomb" unlock_tier="1"/>
+		<unlock_entry item="thrownGrenade" unlock_tier="2"/>
+		<unlock_entry item="mineCookingPot" unlock_tier="3"/>
+	</display_entry>
+	<display_entry icon="thrownDynamiteFTLR,thrownGrenadeContact,mineHubcap" name_key="explosivesT2-1,explosivesT2-2,explosivesT2-3" has_quality="false" unlock_level="12,16,20" >
+		<!-- FTLR -->
+		<unlock_entry item="thrownDynamiteFTLR,thrownDynamite" unlock_tier="1"/>
+		<unlock_entry item="thrownGrenadeContact" unlock_tier="2"/>
+		<unlock_entry item="mineHubcap" unlock_tier="3"/>
+	</display_entry>
+		
+	<display_entry icon="mineAirFilter,resourceGunPowder,thrownTimedChargeFTLR" name_key="explosivesT3-1,explosivesT3-2,explosivesT3-3" has_quality="false" unlock_level="25,30,35" >
+		<unlock_entry item="mineAirFilter" unlock_tier="1"/>
+		<unlock_entry item="resourceGunPowderBundle" unlock_tier="2"/>
+		<unlock_entry item="thrownTimedChargeFTLR,thrownTimedCharge" unlock_tier="3"/>
+	</display_entry>
+		
+	<display_entry icon="ammoRocketFrag" name_key="explosivesT4" has_quality="false" unlock_level="45" >
+		<unlock_entry item="resourceRocketTip,resourceRocketCasing,ammoRocketFrag,ammoRocketHE" unlock_tier="1"/>
+	</display_entry>
+	<display_entry icon="gunExplosivesT3RocketLauncher" name_key="explosivesT5" has_quality="true" unlock_level="50,60,70,80,90,100" >
+		<unlock_entry item="gunExplosivesT3RocketLauncher" unlock_tier="1"/>
+	</display_entry>
+
+<!-- Unlocks -->
+	<effect_group>
+	<!-- FTLR -->
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="thrownAmmoPipeBombFTLR,thrownAmmoPipeBomb"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="thrownGrenade"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="mineCookingPot"/>
+	<!-- FTLR -->
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="12,100" value="1" tags="thrownDynamiteFTLR,thrownDynamite"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="16,100" value="1" tags="thrownGrenadeContact"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="mineHubcap"/>
+
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="mineAirFilter"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="resourceGunPowderBundle"/>
+	<!-- FTLR -->
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="thrownTimedChargeFTLR,thrownTimedCharge"/>
+
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="resourceRocketTip,resourceRocketCasing,ammoRocketFrag,ammoRocketHE"/>
+
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="gunExplosivesT3RocketLauncher"/>
+
+		<passive_effect name="CraftingTier" operation="base_add" level="60,70,80,90,100" value="1,2,3,4,5" tags="gunExplosivesT3RocketLauncher"/>
+
+	</effect_group>
+</set>
+
+</if>
+</conditional>
+
+</RamblingMan>

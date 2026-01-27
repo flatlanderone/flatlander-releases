@@ -1,0 +1,52 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+thrownAmmoPipeBombFTLR,items,Gun,,,Improvised Pipe Bomb (Ammo),,,,,,,,,,,,,
+thrownAmmoPipeBombFTLRDesc,items,Gun,,,"Make improvised pipe bombs in your backpack with gunpowder, pipes & plant fibers.\nLight with [action:local:Secondary]\nThrow with [action:local:Primary]",,,,,,,,,,,,,
+
+thrownTimedChargeFTLR,items,Gun,,,Improvised Timed Charge (Ammo),,,,,,,,,,,,,
+thrownTimedChargeFTLRDesc,items,Gun,,,"A shaped charge designed for delicate work like blowing off a safe lock, a door, or a zombie's head. Automatically detonates after 5 seconds. Craft it in your backpack. Want to bring the house down? Try some dynamite instead.\nArm with [action:local:Secondary]\nThrow with [action:local:Primary]",,,,,,,,,,,,,
+
+thrownDynamiteFTLR,items,Gun,,,Improvised Stick of Dynamite (Ammo),,,,,,,,,,,,,
+thrownDynamiteFTLRDesc,items,Gun,,,A stick of dynamite. Craft it in your backpack.\nLight with [action:local:Secondary]\nThrow with [action:local:Primary]\nThe throwing part is very important.,,,,,,,,,,,,,
+
+ammoArrowExplodingFTLR,items,Ammo,,,Improvised Exploding Arrow (Ammo),,,,,,,,,,,,,
+ammoArrowExplodingFTLRDesc,items,Ammo,,,Rifle grenades gone medieval. Ages 6 and up. Craft them in your backpack using Iron Arrows and Improvised Pipe Bombs.,,,,,,,,,,,,,
+
+ammoCrossbowBoltExplodingFTLR,items,Ammo,,,Improvised Exploding Crossbow Bolts (Ammo),,,,,,,,,,,,,
+ammoCrossbowBoltExplodingFTLRDesc,items,Ammo,,,Rifle grenades gone medieval. Ages 6 and up. Craft them in your backpack using Iron Bolts and Improvised Pipe Bombs.,,,,,,,,,,,,,
+
+explosivesT1-1,progression,Attribute,,,Tier 1: Improvised Pipe Bomb,,,,,,,,,,,,,
+explosivesT2-1,progression,Attribute,,,Tier 2: Improvised Dynamite,,,,,,,,,,,,,
+explosivesT3-3,progression,Attribute,,,Tier 3: Improvised Timed Charge,,,,,,,,,,,,,
+
+perkRangersExplodingBoltsDesc,progression,perk  book,,,Craft exploding arrows and crossbow bolts (regular and improvised).,,,,,,,,,,,,,
+perkRangersExplodingBoltsLongDesc,progression,perk  book,,,"Exploding Arrows: Not quite a rocket launcher, but it will do. Craft exploding arrows and crossbow bolts (regular and improvised).",,,,,,,,,,,,,
+
+perkRangersFlamingArrowsDesc,progression,perk  book,,,Craft flaming arrows and crossbow bolts (regular and improvised).,,,,,,,,,,,,,
+perkRangersFlamingArrowsLongDesc,progression,perk  book,,,Flaming Arrows: No ranger fantasy is complete without raining fire from the sky. Craft flaming arrows and crossbow bolts (regular and improvised).,,,,,,,,,,,,,
+
+ammoArrowFlamingFTLR,items,Ammo,,,Improvised Flaming Arrow (Ammo),,,,,,,,,,,,,
+ammoArrowFlamingFTLRDesc,items,Ammo,,,An improvised flaming arrow does the most damage by setting its victims on fire. Craft it in your backpack using Iron Arrows. Hold reload to use alternate ammo.,,,,,,,,,,,,,
+
+ammoCrossbowBoltFlamingFTLR,items,Ammo,,,Improvised Flaming Crossbow Bolt (Ammo)
+ammoCrossbowBoltFlamingFTLRDesc,items,Ammo,,,A flaming bolt does the most damage by setting its victims on fire. Craft it in your backpack using Iron Bolts. Hold reload to use alternate ammo.,,,,,,,,,,,,,
+
+ammoArrowSteelAPFTLR,items,Ammo,,,Improvised Steel Arrow (Ammo),,,,,,,,,,,,,
+
+ammoArrowSteelAPDescFTLR,items,Ammo,,,Improvised steel-tipped arrows do more damage and fly straighter than Iron Arrows.\nHold reload to use alternate ammo.,,,,,,,,,,,,,
+
+ammoCrossbowBoltSteelAPFTLR,items,Ammo,,,Improvised Steel Crossbow Bolt (Ammo),,,,,,,,,,,,,
+
+ammoCrossbowBoltSteelAPDescFTLR,items,Ammo,,,Improvised steel-tipped bolts do yet more damage and fly straighter than Iron Bolts.\nHold reload to use alternate ammo.,,,,,,,,,,,,,
+
+perkRangersAPAmmoDesc,progression,perk  book,,,Craft armor piercing steel arrows (regular and improvised).,,,,,,,,,,,,,
+
+perkRangersAPAmmoLongDesc,progression,perk  book,,,Armor Piercing Arrows: Armor isn't any good if the arrow can pierce it. Learn how to craft steel arrows and bolts (regular and improvised).,,,,,,,,,,,,,
+
+perkRangersForestGuideDesc,progression,perk  book,,,Bows and crossbows have a 35% chance to cause bleeding damage.,,,,,,,,,,,,,
+
+perkRangersForestGuideLongDesc,progression,perk  book,,,Bleeding Damage: Bows have a 35% chance to cause bleeding damage.,,,,,,,,,,,,,
+
+perkRangersCompleteDesc,progression,perk  book,,,Bulk craft arrows and bolts. Bows degrade 20% slower.,,,,,,,,,,,,,
+
+perkRangersCompleteLongDesc,progression,perk  book,,,Bulk Arrows: Craft regular arrows and bolts in bulk. Learn how to clean and maintain your bow. Bows degrade 20% slower.,,,,,,,,,,,,,

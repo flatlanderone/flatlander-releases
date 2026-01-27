@@ -1,0 +1,150 @@
+<RamblingMan>
+
+<!-- Rambling Man Archery -->
+
+<!-- If RamblingManOverhaul mod not loaded -->
+<conditional>
+<if cond="mod_loaded('RamblingManOverhaul') == false">
+
+<append xpath="/recipes">
+
+<!-- *** Arrowheads -->
+<!-- Recover iron and steel arrowheads from arrows and bolts. -->
+
+<recipe name="resourceArrowHeadSteelAP" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+
+<recipe name="resourceArrowHeadIron" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+
+<!-- *** Improvised Steel Arrows and Bolts -->
+<!-- More wood and feathers. Longer crafting time. -->
+<recipe name="ammoArrowSteelAPFTLR" count="1"  craft_time="2" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+	<ingredient name="resourceWood" count="2"/>
+	<ingredient name="resourceFeather" count="2"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltSteelAPFTLR" count="1" craft_time="2" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+	<ingredient name="resourceWood" count="2"/>
+	<ingredient name="resourceFeather" count="2"/>
+</recipe>
+
+<!-- *** Improvised Special Arrows (Exploding and Flaming) -->
+<!-- Exploding iron arrows and bolts -->
+
+<recipe name="ammoArrowExplodingFTLR" count="1" craft_time="5" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowIron" count="1"/>
+	<ingredient name="thrownAmmoPipeBombFTLR" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<!-- No bundles -->
+<!-- <recipe name="ammoBundleArrowExplodingFTLR" count="1" craft_time="360" tags="packMuleCrafting">
+	<ingredient name="ammoArrowIron" count="60"/>
+	<ingredient name="thrownAmmoPipeBombFTLR" count="120"/>
+	<ingredient name="resourceDuctTape" count="60"/>
+</recipe> -->
+
+<recipe name="ammoCrossbowBoltExplodingFTLR" count="1" craft_time="5" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltIron" count="1"/>
+	<ingredient name="thrownAmmoPipeBombFTLR" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<!-- No bundles -->
+<!-- <recipe name="ammoBundleCrossbowBoltExplodingFTLR" count="1" craft_time="360" tags="packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltIron" count="60"/>
+	<ingredient name="thrownAmmoPipeBombFTLR" count="120"/>
+	<ingredient name="resourceDuctTape" count="60"/>
+</recipe> -->
+
+<!-- Flaming iron arrows and bolts -->
+<recipe name="ammoArrowFlamingFTLR" count="1" craft_time="12" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowIron" count="1"/>
+	<ingredient name="resourceGunPowder" count="3"/> 
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltFlamingFTLR" count="1" craft_time="12" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltIron" count="1"/>
+	<ingredient name="resourceGunPowder" count="3"/> 
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<!-- *** Boxes of Arrows/Bolts to save space  -->
+
+<!-- The Ranger's Guide to Archery completion bonus: Craft boxes of bolts and arrows to save space.-->
+
+<!-- Regular Iron and Stone Arrows/Bolts -->
+
+<recipe name="ammoBundleArrowStone" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowStone" count="100"/>
+</recipe>
+
+<recipe name="ammoBundleArrowIron" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowIron" count="100"/>
+</recipe>
+
+<recipe name="ammoBundleCrossbowBoltStone" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltStone" count="100"/>
+</recipe>
+
+<recipe name="ammoBundleCrossbowBoltIron" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltIron" count="100"/>
+</recipe>
+
+<!-- Regular Steel, Exploding abd Flaming Arrows and Bolts -->
+
+<recipe name="ammoBundleArrowSteelAP" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowSteelAP" count="100"/>
+</recipe>
+
+<recipe name="ammoBundleCrossbowBoltSteelAP" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltSteelAP" count="100"/>
+</recipe>
+
+<recipe name="ammoBundleArrowFlaming" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowFlaming" count="100"/>
+</recipe>
+
+<recipe name="ammoBundleCrossbowBoltFlaming" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltFlaming" count="100"/>
+</recipe>
+
+<recipe name="ammoBundleArrowExploding" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoArrowExploding" count="75"/>
+</recipe>
+
+<recipe name="ammoBundleCrossbowBoltExploding" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,packMuleCrafting">
+	<ingredient name="ammoCrossbowBoltExploding" count="75"/>
+</recipe>
+
+<!-- IMPORTANT: Improvised arrows and bolts do not lend themselves to tighter packing. -->
+
+<!-- *** Improvised Thrown Explosives -->
+<recipe name="thrownAmmoPipeBombFTLR" count="1" craft_time="24" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceYuccaFibers" count="1"/>
+	<ingredient name="resourceGunPowder" count="16"/>
+	<ingredient name="resourceMetalPipe" count="1"/>
+</recipe>
+
+<recipe name="thrownTimedChargeFTLR" count="1" craft_time="60" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceScrapIron" count="20"/>
+	<ingredient name="resourceGunPowder" count="13"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+</recipe>
+
+<recipe name="thrownDynamiteFTLR" count="1" craft_time="30" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceYuccaFibers" count="1"/>
+	<ingredient name="resourceGunPowder" count="27"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+</append>
+
+</if>
+</conditional>
+
+</RamblingMan>
