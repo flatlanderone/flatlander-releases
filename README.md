@@ -3,6 +3,10 @@
 
 ## Quest and QoL mods 
 
+### Pick Up All The Chairs (new)
+
+https://www.nexusmods.com/7daystodie/mods/8784
+
 ### Hotfix for Intro Buried Supplies not offered by first trader (unofficial) 
 
 https://www.nexusmods.com/7daystodie/mods/8871
