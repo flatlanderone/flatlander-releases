@@ -1,0 +1,36 @@
+<RamblingMan>
+
+<!-- ***Pick up all woodChair1Broken. -->
+
+ 	<append xpath="/blocks/block[@name='woodChair1Broken']">
+		<property name="CanPickup" value="true"/>
+		<!-- <property name="CanPickup" value="true" param1="oldChair1VariantHelper"/> -->
+	</append>
+
+<!-- ***Pick up all oldChair1Broken. -->	
+	<append xpath="/blocks/block[starts-with(@name,'oldChair1Broken')]">
+		<property name="CanPickup" value="true" />
+	</append>	
+<!-- ***Pick up all schoolSeat01 and schoolSeat02. Allow scrapping. -->	
+
+	<append xpath="/blocks/block[starts-with(@name,'schoolSeat01')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="15"/>
+		<property name="Stacknumber" value="10"/>
+	</append>
+	
+	<append xpath="/blocks/block[starts-with(@name,'schoolSeat02')]">
+		<property name="CanPickup" value="true"/>
+		<property name="Weight" value="45"/>
+		<property name="Stacknumber" value="3"/>
+	</append>
+	
+<!-- ***Triple the destruction output values for schoolSeat02 blocks. -->	
+
+<setattribute xpath="/blocks/block[starts-with(@name,'schoolSeat02')]/drop[@event='Destroy' and @name='resourceScrapPolymers']" name="count">3,15</setattribute>
+<setattribute xpath="/blocks/block[starts-with(@name,'schoolSeat02')]/drop[@event='Destroy' and @name='resourceScrapIron']" name="count">3,45</setattribute>
+
+<!-- Change schoolSeat0 material from Mfurniture to Mplastics. -->
+<setattribute xpath="/blocks/block[starts-with(@name,'schoolSeat0')]/property[@name='Material']" name="value">Mplastics</setattribute>
+
+</RamblingMan>		

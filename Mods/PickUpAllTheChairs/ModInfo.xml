@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="PickUpAllTheChairs" /> <!-- no spaces -->
+	<DisplayName value="Pick Up All The Chairs" />
+	<Description value="Pick Up All The Chairs lets you pick up, scrap and place broken and overturned wooden chairs as well as plastic chairs and plastic chair stacks." />
+	<Author value="flatlander" />
+	<Version value="2.5.1.0" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>
