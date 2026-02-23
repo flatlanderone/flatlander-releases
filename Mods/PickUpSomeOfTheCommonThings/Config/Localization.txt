@@ -1,0 +1,30 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+
+// Updated localization for English, French and Polish.
+
+schoolSeat01RandomHelper,blocks,Block,,,Plastic chair,,= Schulsitz = Zufälliger Helfer,= Asiento escolar = Asistente aleatorio,Chaise en plastique,= Sedia di scuola = Aiutante casuale,= 学習椅子 = ランダムヘルパー,= 학교 의자 = 무작위 도우미,Krzesło plastikowe,= Assento escolar = Ajudante aleatório,= Школьный стул = Случайный помощник,= Okul Sandalyesi = Rastgele Yardımcı,= 课椅 = 随机助手,= 課椅 = 隨機助手
+
+
+schoolSeat01Blue,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat01Brown,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat01Green,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat01Grey,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat01Orange,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat01Purple,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat01RandomHelper,blocks,Block,,,= Plastic chair = Random Helper,,= Schulsitz = Zufälliger Helfer,= Asiento escolar = Asistente aleatorio,= Chaise en plastique = Aide aléatoire,= Sedia di scuola = Aiutante casuale,= 学習椅子 = ランダムヘルパー,= 학교 의자 = 무작위 도우미,= Krzesło plastikowe = losowy pomocnik,= Assento escolar = Ajudante aleatório,= Школьный стул = Случайный помощник,= Okul Sandalyesi = Rastgele Yardımcı,= 课椅 = 随机助手,= 課椅 = 隨機助手
+schoolSeat01Red,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat01White,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat01Yellow,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+
+schoolSeat02Blue,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat02Brown,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat02Green,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat02Grey,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat02Orange,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat02Purple,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat02RandomHelper,blocks,Block,,,= Plastic chairs Stack = Random Helper,,= Schulsitzstapel = Zufälliger Helfer,= Pila de asientos escolares = Asistente aleatorio,"= Chaises en plastique, pile = Aide aléatoire",= Pila di sedie di scuola = Aiutante casuale,= 積み重なった学習椅子 = ランダムヘルパー,= 학교 의자 쌓임 = 무작위 도우미,= Krzesła plastikowe – stos = losowy pomocnik,= Assento escolar empilhado = Ajudante aleatório,= Груда школьных стульев = Случайный помощник,= Gözlü Okul Sandalyesi = Rastgele Yardımcı,= 堆积课椅 = 随机助手,= 課椅堆 = 隨機助手
+schoolSeat02Red,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat02White,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+schoolSeat02Yellow,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
+

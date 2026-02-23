@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="PickUpSomeOfTheCommonThings" /> <!-- no spaces -->
+	<DisplayName value="Pick Up Some Of The Common Things" />
+	<Description value="Pick Up Some Of The Common Things lets you pick up, scrap and place many of the common things that a sensible survivor would find reasonable to carry in his semi-magical postapocalyptic backpack. Traffic cones and sawhorses are reasonable. Refigerators are not." />
+	<Author value="flatlander" />
+	<Version value="2.5.1.0" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>
