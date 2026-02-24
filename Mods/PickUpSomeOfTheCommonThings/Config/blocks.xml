@@ -1,5 +1,16 @@
 <RamblingMan>
 
+<!-- 
+horseshoe_01
+
+woodShapes
+ -->
+
+<!--  	<append xpath="/blocks/block[@name='woodShapes']">
+		<property name="CanPickup" value="true"/>
+	</append> -->
+
+
 <!-- ***Pick up all woodChair1Broken. -->
 
  	<append xpath="/blocks/block[@name='woodChair1Broken']">
