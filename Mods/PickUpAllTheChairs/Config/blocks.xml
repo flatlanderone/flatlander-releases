@@ -35,11 +35,30 @@
 
 <!-- ***Pick up lanterns. -->
 <!-- Does not work if OcbLightEnablerPOI enabled. -->
+<!-- Check TakeDelay -1 on some light sources) -->
 
 	<append xpath="/blocks/block[starts-with(@name,'lantern')]">
 		<property name="CanPickup" value="true" />
  		<property name="Stacknumber" value="10"/>
 	</append>	
+
+<!-- Needs to have a blank class to allow the light to turn on automatically when placed -->
+	<append xpath="/blocks/block[starts-with(@name,'lanternOld_0')]">
+		<property name="Class" value=""/>
+		<property name="Light" value="0.5"/>
+	</append>
+	
+	
+
+<!-- lanternDecorLightWhite -->
+
+<!-- Change class to empty -->
+	<setattribute xpath="/blocks/block[ @name='lanternDecorLightWhite']/property[@name='Class']" name="value"></setattribute>
+<!-- append light value -->
+	<append xpath="/blocks/block[ @name='lanternDecorLightWhite']">
+		<property name="Light" value="0.5"/>
+	</append>
+
 
 <!-- posters 
 pictureFrame_01a
