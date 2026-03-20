@@ -8,6 +8,7 @@
  	<append xpath="/blocks/block[@name='coneConstruction']">
 		<property name="CanPickup" value="true"/>
 		<property name="Stacknumber" value="10"/>
+		<property name="Weight" value="10"/>
 	</append>
 
 <!-- ***Pick up horseshoe_01, 02, 03. -->
@@ -15,15 +16,45 @@
 	<append xpath="/blocks/block[starts-with(@name,'horseshoe_0')]">
 		<property name="CanPickup" value="true" />
 		<property name="Stacknumber" value="25"/>
+		<property name="Weight" value="10"/>
 	</append>	
 
-<!-- ***Pick up paintings that are not safes -->
-
-	<append xpath="/blocks/block[starts-with(@name,'painting')]">
+<!-- ***Pick up flags. Not scrappable. -->
+	<append xpath="/blocks/block[@name='flagWallHungUSA' or @name='flagTopWallHungUSA']">
 		<property name="CanPickup" value="true" />
-		<property name="Stacknumber" value="25"/>
+ 		<property name="Stacknumber" value="10"/>
 	</append>	
 
+
+<!-- ***Pick up desk lamps and table lamps. Not scrappable. -->
+	<append xpath="/blocks/block[@name='deskLampLight' or @name='deskLampLight02White' or @name='tableLampLight01White']">
+		<property name="CanPickup" value="true" />
+ 		<property name="Stacknumber" value="10"/>
+	</append>	
+
+
+<!-- ***Pick up lanterns. -->
+<!-- Does not work if OcbLightEnablerPOI enabled. -->
+
+	<append xpath="/blocks/block[starts-with(@name,'lantern')]">
+		<property name="CanPickup" value="true" />
+ 		<property name="Stacknumber" value="10"/>
+	</append>	
+
+<!-- posters -->
+
+
+<!-- *** POSTPONED: Pick up paintings. Outstanding Q regarding hiidensafepaintings -->
+<!-- TODO: exclude hiddensafepaintings -->
+
+<!-- 	<append xpath="/blocks/block[starts-with(@name,'painting')]">
+
+		</append>	
+ -->
+<!-- Change paintings material from Mglass to Mwood. -->
+<!-- <setattribute xpath="/blocks/block[starts-with(@name,'painting')]/property[@name='Material']" name="value">Mwood</setattribute> -->
+
+<!-- lamp on floor -->
 
 <!-- 2.5.1.0 -->
 <!-- ***Pick up all woodChair1Broken. -->

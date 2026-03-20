@@ -28,3 +28,6 @@ schoolSeat02Red,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises
 schoolSeat02White,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
 schoolSeat02Yellow,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
 
+woodShapes:VariantHelper,blocks,Variant,,,Wooden Sawhorse,,Holzblock,Bloque de madera,Bloc de bois,Blocco di legno,木材ブロック,목재 블록,Drewno – blok,Bloco de madeira,Деревянный блок,Tahta Blok,木块,木塊
+woodShapes:woodSawhorse,blocks,Variant,,,Wooden Sawhorse woodSawhorse,,Holzblock,Bloque de madera,Bloc de bois,Blocco di legno,木材ブロック,목재 블록,Drewno – blok,Bloco de madeira,Деревянный блок,Tahta Blok,木块,木塊
+
