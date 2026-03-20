@@ -30,7 +30,6 @@
 	<append xpath="/blocks/block[@name='deskLampLight' or @name='deskLampLight02White' or @name='tableLampLight01White']">
 		<property name="CanPickup" value="true" />
  		<property name="Stacknumber" value="10"/>
-		<property name="TakeDelay" value="2"/>
 	</append>	
 
 
@@ -38,22 +37,13 @@
 <!-- Does not work if OcbLightEnablerPOI enabled. -->
 <!-- Check TakeDelay -1 on some light sources) -->
 
-
-	<append xpath="/blocks/block[starts-with(@name,'lantern')]">
-		<property name="CanPickup" value="true" />
- 		<property name="Stacknumber" value="10"/>
-	</append>	
-
-
-
-
 	<!-- <append xpath="/blocks/block[starts-with(@name,'lanternDecorLight')]"> -->
-	<!-- <append xpath="/blocks/block[@name='lanternDecorLightWhite']"> -->
-		<!-- <property name="CanPickup" value="true" /> -->
+	<append xpath="/blocks/block[@name='lanternDecorLightWhite']">
+		<property name="CanPickup" value="true" />
 		<!-- <property name="CanPickup" value="true" param1="lanternDecorLightBlockVariantHelper"/> -->
  		<!-- <property name="Stacknumber" value="10"/> -->
 		<!-- <property name="Light" value="0.5"/> -->
-	<!-- </append>	 -->
+	</append>	
 
 <!-- lanternOld_0 -->
 <!-- Needs to have a blank class to allow the light to turn on automatically when placed -->
