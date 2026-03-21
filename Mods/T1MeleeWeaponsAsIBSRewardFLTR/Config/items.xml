@@ -1,0 +1,80 @@
+<RamblingMan>
+
+<!-- 2.5.1.0 -->
+
+<!-- Add tier 1 melee weapon bundles. -->
+<append xpath="/items">
+
+<!-- Baseball bat -->
+<item name="questRewardmeleeWpnClubT1BaseballBatBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleClub"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardmeleeWpnClubT1BaseballBatBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="meleeWpnClubT1BaseballBat"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- Hunting knife -->
+<item name="questRewardmeleeWpnBladeT1HuntingKnifeBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleKnife"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardmeleeWpnBladeT1HuntingKnifeBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="meleeWpnBladeT1HuntingKnife"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- Iron knuckles -->
+<item name="questRewardmeleeWpnKnucklesT1IronKnucklesBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleKnuckles"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardmeleeWpnKnucklesT1IronKnucklesBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="meleeWpnKnucklesT1IronKnuckles"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- Iron spear -->
+<item name="questRewardmeleeWpnSpearT1IronSpearBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleSpear"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardmeleeWpnSpearT1IronSpearBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="meleeWpnSpearT1IronSpear"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- Iron sledgehammer -->
+<item name="questRewardmeleeWpnSledgeT1IronSledgehammerBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleSledge"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardmeleeWpnSledgeT1IronSledgehammerBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="meleeWpnSledgeT1IronSledgehammer"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+</append>
+
+</RamblingMan>		
