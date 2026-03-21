@@ -15,9 +15,9 @@
 		<reward type="Item" id="questRewardmeleeWpnSpearT1IronSpearBundle" ischosen="true" value="1"/>
 </append>
 
-<!-- If EQS installed. -->
+<!-- If EQS or RamblingManSkipIntroBuriedSupplies installed. -->
 <conditional>
-<if cond="mod_loaded('ExtremeQuickStartTraderRekt') or mod_loaded('ExtremeQuickStartTraderJen') or mod_loaded('ExtremeQuickStartTraderBob') or mod_loaded('ExtremeQuickStartTraderHugh') or mod_loaded('ExtremeQuickStartTraderJoel')">
+<if cond="mod_loaded('ExtremeQuickStartTraderRekt') or mod_loaded('ExtremeQuickStartTraderJen') or mod_loaded('ExtremeQuickStartTraderBob') or mod_loaded('ExtremeQuickStartTraderHugh') or mod_loaded('ExtremeQuickStartTraderJoel') or mod_loaded('RamblingManSkipIntroBuriedSupplies')">
 
 <remove xpath="quests/quest[@id='quest_whiteRiverCitizen1']/reward[@type='Item']" />
 
