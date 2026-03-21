@@ -4,8 +4,7 @@
 
 <!-- remove vanilla questRewardPipePistolBundle etc. -->
 
-<remove xpath="quests/quest[@id='intro_buried_supplies']/reward[@type=Item']" />
-
+<remove xpath="quests/quest[@id='intro_buried_supplies']/reward[@type='Item']" />
 
 <!-- append tier 1 melee weapons. -->
 <append xpath="quests/quest[@id='intro_buried_supplies']">
@@ -17,6 +16,25 @@
 		<reward type="Item" id="ammoBundle44MagnumBulletHP" ischosen="true" value="1"/>
 
 </append>
+
+<!-- If EQS installed. -->
+<conditional>
+<if cond="mod_loaded('ExtremeQuickStartTraderRekt') or mod_loaded('ExtremeQuickStartTraderJen') or mod_loaded('ExtremeQuickStartTraderBob') or mod_loaded('ExtremeQuickStartTraderHugh') or mod_loaded('ExtremeQuickStartTraderJoel')">
+
+<remove xpath="quests/quest[@id='quest_whiteRiverCitizen1']/reward[@type='Item']" />
+
+<append xpath="quests/quest[@id='quest_whiteRiverCitizen1']">
+
+		<reward type="Item" id="ammoBundle9mmBulletBall" ischosen="true" value="1"/>
+		<reward type="Item" id="ammoBundle9mmBulletHP" ischosen="true" value="1"/>
+		<reward type="Item" id="ammoBundle9mmBulletAP" ischosen="true" value="1"/>
+		<reward type="Item" id="ammoBundle44MagnumBulletBall" ischosen="true" value="1"/>
+		<reward type="Item" id="ammoBundle44MagnumBulletHP" ischosen="true" value="1"/>
+
+</append>
+
+</if>
+</conditional>
 
 
 </RamblingMan>		
