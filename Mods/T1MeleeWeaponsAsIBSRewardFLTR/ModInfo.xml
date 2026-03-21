@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<Name value="T1MeleeWeaponsAsIBSRewardFLTR" /> <!-- no spaces -->
-	<DisplayName value="Tier 1 Melee Weapons As Intro Buried Supplies Rewards" />
-	<Description value="Tier 1 Melee Weapons As Intro Buried Supplies Rewards changes the rewards for completing the Intro Buried Supplies quest. Instead of Tier 0 pipe weapons and ammo, you choose a Tier 1 melee weapon (Baseball Bat, Hunting Knife, Iron Knuckles, Iron Spear, Iron Sledgehammer)." />
-	<Author value="flatlander" />
-	<Version value="2.5.1.0" />
-	<Website value="https://github.com/flatlanderone" />
-</xml>
