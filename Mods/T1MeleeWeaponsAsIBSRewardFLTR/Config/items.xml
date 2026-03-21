@@ -2,14 +2,10 @@
 
 <!-- 2.5.1.0 -->
 
-
-<!-- append tier 1 melee weapon bundles. -->
+<!-- Add tier 1 melee weapon bundles. -->
 <append xpath="/items">
 
-
-<!-- *** INTRO BURIED SUPPLIES ALT REWARDS -->
-
-<!-- baseball bat -->
+<!-- Baseball bat -->
 <item name="questRewardmeleeWpnClubT1BaseballBatBundle">
 	<property name="Extends" value="questRewardBundleMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -23,7 +19,7 @@
 	</property>
 </item>
 
-<!-- hunting knife -->
+<!-- Hunting knife -->
 <item name="questRewardmeleeWpnBladeT1HuntingKnifeBundle">
 	<property name="Extends" value="questRewardBundleMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -37,7 +33,7 @@
 	</property>
 </item>
 
-<!-- iron knuckles -->
+<!-- Iron knuckles -->
 <item name="questRewardmeleeWpnKnucklesT1IronKnucklesBundle">
 	<property name="Extends" value="questRewardBundleMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -51,7 +47,7 @@
 	</property>
 </item>
 
-<!-- iron spear -->
+<!-- Iron spear -->
 <item name="questRewardmeleeWpnSpearT1IronSpearBundle">
 	<property name="Extends" value="questRewardBundleMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -65,7 +61,7 @@
 	</property>
 </item>
 
-<!-- iron sledge -->
+<!-- Iron sledgehammer -->
 <item name="questRewardmeleeWpnSledgeT1IronSledgehammerBundle">
 	<property name="Extends" value="questRewardBundleMaster"/>
 	<property name="CreativeMode" value="Player"/>
@@ -80,25 +76,5 @@
 </item>
 
 </append>
-
-<!-- If EQS installed. -->
-<!-- <conditional>
-<if cond="mod_loaded('ExtremeQuickStartTraderRekt') or mod_loaded('ExtremeQuickStartTraderJen') or mod_loaded('ExtremeQuickStartTraderBob') or mod_loaded('ExtremeQuickStartTraderHugh') or mod_loaded('ExtremeQuickStartTraderJoel')">
-
-<remove xpath="quests/quest[@id='quest_whiteRiverCitizen1']/reward[@type='Item']" />
-
-<append xpath="quests/quest[@id='quest_whiteRiverCitizen1']">
-
-		<reward type="Item" id="ammoBundle9mmBulletBall" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle9mmBulletHP" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle9mmBulletAP" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle44MagnumBulletBall" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle44MagnumBulletHP" ischosen="true" value="1"/>
-
-</append>
-
-</if>
-</conditional> -->
-
 
 </RamblingMan>		

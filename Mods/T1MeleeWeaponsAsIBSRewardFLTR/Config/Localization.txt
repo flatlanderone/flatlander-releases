@@ -1,4 +1,5 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+// Localizations for the English, French and Polish version.
 questRewardmeleeWpnClubT1BaseballBatBundle,items,Item,,,Baseball Bat Bundle,,,,Paquet batte de baseball,,,,Pakiet – kij baseballowy,,,,,
 questRewardmeleeWpnClubT1BaseballBatBundleDesc,items,Item,,,A Baseball Bat.\n\nA great choice for those investing points into Strength Perks.,,,,Une batte de baseball.\n\nUn excellent choix pour quiconque investit des points dans les avantages de force.,,,,Kij baseballowy.\n\nŚwietny wybór dla graczy inwestujących punkty w profity siły.,,,,,
 questRewardmeleeWpnBladeT1HuntingKnifeBundle,items,Item,,,Hunting Knife Bundle,,,,Paquet couteau de chasse,,,,Pakiet – nóż myśliwski,,,,,
