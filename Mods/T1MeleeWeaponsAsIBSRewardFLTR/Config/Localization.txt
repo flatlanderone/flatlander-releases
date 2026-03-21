@@ -1,33 +1,13 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
-
-
-// Updated localization for English, French and Polish.
-
-schoolSeat01RandomHelper,blocks,Block,,,Plastic chair,,= Schulsitz = Zufälliger Helfer,= Asiento escolar = Asistente aleatorio,Chaise en plastique,= Sedia di scuola = Aiutante casuale,= 学習椅子 = ランダムヘルパー,= 학교 의자 = 무작위 도우미,Krzesło plastikowe,= Assento escolar = Ajudante aleatório,= Школьный стул = Случайный помощник,= Okul Sandalyesi = Rastgele Yardımcı,= 课椅 = 随机助手,= 課椅 = 隨機助手
-
-
-schoolSeat01Blue,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat01Brown,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat01Green,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat01Grey,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat01Orange,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat01Purple,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat01RandomHelper,blocks,Block,,,= Plastic chair = Random Helper,,= Schulsitz = Zufälliger Helfer,= Asiento escolar = Asistente aleatorio,= Chaise en plastique = Aide aléatoire,= Sedia di scuola = Aiutante casuale,= 学習椅子 = ランダムヘルパー,= 학교 의자 = 무작위 도우미,= Krzesło plastikowe = losowy pomocnik,= Assento escolar = Ajudante aleatório,= Школьный стул = Случайный помощник,= Okul Sandalyesi = Rastgele Yardımcı,= 课椅 = 随机助手,= 課椅 = 隨機助手
-schoolSeat01Red,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat01White,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat01Yellow,blocks,Block,,,Plastic chair,,Schulsitz,Asiento escolar,Chaise en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesło plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-
-schoolSeat02Blue,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat02Brown,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat02Green,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat02Grey,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat02Orange,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat02Purple,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat02RandomHelper,blocks,Block,,,= Plastic chairs Stack = Random Helper,,= Schulsitzstapel = Zufälliger Helfer,= Pila de asientos escolares = Asistente aleatorio,"= Chaises en plastique, pile = Aide aléatoire",= Pila di sedie di scuola = Aiutante casuale,= 積み重なった学習椅子 = ランダムヘルパー,= 학교 의자 쌓임 = 무작위 도우미,= Krzesła plastikowe – stos = losowy pomocnik,= Assento escolar empilhado = Ajudante aleatório,= Груда школьных стульев = Случайный помощник,= Gözlü Okul Sandalyesi = Rastgele Yardımcı,= 堆积课椅 = 随机助手,= 課椅堆 = 隨機助手
-schoolSeat02Red,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat02White,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-schoolSeat02Yellow,blocks,Block,,,Plastic chairs,,Schulsitz,Asiento escolar,Chaises en plastique,Sedia di scuola,学習椅子,학교 의자,Krzesła plastikowe,Assento escolar,Школьный стул,Okul Sandalyesi,课椅,課椅
-
-woodShapes:VariantHelper,blocks,Variant,,,Wooden Sawhorse,,Holzblock,Bloque de madera,Bloc de bois,Blocco di legno,木材ブロック,목재 블록,Drewno – blok,Bloco de madeira,Деревянный блок,Tahta Blok,木块,木塊
-woodShapes:woodSawhorse,blocks,Variant,,,Wooden Sawhorse woodSawhorse,,Holzblock,Bloque de madera,Bloc de bois,Blocco di legno,木材ブロック,목재 블록,Drewno – blok,Bloco de madeira,Деревянный блок,Tahta Blok,木块,木塊
-
+questRewardmeleeWpnClubT1BaseballBatBundle,items,Item,,,Baseball Bat Bundle,,,,Paquet batte de baseball,,,,Pakiet – kij baseballowy,,,,,
+questRewardmeleeWpnClubT1BaseballBatBundleDesc,items,Item,,,A Baseball Bat.\n\nA great choice for those investing points into Strength Perks.,,,,Une batte de baseball.\n\nUn excellent choix pour quiconque investit des points dans les avantages de force.,,,,Kij baseballowy.\n\nŚwietny wybór dla graczy inwestujących punkty w profity siły.,,,,,
+questRewardmeleeWpnBladeT1HuntingKnifeBundle,items,Item,,,Hunting Knife Bundle,,,,Paquet couteau de chasse,,,,Pakiet – nóż myśliwski,,,,,
+questRewardmeleeWpnBladeT1HuntingKnifeBundleDesc,items,Item,,,A Hunting Knife.\n\nA great choice for those investing points into Agility Perks,,,,Un couteau de chasse.\n\nUn excellent choix pour quiconque investit des points dans les avantages d'agilité.,,,,Nóż myśliwski.\n\nŚwietny wybór dla graczy inwestujących punkty w profity zwinności.,,,,,
+,,,,,,,,,,,,,,,,,,
+questRewardmeleeWpnKnucklesT1IronKnucklesBundle,items,Item,,,Iron Knuckles Bundle,,,,Paquet poing américain en fer,,,,Pakiet – żelazny kastet,,,,,
+,,,,,,,,,,,,,,,,,,
+questRewardmeleeWpnKnucklesT1IronKnucklesBundleDesc,items,Item,,,A pair of Iron Knuckles.\n\nA great choice for those investing points into Fortitude Perks.,,,,Poing américain en fer.\n\nUn excellent choix pour quiconque investit des points dans les avantages de courage.,,,,Żelazny kastet.\n\nŚwietny wybór dla graczy inwestujących punkty w profity hartu.,,,,,
+questRewardmeleeWpnSpearT1IronSpearBundle,items,Item,,,Iron Spear Bundle,,,,Paquet lance en fer,,,,Pakiet – żelazna włócznia,,,,,
+questRewardmeleeWpnSpearT1IronSpearBundleDesc,items,Item,,,An Iron Spear.\n\nA great choice for those investing points into Perception Perks,,,,Une lance en fer.\n\nUn excellent choix pour quiconque investit des points dans les avantages de perception.,,,,Żelazna włócznia.\n\nŚwietny wybór dla graczy inwestujących punkty w profity percepcji.,,,,,
+questRewardmeleeWpnSledgeT1IronSledgehammerBundle,items,Item,,,Iron Sledgehammer Bundle,,,,Paquet masse en fer,,,,Pakiet – żelazny młot rozbiórkowy,,,,,
+questRewardmeleeWpnSledgeT1IronSledgehammerBundleDesc,items,Item,,,An Iron Sledgehammer.\n\nA great choice for those investing points into Strength Perks.,,,,Une masse en fer.\n\nUn excellent choix pour quiconque investit des points dans les avantages de force.,,,,Żelazny młot rozbiórkowy.\n\nŚwietny wybór dla graczy inwestujących punkty w profity siły.,,,,,

@@ -4,17 +4,15 @@
 
 <!-- remove vanilla questRewardPipePistolBundle etc. -->
 
-<remove xpath="quests/quest[@id='intro_buried_supplies']/reward[@type='Item']" />
+<remove xpath="/quests/quest[@id='intro_buried_supplies']/reward[@type='Item']" />
 
-<!-- append tier 1 melee weapons. -->
-<append xpath="quests/quest[@id='intro_buried_supplies']">
-
-		<reward type="Item" id="ammoBundle9mmBulletBall" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle9mmBulletHP" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle9mmBulletAP" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle44MagnumBulletBall" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle44MagnumBulletHP" ischosen="true" value="1"/>
-
+<!-- append tier 1 melee weapon bundles. -->
+<append xpath="/quests/quest[@id='intro_buried_supplies']">
+		<reward type="Item" id="questRewardmeleeWpnClubT1BaseballBatBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardmeleeWpnBladeT1HuntingKnifeBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardmeleeWpnKnucklesT1IronKnucklesBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardmeleeWpnSledgeT1IronSledgehammerBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardmeleeWpnSpearT1IronSpearBundle" ischosen="true" value="1"/>
 </append>
 
 <!-- If EQS installed. -->
@@ -23,14 +21,12 @@
 
 <remove xpath="quests/quest[@id='quest_whiteRiverCitizen1']/reward[@type='Item']" />
 
-<append xpath="quests/quest[@id='quest_whiteRiverCitizen1']">
-
-		<reward type="Item" id="ammoBundle9mmBulletBall" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle9mmBulletHP" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle9mmBulletAP" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle44MagnumBulletBall" ischosen="true" value="1"/>
-		<reward type="Item" id="ammoBundle44MagnumBulletHP" ischosen="true" value="1"/>
-
+<append xpath="/quests/quest[@id='quest_whiteRiverCitizen1']">
+		<reward type="Item" id="questRewardmeleeWpnClubT1BaseballBatBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardmeleeWpnBladeT1HuntingKnifeBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardmeleeWpnKnucklesT1IronKnucklesBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardmeleeWpnSledgeT1IronSledgehammerBundle" ischosen="true" value="1"/>
+		<reward type="Item" id="questRewardmeleeWpnSpearT1IronSpearBundle" ischosen="true" value="1"/>
 </append>
 
 </if>
