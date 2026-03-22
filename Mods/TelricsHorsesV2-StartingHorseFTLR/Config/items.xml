@@ -1,0 +1,29 @@
+<RamblingMan>
+
+<!-- 2.5.1.0 -->
+
+<!-- Add Starting Horse bundle. -->
+
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2,5,0,0) and game_version() >= version(1,2,5)">
+
+<append xpath="/items">
+
+<item name="StartingHorseBundleFTLR">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleStartingHorse"/>
+	<property name="ItemTypeIcon" value="bundle"/>	
+	<property name="CustomIconTint" value="66ccff"/>
+	<property name="DescriptionKey" value="StartingHorseBundleFTLRDesc"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action0">
+		<property name="Create_item" value="vehicleLightBrownHorsePlaceable,ammoGasCan,modVehicleStorage"/>
+		<property name="Create_item_count" value="1,25,2"/>
+	</property>
+</item>
+</append>
+</if>
+</conditional>
+
+</RamblingMan>		

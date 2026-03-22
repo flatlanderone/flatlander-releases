@@ -1,0 +1,19 @@
+<ramblingman>
+
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2,5,0,0) and game_version() >= version(1,2,5)">
+<append xpath="/gameevents">
+<!-- StartingHorseBundleFTLR Add Items event. Attach the event to a buff in buffs.xml. Trigger the buff on first spawn in entityclasses.xml. -->
+
+	<action_sequence name="action_AddStartingHorseBundleFTLR">
+		<action class="AddItems">
+			<property name="added_items" value="StartingHorseBundleFTLR" />
+			<property name="added_item_counts" value="1" />
+		</action>	
+	</action_sequence>	
+</append>
+
+</if>
+</conditional>
+
+</ramblingman>

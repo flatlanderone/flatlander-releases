@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+// Localizations for the English, French and Polish version.
+StartingHorseBundleFTLR,items,Item,,,Starting Horse Bundle,,,,,,,,,,,,,
+
+StartingHorseBundleFTLRDesc,items,Item,,,"Your first horse, some gas to shine his saddle and two saddlebags for extra storage.",,,,,,,,,,,,,

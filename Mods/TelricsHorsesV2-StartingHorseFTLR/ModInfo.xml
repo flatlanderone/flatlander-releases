@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TelricsHorsesV2-StartingHorseFTLR" /> <!-- no spaces -->
+	<DisplayName value="Starting Horse For Streamers and Busy People" />
+	<Description value="Starting Horse For Streamers and Busy People lets you start your zombie-slaying adventures with your own horse. Don't forget to use the gas to shine his leathers and install the saddlebags for more storage. Giddyup!" />
+	<Author value="flatlander" />
+	<Version value="2.5.1.0" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>

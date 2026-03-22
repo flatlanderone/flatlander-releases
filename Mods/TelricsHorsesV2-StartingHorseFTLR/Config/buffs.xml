@@ -1,0 +1,22 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('Telrics_Horses_V2') and mod_version('Telrics_Horses_V2') >= version(2,5,0,0) and game_version() >= version(1,2,5)">
+
+<append xpath="/buffs">
+
+<!-- Attach action_AddStartingHorseBundleFTLR to a buff. See gameevents.xml.	 -->		
+	<buff name="buff_action_AddStartingHorseBundleFTLR" description="Adds a bundle with a starting horse etc. to inventory." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_AddStartingHorseBundleFTLR" />
+		</effect_group>
+	</buff>		
+
+</append>
+
+</if>
+</conditional>
+
+</RamblingMan>		
