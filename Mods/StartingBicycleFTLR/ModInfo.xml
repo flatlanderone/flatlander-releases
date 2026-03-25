@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="StartingBicycleFTLR" /> <!-- no spaces -->
+	<DisplayName value="Starting Bicycle For Streamers and Busy People" />
+	<Description value="Starting Bicycle For Streamers and Busy People lets you start your zombie-slaying adventures with the bicycle. Don't forget to install the included storage mods and wear the classy glasses." />
+	<Author value="flatlander" />
+	<Version value="2.5.1.0" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>

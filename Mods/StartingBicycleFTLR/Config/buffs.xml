@@ -1,0 +1,16 @@
+<RamblingMan>
+
+<append xpath="/buffs">
+
+<!-- Attach action_AddStartingBicycleBundleFTLR to a buff. See gameevents.xml.	 -->		
+	<buff name="buff_action_AddStartingBicycleBundleFTLR" description="Adds a bundle with a starting Bicycle etc. to inventory." icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_AddStartingBicycleBundleFTLR" />
+		</effect_group>
+	</buff>		
+
+</append>
+
+</RamblingMan>		

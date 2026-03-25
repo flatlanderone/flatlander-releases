@@ -1,0 +1,17 @@
+<RamblingMan>
+
+<append xpath="/recipes">
+
+<recipe name="armorPrimitiveHelmetCyclistFTLR" count="1" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceScopeLens" count="2"/>
+	<ingredient name="resourceScrapIron" count="4"/>
+	<ingredient name="resourceGlue" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="4,8,12,16,20" tags="resourceScrapIron"/>
+		<passive_effect name="CraftingIngredientCount" level="2,3,4,5,6" operation="base_add" value="1,2,3,4,5" tags="resourceGlue"/>
+	</effect_group>
+</recipe>
+
+</append>
+</RamblingMan>

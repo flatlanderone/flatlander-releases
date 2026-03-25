@@ -1,0 +1,57 @@
+<RamblingMan>
+
+<!-- 2.5.1.0 -->
+
+<append xpath="/items">
+<!-- 
+	Sunglasses:
+		- Primitive helmet/hood stats
+		- 7DTD 1.4 shades inventory icon 
+		- Enforcer glasses SDCS.
+-->
+<item name="armorPrimitiveHelmetCyclistFTLR">
+	<property name="CustomIcon" value="apparelShades"/>
+	<property name="Extends" value="armorPrimitiveMaster" param1="CustomIcon"/>
+	<property name="DescriptionKey" value="armorPrimitiveHelmetCyclistFTLRDesc"/>
+	<property name="DisplayType" value="armorPrimitiveHelmet"/>
+	<property name="ArmorGroup" value="groupPrimitive"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorDeg"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_sunglasses_grab"/>
+	<property name="SoundPlace" value="headwear_sunglasses_place"/>
+	<effect_group name="PrimitiveHelmet">
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,1,1,1,2" tier="1,2,3,4,5,6"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="8,12.3" tier="1,6"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="-.2,.2"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="8,12.3" tier="1,6" tags="heat,electrical"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="-.2,.2"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,500" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="lightArmorDeg"/>
+	</effect_group>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:Entities/Player/{sex}/Gear/Enforcer/HeadgearMorphMatrix/{race}{variant}/gearEnforcer{hair}Head.asset"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value=""/>
+		<property name="HairMaskType" value="Full"/>
+	</property>
+</item>
+
+<!-- Add Starting Bicycle bundle. -->
+<item name="StartingBicycleBundleFTLR">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleVehicleParts"/>
+	<property name="ItemTypeIcon" value="bundle"/>	
+	<property name="CustomIconTint" value="66ccff"/>
+	<property name="DescriptionKey" value="StartingBicycleBundleFTLRDesc"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action0">
+	<property name="Create_item" value="vehicleBicyclePlaceable,modVehicleStorage,armorPrimitiveHelmetCyclistFTLR"/>
+		<property name="Create_item_count" value="1,2,1"/>
+	</property>
+</item>
+
+</append>
+
+</RamblingMan>

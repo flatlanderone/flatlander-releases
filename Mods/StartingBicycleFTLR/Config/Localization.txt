@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+StartingBicycleBundleFTLR,items,Item,,,Starting Bicycle Bundle,,,,Paquet de bicyclette et accessoires,,,,Pakiet – rower i akcesoria,,,,,
+StartingBicycleBundleFTLRDesc,items,Item,,,"A bicycle, two bike bags for extra storage and a pair of very classy sunglasses.",,,,"Une bicyclette, deux sacoches pour vélo et une paire de lunettes de soleil.",,,,"Rower, dwie sakwy i bardzo wyczesane okulary przeciwsłoneczne.",,,,,
+armorPrimitiveHelmetCyclistFTLR,items,Item,,,Sunglasses (Primitive Armor),,,,Lunettes de soleil (Armure primitive),,,,Okulary przeciwsłoneczne (Prymitywny pancerz),,,,,
+armorPrimitiveHelmetCyclistFTLRDesc,items,Item,,,"Classy Sunglasses for riding your bicycle in style.\n\nThey have the same recipe and statistics as the Primitive Hood, but look infinitely cooler.",,,,"Des lunettes de soleil pour rouler en style sur tous les terrains.\n\nElles ont les mêmes paramètres que la Capuche primitive, mais elles sont bien plus cools.",,,,"Okulary przeciwsłoneczne do jazdy w trudnym terenie.\n\nMają te same parametry co prymitywny kaptur, ale wyglądają o niebo lepiej.",,,,,

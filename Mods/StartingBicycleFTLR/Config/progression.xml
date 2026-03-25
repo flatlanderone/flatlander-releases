@@ -1,0 +1,9 @@
+<RamblingMan>
+
+<csv xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/display_entry[@name_key='armorT1']/unlock_entry[@item='armorPrimitiveOutfit']/@recipes" delim="," op="add">armorPrimitiveHelmetCyclistFTLR</csv>
+
+<csv xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/effect_group/passive_effect[@level='1,100']/@tags" delim="," op="add">armorPrimitiveHelmetCyclistFTLR</csv>
+
+<csv xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/effect_group/passive_effect[@level='2,4,6,8,10,100']/@tags" delim="," op="add">armorPrimitiveHelmetCyclistFTLR</csv>
+
+</RamblingMan>

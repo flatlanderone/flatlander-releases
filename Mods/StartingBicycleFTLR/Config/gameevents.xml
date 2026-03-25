@@ -1,0 +1,14 @@
+<RamblingMan>
+
+<append xpath="/gameevents">
+<!-- StartingBicycleBundleFTLR Add Items event. Attach the event to a buff in buffs.xml. Trigger the buff on first spawn in entityclasses.xml. -->
+
+	<action_sequence name="action_AddStartingBicycleBundleFTLR">
+		<action class="AddItems">
+			<property name="added_items" value="StartingBicycleBundleFTLR" />
+			<property name="added_item_counts" value="1" />
+		</action>	
+	</action_sequence>	
+</append>
+
+</RamblingMan>

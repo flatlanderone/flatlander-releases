@@ -1,0 +1,11 @@
+<RamblingMan>
+
+<append xpath="entity_classes/entity_class[@name='playerMale']">
+
+<!-- Trigger buff to add Starting Bicycle Bundle.  -->	
+	<effect_group name="action_AddStartingBicycleBundleFTLR">
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buff_action_AddStartingBicycleBundleFTLR" />
+	</effect_group>
+</append>
+
+</RamblingMan>
