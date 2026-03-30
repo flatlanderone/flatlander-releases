@@ -1,0 +1,102 @@
+<RamblingMan>
+
+<!-- 2.5.1.0 -->
+
+<!-- 
+1. gunBowT1IronCrossbow
+2. gunBowT1WoodenBow
+3. gunHandgunT1Pistol
+4. gunRifleT1HuntingRifle
+5. gunShotgunT1DoubleBarrel
+ -->
+
+<!-- Add tier 1 common ranged weapon bundles. -->
+<append xpath="/items">
+
+<!-- gunBowT1IronCrossbow -->
+<item name="questRewardgunBowT1IronCrossbowBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleBow"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardgunBowT1IronCrossbowBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="gunBowT1IronCrossbow"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- gunBowT1WoodenBow -->
+<item name="questRewardgunBowT1WoodenBowBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleBow"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardgunBowT1WoodenBowBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="gunBowT1WoodenBow"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- gunHandgunT1Pistol -->
+<item name="questRewardgunHandgunT1PistolBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundlePistol"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardgunHandgunT1PistolBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="gunHandgunT1Pistol"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- gunRifleT1HuntingRifle -->
+<item name="questRewardgunRifleT1HuntingRifleBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleRifle"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardgunRifleT1HuntingRifleBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="gunRifleT1HuntingRifle"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- gunShotgunT1DoubleBarrel -->
+<item name="questRewardgunShotgunT1DoubleBarrelBundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleShotgun"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardgunShotgunT1DoubleBarrelBundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="gunShotgunT1DoubleBarrel"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+<!-- gunMGT1AK47 -->
+<item name="questRewardgunMGT1AK47Bundle">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleMachineGun"/>
+	<property name="CustomIconTint" value="CC9966"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="questRewardgunMGT1AK47BundleDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="gunMGT1AK47"/>
+		<property name="Create_item_count" value="1"/>
+	</property>
+</item>
+
+</append>
+
+</RamblingMan>		

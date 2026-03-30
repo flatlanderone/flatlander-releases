@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="T1CommonRangedWeaponsAsIBSRewardFLTR" /> <!-- no spaces -->
+	<DisplayName value="Tier 1 Common Ranged Weapons As Intro Buried Supplies Rewards" />
+	<Description value="Tier 1 Common Ranged Weapons As Intro Buried Supplies Rewards changes the rewards for completing the Intro Buried Supplies quest. Instead of Tier 0 pipe weapons and ammo, you choose from a set of common Tier 1 ranged weapons (Double Barrel Shotgun, Hunting Rifle, Iron Crossbow, Pistol, Wooden Bow)." />
+	<Author value="flatlander" />
+	<Version value="2.5.1.0" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>

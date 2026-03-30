@@ -1,0 +1,29 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('IZY_RMP_762pack') and mod_version('IZY_RMP_762pack') = version(1,1,0,4)">
+
+<!-- Adding unlock of ammo762mmExplosiveFragmentations and ammo762mmExplosiveFragmentationsBundle at the same time as IZYgunT4MarksManRifleM110SASS. -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/display_entry[@item='gunRifleT3SniperRifle']">
+	<unlock_entry item="ammo762mmExplosiveFragmentations" unlock_tier="1" tags="ammo762mmExplosiveFragmentations"/>
+</append>
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/display_entry[@item='gunRifleT3SniperRifle']">
+	<unlock_entry item="ammo762mmExplosiveFragmentationsBundle" unlock_tier="1" tags="ammo762mmExplosiveFragmentationsBundle"/>
+</append>
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/effect_group">
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="61,100" value="1" tags="ammo762mmExplosiveFragmentations,ammo762mmExplosiveFragmentationsBundle"/>
+</append>
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/effect_group">
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="61,100" value="1" tags="ammo762mmExplosiveFragmentationsBundle"/>
+</append>
+
+</if>
+</conditional>
+
+</RamblingMan>
+
+

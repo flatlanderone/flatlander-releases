@@ -1,0 +1,13 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+questRewardgunShotgunT1DoubleBarrelBundle,items,Item,,,Double Barrel Shotgun Bundle,,,,,,,,,,,,,
+questRewardgunShotgunT1DoubleBarrelBundleDesc,items,Item,,,A Double Barrel Shotgun.\n\nA great choice for those investing points into Strength Perks.,,,,,,,,,,,,,
+questRewardgunHandgunT1PistolBundle,items,Item,,,Pistol Bundle,,,,,,,,,,,,,
+questRewardgunHandgunT1PistolBundleDesc,items,Item,,,A 9mm Pistol.\n\nA great choice for those investing points into Agility Perks.,,,,,,,,,,,,,
+questRewardgunBowT1IronCrossbowBundle,items,Item,,,Iron Crossbow Bundle,,,,,,,,,,,,,
+questRewardgunBowT1IronCrossbowBundleDesc,items,Item,,,An Iron Crossbow.\n\nA great choice for those investing points into Agility Perks.,,,,,,,,,,,,,
+questRewardgunBowT1WoodenBowBundle,items,Item,,,Wooden Bow Bundle,,,,,,,,,,,,,
+questRewardgunBowT1WoodenBowBundleDesc,items,Item,,,A Wooden Bow.\n\nA great choice for those investing points into Agility Perks.,,,,,,,,,,,,,
+questRewardgunRifleT1HuntingRifleBundle,items,Item,,,Hunting Rifle Bundle,,,,,,,,,,,,,
+questRewardgunRifleT1HuntingRifleBundleDesc,items,Item,,,A Hunting Rifle.\n\nA great choice for those investing points into Perception Perks.,,,,,,,,,,,,,
+questRewardgunMGT1AK47Bundle,items,Item,,,AK-47 Machine Gun Bundle,,,,,,,,,,,,,
+questRewardgunMGT1AK47BundleDesc,items,Item,,,An AK-47 Machine Gun.\n\nA great choice for those investing points into Fortitude Perks.,,,,,,,,,,,,,

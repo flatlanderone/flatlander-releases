@@ -1,0 +1,26 @@
+<RamblingMan>
+
+<!-- Borrowed from zzz_Ammo_Press_Add-On_Compatibility_Patch -->
+<conditional>
+<if cond="mod_loaded('IZY_RMP_762pack') and mod_version('IZY_RMP_762pack') = version(1,1,0,4)">	
+
+<append xpath="/recipes">		
+	
+	<recipe name="ammo762mmExplosiveFragmentations" count="1" craft_time="10" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceBulletTip" count="2"/>
+		<ingredient name="resourceGunPowder" count="10"/>
+		<ingredient name="resourceBulletCasing" count="1"/>
+	</recipe>
+
+	<recipe name="ammo762mmExplosiveFragmentationsBundle" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceBulletTip" count="160"/>
+		<ingredient name="resourceGunPowder" count="800"/>
+		<ingredient name="resourceBulletCasing" count="80"/>
+	</recipe>
+	
+</append>
+
+</if>
+</conditional>	
+
+</RamblingMan>

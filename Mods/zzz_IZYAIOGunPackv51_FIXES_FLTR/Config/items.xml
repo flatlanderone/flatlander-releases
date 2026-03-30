@@ -1,0 +1,44 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('IZY_RMP_762pack') and mod_version('IZY_RMP_762pack') = version(1,1,0,4)">
+
+<!-- Fix the number of mod slots for level 6 RPD Machine Gun(T2) and Antique Machine Gun(T4). -->
+
+<set xpath="/items/item[@name='IZYgunT4LMGlightmachinegunMG34R' or @name='IZYgunT2LMGlightmachinegunRPD']/effect_group[@name='gunMGT3M60']/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+
+
+<!-- Fixes a vanilla bug described at https://discord.com/channels/243577046616375297/1193195163716173926/1480311761826742382
+
+<item name="ammoBundle762mmBulletHP"> doesn't use the custom icon7D1.0_Izayo_WeaponpackRemastered_762pack\UIAtlases\ItemIconAtlas\ammo762mmBulletHP.png
+
+This is due to a typo in vanilla:
+It is: 
+<property name="CustomIcon" value="ammo762mmBulletHp"/>
+It should be:
+    <property name="CustomIcon" value="ammo762mmBulletHP"/>
+	 -->
+<setattribute xpath="/items/item[@name='ammoBundle762mmBulletHP']/property[@name='CustomIcon']" name="value">ammo762mmBulletHP</setattribute>
+
+<!-- Add ammo762mmExplosiveFragmentationsBundle (Borrowed from zzz_Ammo_Press_Add-On_Compatibility_Patch)
+ -->
+<append xpath="/items">
+
+	<item name="ammo762mmExplosiveFragmentationsBundle">
+		<property name="Extends" value="ammoBundleMaster"/>
+		<property name="CustomIcon" value="ammo762mmExplosiveFragmentations"/>
+		<property name="EconomicValue" value="3500"/>
+		<property name="TraderStageTemplate" value="ammoTier3"/><!-- ammoBundle762mmBulletBall -->
+		<property name="UnlockedBy" value="craftingRifles"/>
+		<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>	
+		<property class="Action0">
+			<property name="Create_item" value="ammo762mmExplosiveFragmentations"/>
+		</property>
+	</item>
+
+</append>
+
+</if>
+</conditional>
+
+</RamblingMan>
