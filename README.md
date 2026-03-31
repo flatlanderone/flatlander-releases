@@ -36,20 +36,12 @@
 - Buy On Day One Mods for Bdub's Vehicles 2.0
 	- Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0: https://www.nexusmods.com/7daystodie/mods/8565
 	- Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (No Mechanic Trader): https://www.nexusmods.com/7daystodie/mods/8566
+	- Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader): https://www.nexusmods.com/7daystodie/mods/8581
+	- Buy On Day One - Trader Bob Addon for BODO - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader) / Optional file: https://www.nexusmods.com/7daystodie/mods/8581?tab=files
 
-- Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
-https://www.nexusmods.com/7daystodie/mods/8581
+- Buy On Day One - (TMO) ServerSide Vehicles: https://www.nexusmods.com/7daystodie/mods/8378
 
-- Buy On Day One - Trader Bob Addon for BODO - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
-Optional file: https://www.nexusmods.com/7daystodie/mods/8581?tab=files
-
-### Buy On Day One - (TMO) ServerSide Vehicles
-
-https://www.nexusmods.com/7daystodie/mods/8378
-
-### Buy On Day One for Telrics Horses V2
-
-https://www.nexusmods.com/7daystodie/mods/8371
+- Buy On Day One for Telrics Horses V2: https://www.nexusmods.com/7daystodie/mods/8371
 
 <!-- ### Buy On Day One for the Wild West Mod
 
@@ -67,13 +59,12 @@ https://www.nexusmods.com/7daystodie/mods/9980
 
 https://www.nexusmods.com/7daystodie/mods/8871
 
-
-# My Utility Modlets and Other Tools
+# Utility Modlets and Other Tools
 
 ## Flatlander's Utility Modlet Pack
 https://www.nexusmods.com/7daystodie/mods/8769
 
-## Contents
+Contents:
 
 - Any Starting Trader
 
@@ -101,6 +92,6 @@ https://www.nexusmods.com/7daystodie/mods/8769
 
 - **My Nexus Mods Profile**: https://next.nexusmods.com/profile/flatlanderone
 
-- **GitHub**: https://github.com/flatlanderone
+- **GitHub**: https://github.com/flatlanderone.
 
 
