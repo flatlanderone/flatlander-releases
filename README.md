@@ -1,15 +1,28 @@
 <a name="top"></a>
 # My Gameplay modlets
 
-## Quest and QoL mods 
+## Quest and Quality of Life mods 
 
-### Pick Up All The Chairs (new)
+### Tier 1 Common Ranged Weapons As Intro Buried Supplies Rewards
+
+https://www.nexusmods.com/7daystodie/mods/9997
+
+### Starting Bicycle For Streamers and Busy People
+
+https://www.nexusmods.com/7daystodie/mods/9921
+
+### Starting Horse For Streamers and Busy People
+
+https://www.nexusmods.com/7daystodie/mods/9909
+
+###  Tier 1 Melee Weapons As Intro Buried Supplies Rewards
+
+https://www.nexusmods.com/7daystodie/mods/9900
+
+
+### Pick Up All The Chairs
 
 https://www.nexusmods.com/7daystodie/mods/8784
-
-### Hotfix for Intro Buried Supplies not offered by first trader (unofficial) 
-
-https://www.nexusmods.com/7daystodie/mods/8871
 
 ### Extreme Quick Start - Trader Rekt / Trader Jen / Trader Bob / Trader Hugh / Trader Joel 
 
@@ -73,7 +86,18 @@ https://www.nexusmods.com/7daystodie/mods/8371
 
 https://www.nexusmods.com/7daystodie/mods/8813 -->
 
-## Optional mods for other mods and overhauls
+<!-- ## Optional mods for other mods and overhauls -->
+
+## Fixes and patches
+
+### Flatlander's Fixes for IZY-All in One Gun Pack v5.1
+
+https://www.nexusmods.com/7daystodie/mods/9980
+
+### Hotfix for Intro Buried Supplies not offered by first trader (unofficial) 
+
+https://www.nexusmods.com/7daystodie/mods/8871
+
 
 # My Utility Modlets and Other Tools
 
@@ -102,7 +126,11 @@ https://www.nexusmods.com/7daystodie/mods/8769
 
 # My profiles and socials
 
-- **Nexus Mods**: https://next.nexusmods.com/profile/flatlanderone
+- **My channel on Guppy's Modding Server**: https://discord.gg/yPFh79rq8J.
+
+- **My Discord server**: https://discord.gg/9s92vcnmwy.
+
+- **My Nexus Mods Profile**: https://next.nexusmods.com/profile/flatlanderone
 
 - **GitHub**: https://github.com/flatlanderone
 
