@@ -3,70 +3,39 @@
 
 ## Quest and Quality of Life mods 
 
-### Tier 1 Common Ranged Weapons As Intro Buried Supplies Rewards
+- Tier 1 Common Ranged Weapons As Intro Buried Supplies Rewards: https://www.nexusmods.com/7daystodie/mods/9997
 
-https://www.nexusmods.com/7daystodie/mods/9997
+- Starting Bicycle For Streamers and Busy People: https://www.nexusmods.com/7daystodie/mods/9921
 
-### Starting Bicycle For Streamers and Busy People
+- Starting Horse For Streamers and Busy People: https://www.nexusmods.com/7daystodie/mods/9909
 
-https://www.nexusmods.com/7daystodie/mods/9921
+- Tier 1 Melee Weapons As Intro Buried Supplies Rewards: https://www.nexusmods.com/7daystodie/mods/9900
 
-### Starting Horse For Streamers and Busy People
+- Pick Up All The Chairs: https://www.nexusmods.com/7daystodie/mods/8784
 
-https://www.nexusmods.com/7daystodie/mods/9909
+- Extreme Quick Start - Trader Rekt / Trader Jen / Trader Bob / Trader Hugh / Trader Joel: https://www.nexusmods.com/7daystodie/mods/8856
 
-###  Tier 1 Melee Weapons As Intro Buried Supplies Rewards
+- Skip Basics of Survival Tutorial Challenges: https://www.nexusmods.com/7daystodie/mods/8772
 
-https://www.nexusmods.com/7daystodie/mods/9900
+- Skip Intro Buried Supplies: https://www.nexusmods.com/7daystodie/mods/8764
 
-
-### Pick Up All The Chairs
-
-https://www.nexusmods.com/7daystodie/mods/8784
-
-### Extreme Quick Start - Trader Rekt / Trader Jen / Trader Bob / Trader Hugh / Trader Joel 
-
-https://www.nexusmods.com/7daystodie/mods/8856
-
-### Skip Basics of Survival Tutorial Challenges
-
-https://www.nexusmods.com/7daystodie/mods/8772
-
-### Skip Intro Buried Supplies
-
-https://www.nexusmods.com/7daystodie/mods/8764
-
-### Faster Intro Buried Supplies
-
-https://www.nexusmods.com/7daystodie/mods/8740
+- Faster Intro Buried Supplies: https://www.nexusmods.com/7daystodie/mods/8740
 
 ## Combat and weapon mods
 
-### Rambling Man - Archery on the Road
+- Rambling Man - Archery on the Road: https://www.nexusmods.com/7daystodie/mods/8512
 
-https://www.nexusmods.com/7daystodie/mods/8512
-
-### Rambling Man - Improvised Explosives and Arrows
-
-https://www.nexusmods.com/7daystodie/mods/8456
+- Rambling Man - Improvised Explosives and Arrows: https://www.nexusmods.com/7daystodie/mods/8456
 
 ## Buy On Day One (BODO) mods <a name="bodo"></a>
 
-### Buy On Day One - Vanilla Vehicles and Mods (new)
+- Buy On Day One - Vanilla Vehicles and Mods: https://www.nexusmods.com/7daystodie/mods/9453
 
-https://www.nexusmods.com/7daystodie/mods/9453
+- Buy On Day One - Vanilla Vehicle Parts and Mods: https://www.nexusmods.com/7daystodie/mods/8357
 
-### Buy On Day One - Vanilla Vehicle Parts and Mods
-
-https://www.nexusmods.com/7daystodie/mods/8357
-
-### Buy On Day One Mods for Bdub's Vehicles 2.0 
-
-- Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0
-https://www.nexusmods.com/7daystodie/mods/8565
-
-- Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (No Mechanic Trader)
-https://www.nexusmods.com/7daystodie/mods/8566
+- Buy On Day One Mods for Bdub's Vehicles 2.0
+	- Buy On Day One - Vehicles and Mods for Bdub's Vehicles 2.0: https://www.nexusmods.com/7daystodie/mods/8565
+	- Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (No Mechanic Trader): https://www.nexusmods.com/7daystodie/mods/8566
 
 - Buy On Day One - Parts and Mods for Bdub's Vehicles 2.0 (with the Mechanic Trader)
 https://www.nexusmods.com/7daystodie/mods/8581
