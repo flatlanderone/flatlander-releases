@@ -3,6 +3,8 @@
 
 ## Quest and Quality of Life mods 
 
+- Give Me Slugs For This Pipe Shotgun!: https://www.nexusmods.com/7daystodie/mods/10146
+
 - Tier 1 Common Ranged Weapons As Intro Buried Supplies Rewards: https://www.nexusmods.com/7daystodie/mods/9997
 
 - Starting Bicycle For Streamers and Busy People: https://www.nexusmods.com/7daystodie/mods/9921
