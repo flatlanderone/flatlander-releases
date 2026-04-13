@@ -1,0 +1,14 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('VanillaWeaponsRefreshed') == false and game_version() >= version(1,2,5)">
+
+<!-- Get 10 ammoShotgunSlug instead of 15 ammoShotgunShell.  -->
+
+<set xpath="/items/item[@name='questRewardPipeShotgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">gunShotgunT0PipeShotgun,ammoShotgunSlug</set>
+<set xpath="/items/item[@name='questRewardPipeShotgunBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">1,10</set>
+
+</if>
+</conditional>
+
+</RamblingMan>
