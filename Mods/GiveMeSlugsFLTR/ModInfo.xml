@@ -1,8 +1,0 @@
-<xml>
-	<Name value="GiveMeSlugs" /> <!-- no spaces -->
-	<DisplayName value="Give Me Slugs For This Pipe Shotgun!" />
-	<Description value="The Give Me Slugs! mod replaces the 15 shotgun shells you receive in the Pipe Shotgun Bundle that the trader gives you for completing the Intro Buried Supplies quest with 10 shotgun slugs. Who can say no to more stopping power for the humble Pipe Shotgun?" />
-	<Author value="flatlander" />
-	<Version value="2.6.1.0" />
-	<Website value="https://github.com/flatlanderone" />
-</xml>
